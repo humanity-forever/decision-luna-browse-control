@@ -1,0 +1,29 @@
+{
+  "name": "decision-luna-browse-control",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Measured browser control with typed Decisions: contact, room booking and support workflows.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test dist/tests/*.test.js",
+    "check": "tsc --noEmit",
+    "benchmark": "npm run build --silent && node dist/src/cli.js benchmark",
+    "report": "python3 scripts/report.py",
+    "secrets:check": "python3 scripts/scan-secrets.py",
+    "format": "prettier --write src tests",
+    "format:check": "prettier --check src tests"
+  },
+  "dependencies": {
+    "playwright": "^1.56.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "prettier": "^3.9.9",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

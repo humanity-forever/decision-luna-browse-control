@@ -1,0 +1,12 @@
+node_modules
+dist/
+.runtime/
+*.env
+credentials*.json
+*.pem
+*.mp4
+*.png
+__pycache__/
+*.pyc
+!assets/demo.mp4
+!assets/preview.png
