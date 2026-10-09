@@ -8,5 +8,7 @@ Only failed or blocked active synthetic operations are listed. Dependent tasks a
 | study | completion_handoff_without_expected_stored_goal | 13 |
 | study | physical_action_limit | 3 |
 | study | stored_goal_without_verified_requery | 6 |
+| timing-recheck | completion_handoff_without_expected_stored_goal | 3 |
+| timing-recheck | physical_action_limit | 1 |
 
 A saved expected state still fails the benchmark when the model stops before fresh visible requery. A completion handoff with a false receipt remains unsuccessful. Input planning, wait choice and stop semantics can dominate a short API transport latency; failed short attempts are not successful speedups. These known-fixture examples do not establish the corresponding failure rate on external websites. [Numeric cases](failure-mechanisms.json).

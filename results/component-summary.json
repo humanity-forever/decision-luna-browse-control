@@ -30,18 +30,168 @@
     }
   },
   {
+    "suite": "freshness_noise",
+    "scenario": "\u2014",
+    "method": "enabled_only",
+    "model": "\u2014",
+    "n": 3,
+    "successes": 3,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.031465169999999945,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 3
+    }
+  },
+  {
+    "suite": "freshness_noise",
+    "scenario": "\u2014",
+    "method": "full_snapshot",
+    "model": "\u2014",
+    "n": 3,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.0016976829999998699,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 3
+    }
+  },
+  {
+    "suite": "helper",
+    "scenario": "\u2014",
+    "method": "every_action",
+    "model": "jev",
+    "n": 3,
+    "successes": 3,
+    "recognizedBlockers": 0,
+    "medianSeconds": 36.913320902000066,
+    "medianApiCalls": 14,
+    "medianHelperCalls": 7,
+    "statuses": {
+      "ok": 3
+    }
+  },
+  {
+    "suite": "helper",
+    "scenario": "\u2014",
+    "method": "every_action",
+    "model": "luna",
+    "n": 3,
+    "successes": 3,
+    "recognizedBlockers": 0,
+    "medianSeconds": 39.511603316000084,
+    "medianApiCalls": 14,
+    "medianHelperCalls": 7,
+    "statuses": {
+      "ok": 3
+    }
+  },
+  {
+    "suite": "helper",
+    "scenario": "\u2014",
+    "method": "handoff",
+    "model": "jev",
+    "n": 3,
+    "successes": 3,
+    "recognizedBlockers": 0,
+    "medianSeconds": 18.907671528999927,
+    "medianApiCalls": 10,
+    "medianHelperCalls": 3,
+    "statuses": {
+      "ok": 3
+    }
+  },
+  {
+    "suite": "helper",
+    "scenario": "\u2014",
+    "method": "handoff",
+    "model": "luna",
+    "n": 3,
+    "successes": 3,
+    "recognizedBlockers": 0,
+    "medianSeconds": 18.393832699999912,
+    "medianApiCalls": 10,
+    "medianHelperCalls": 3,
+    "statuses": {
+      "ok": 3
+    }
+  },
+  {
+    "suite": "mapping",
+    "scenario": "\u2014",
+    "method": "choice",
+    "model": "jev",
+    "n": 3,
+    "successes": 3,
+    "recognizedBlockers": 0,
+    "medianSeconds": 4.717600827999995,
+    "medianApiCalls": 4,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 3
+    }
+  },
+  {
+    "suite": "mapping",
+    "scenario": "\u2014",
+    "method": "choice",
+    "model": "luna",
+    "n": 3,
+    "successes": 3,
+    "recognizedBlockers": 0,
+    "medianSeconds": 4.1360366389999985,
+    "medianApiCalls": 4,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 3
+    }
+  },
+  {
+    "suite": "mapping",
+    "scenario": "\u2014",
+    "method": "generated",
+    "model": "jev",
+    "n": 3,
+    "successes": 3,
+    "recognizedBlockers": 0,
+    "medianSeconds": 11.728992269999988,
+    "medianApiCalls": 4,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 3
+    }
+  },
+  {
+    "suite": "mapping",
+    "scenario": "\u2014",
+    "method": "generated",
+    "model": "luna",
+    "n": 3,
+    "successes": 3,
+    "recognizedBlockers": 0,
+    "medianSeconds": 12.652358662999992,
+    "medianApiCalls": 4,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 3
+    }
+  },
+  {
     "suite": "waiting",
     "scenario": "covered_button",
     "method": "autowait",
     "model": "\u2014",
-    "n": 2,
-    "successes": 2,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 1.3927686859999995,
-    "medianApiCalls": 0.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 1.909073332,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -49,14 +199,14 @@
     "scenario": "covered_button",
     "method": "dom_settle",
     "model": "\u2014",
-    "n": 2,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.2837656964999987,
-    "medianApiCalls": 0.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 0.2839128259999998,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -64,14 +214,14 @@
     "scenario": "covered_button",
     "method": "domcontentloaded",
     "model": "\u2014",
-    "n": 2,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.02719040999999925,
-    "medianApiCalls": 0.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 0.02802773999999772,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -79,14 +229,14 @@
     "scenario": "covered_button",
     "method": "hybrid_dom_luna",
     "model": "\u2014",
-    "n": 2,
-    "successes": 2,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 2.643909384999999,
-    "medianApiCalls": 1.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 2.908359842999998,
+    "medianApiCalls": 1,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -94,14 +244,14 @@
     "scenario": "covered_button",
     "method": "load",
     "model": "\u2014",
-    "n": 2,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.029632067499995175,
-    "medianApiCalls": 0.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 0.030191506999981358,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -109,14 +259,14 @@
     "scenario": "covered_button",
     "method": "model_dom_jev",
     "model": "\u2014",
-    "n": 2,
-    "successes": 2,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 3.0028614080000007,
-    "medianApiCalls": 2.5,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 3.4094002429999963,
+    "medianApiCalls": 3,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -124,14 +274,14 @@
     "scenario": "covered_button",
     "method": "model_dom_luna",
     "model": "\u2014",
-    "n": 2,
-    "successes": 2,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 2.8428993125000015,
-    "medianApiCalls": 2.5,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 3.349417761000004,
+    "medianApiCalls": 3,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -139,14 +289,14 @@
     "scenario": "covered_button",
     "method": "model_pixels_luna",
     "model": "\u2014",
-    "n": 2,
-    "successes": 2,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 2.9311508649999993,
-    "medianApiCalls": 2.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 3.425687328,
+    "medianApiCalls": 2,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -154,14 +304,14 @@
     "scenario": "covered_button",
     "method": "networkidle",
     "model": "\u2014",
-    "n": 2,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.5327551414999998,
-    "medianApiCalls": 0.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 0.5332132020000135,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -169,14 +319,14 @@
     "scenario": "covered_button",
     "method": "visible",
     "model": "\u2014",
-    "n": 2,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.028708483999995225,
-    "medianApiCalls": 0.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 0.030067658999993,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -184,14 +334,14 @@
     "scenario": "disabled_iframe",
     "method": "autowait",
     "model": "\u2014",
-    "n": 2,
-    "successes": 2,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 1.5115824129999966,
-    "medianApiCalls": 0.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 2.2650056979999937,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -199,14 +349,14 @@
     "scenario": "disabled_iframe",
     "method": "dom_settle",
     "model": "\u2014",
-    "n": 2,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.2757055494999995,
-    "medianApiCalls": 0.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 0.2751889579999843,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -214,14 +364,14 @@
     "scenario": "disabled_iframe",
     "method": "domcontentloaded",
     "model": "\u2014",
-    "n": 2,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.018645236499995915,
-    "medianApiCalls": 0.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 0.018896917000005488,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -229,14 +379,14 @@
     "scenario": "disabled_iframe",
     "method": "hybrid_dom_luna",
     "model": "\u2014",
-    "n": 2,
-    "successes": 2,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 2.693134531999999,
-    "medianApiCalls": 1.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 3.616121035999997,
+    "medianApiCalls": 1,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -244,14 +394,14 @@
     "scenario": "disabled_iframe",
     "method": "load",
     "model": "\u2014",
-    "n": 2,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.017740984000001847,
-    "medianApiCalls": 0.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 0.017851070000000618,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -259,14 +409,14 @@
     "scenario": "disabled_iframe",
     "method": "model_dom_jev",
     "model": "\u2014",
-    "n": 2,
-    "successes": 2,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 3.030731702999995,
-    "medianApiCalls": 2.5,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 3.827875676999989,
+    "medianApiCalls": 3,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -274,14 +424,14 @@
     "scenario": "disabled_iframe",
     "method": "model_dom_luna",
     "model": "\u2014",
-    "n": 2,
-    "successes": 2,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 2.9453428614999986,
-    "medianApiCalls": 2.5,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 3.5111030029999966,
+    "medianApiCalls": 3,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -289,14 +439,14 @@
     "scenario": "disabled_iframe",
     "method": "model_pixels_luna",
     "model": "\u2014",
-    "n": 2,
-    "successes": 2,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 3.903838065500004,
-    "medianApiCalls": 2.5,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 4.219763564000008,
+    "medianApiCalls": 3,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -304,14 +454,14 @@
     "scenario": "disabled_iframe",
     "method": "networkidle",
     "model": "\u2014",
-    "n": 2,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.505323306,
-    "medianApiCalls": 0.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 0.5028360459999999,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -319,14 +469,14 @@
     "scenario": "disabled_iframe",
     "method": "visible",
     "model": "\u2014",
-    "n": 2,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.02042013649999899,
-    "medianApiCalls": 0.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 0.021611236000000644,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -334,14 +484,14 @@
     "scenario": "hydration",
     "method": "autowait",
     "model": "\u2014",
-    "n": 1,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
     "medianSeconds": 0.022008065000001808,
     "medianApiCalls": 0,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -349,14 +499,14 @@
     "scenario": "hydration",
     "method": "dom_settle",
     "model": "\u2014",
-    "n": 1,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
     "medianSeconds": 0.2745066539999971,
     "medianApiCalls": 0,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -364,14 +514,14 @@
     "scenario": "hydration",
     "method": "domcontentloaded",
     "model": "\u2014",
-    "n": 1,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.020871290000002773,
+    "medianSeconds": 0.02096255100000417,
     "medianApiCalls": 0,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -379,14 +529,14 @@
     "scenario": "hydration",
     "method": "hybrid_dom_luna",
     "model": "\u2014",
-    "n": 1,
-    "successes": 1,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 1.7840754979999984,
+    "medianSeconds": 3.372832481999998,
     "medianApiCalls": 1,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -394,14 +544,14 @@
     "scenario": "hydration",
     "method": "load",
     "model": "\u2014",
-    "n": 1,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.025571493999996163,
+    "medianSeconds": 0.02310276700000395,
     "medianApiCalls": 0,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -409,14 +559,14 @@
     "scenario": "hydration",
     "method": "model_dom_jev",
     "model": "\u2014",
-    "n": 1,
-    "successes": 1,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 2.2138910729999988,
-    "medianApiCalls": 2,
+    "medianSeconds": 3.480772595999995,
+    "medianApiCalls": 3,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -424,14 +574,14 @@
     "scenario": "hydration",
     "method": "model_dom_luna",
     "model": "\u2014",
-    "n": 1,
-    "successes": 1,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 2.715308302999998,
-    "medianApiCalls": 2,
+    "medianSeconds": 3.5114777630000025,
+    "medianApiCalls": 3,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -439,14 +589,14 @@
     "scenario": "hydration",
     "method": "model_pixels_luna",
     "model": "\u2014",
-    "n": 1,
-    "successes": 1,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 2.4844894979999954,
-    "medianApiCalls": 2,
+    "medianSeconds": 4.336098544999986,
+    "medianApiCalls": 3,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -454,14 +604,14 @@
     "scenario": "hydration",
     "method": "networkidle",
     "model": "\u2014",
-    "n": 1,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.5305144349999973,
+    "medianSeconds": 0.523986819999991,
     "medianApiCalls": 0,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -469,14 +619,14 @@
     "scenario": "hydration",
     "method": "visible",
     "model": "\u2014",
-    "n": 1,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
     "medianSeconds": 0.022246094000001902,
     "medianApiCalls": 0,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -484,14 +634,14 @@
     "scenario": "late_control",
     "method": "autowait",
     "model": "\u2014",
-    "n": 2,
-    "successes": 2,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 1.3099817454999976,
-    "medianApiCalls": 0.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 1.8120288069999952,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -499,14 +649,14 @@
     "scenario": "late_control",
     "method": "dom_settle",
     "model": "\u2014",
-    "n": 2,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.2716446164999997,
-    "medianApiCalls": 0.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 0.2731745970000011,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -514,14 +664,14 @@
     "scenario": "late_control",
     "method": "domcontentloaded",
     "model": "\u2014",
-    "n": 2,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.01508228099999542,
-    "medianApiCalls": 0.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 0.01523826499999268,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -529,14 +679,14 @@
     "scenario": "late_control",
     "method": "hybrid_dom_luna",
     "model": "\u2014",
-    "n": 2,
-    "successes": 2,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 2.323418022500002,
-    "medianApiCalls": 1.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 2.964099583000003,
+    "medianApiCalls": 1,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -544,14 +694,14 @@
     "scenario": "late_control",
     "method": "load",
     "model": "\u2014",
-    "n": 2,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.014663843000002088,
-    "medianApiCalls": 0.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 0.015185215999998036,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -559,14 +709,14 @@
     "scenario": "late_control",
     "method": "model_dom_jev",
     "model": "\u2014",
-    "n": 2,
-    "successes": 2,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 2.728063257000004,
-    "medianApiCalls": 2.5,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 3.0916307460000096,
+    "medianApiCalls": 3,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -574,14 +724,14 @@
     "scenario": "late_control",
     "method": "model_dom_luna",
     "model": "\u2014",
-    "n": 2,
-    "successes": 2,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 2.8748423710000024,
-    "medianApiCalls": 2.5,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 3.5105080250000027,
+    "medianApiCalls": 3,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -589,14 +739,14 @@
     "scenario": "late_control",
     "method": "model_pixels_luna",
     "model": "\u2014",
-    "n": 2,
-    "successes": 2,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 3.3870687175,
-    "medianApiCalls": 2.5,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 4.020235490999999,
+    "medianApiCalls": 3,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -604,14 +754,14 @@
     "scenario": "late_control",
     "method": "networkidle",
     "model": "\u2014",
-    "n": 2,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.5200141040000017,
-    "medianApiCalls": 0.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 0.5198109819999954,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -619,14 +769,14 @@
     "scenario": "late_control",
     "method": "visible",
     "model": "\u2014",
-    "n": 2,
-    "successes": 2,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 1.3118332859999973,
-    "medianApiCalls": 0.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 1.8131516439999977,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -634,14 +784,14 @@
     "scenario": "noisy_network",
     "method": "autowait",
     "model": "\u2014",
-    "n": 2,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.020140903500003332,
-    "medianApiCalls": 0.0,
-    "medianHelperCalls": 0.0,
+    "medianSeconds": 0.019698044999997364,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
     "statuses": {
-      "ok": 2
+      "ok": 3
     }
   },
   {
@@ -649,14 +799,14 @@
     "scenario": "noisy_network",
     "method": "dom_settle",
     "model": "\u2014",
-    "n": 1,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.2779886999999944,
+    "medianSeconds": 0.27867506600002523,
     "medianApiCalls": 0,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -664,14 +814,14 @@
     "scenario": "noisy_network",
     "method": "domcontentloaded",
     "model": "\u2014",
-    "n": 1,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.021025494000001345,
+    "medianSeconds": 0.019880692000006094,
     "medianApiCalls": 0,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -679,14 +829,14 @@
     "scenario": "noisy_network",
     "method": "hybrid_dom_luna",
     "model": "\u2014",
-    "n": 1,
-    "successes": 1,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 1.803259957000002,
+    "medianSeconds": 3.0358177260000083,
     "medianApiCalls": 1,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -694,14 +844,14 @@
     "scenario": "noisy_network",
     "method": "load",
     "model": "\u2014",
-    "n": 1,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.025620977999999014,
+    "medianSeconds": 0.021107369999983347,
     "medianApiCalls": 0,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -709,14 +859,14 @@
     "scenario": "noisy_network",
     "method": "model_dom_jev",
     "model": "\u2014",
-    "n": 1,
-    "successes": 1,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 2.4750568710000005,
-    "medianApiCalls": 2,
+    "medianSeconds": 3.557536307000002,
+    "medianApiCalls": 3,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -724,14 +874,14 @@
     "scenario": "noisy_network",
     "method": "model_dom_luna",
     "model": "\u2014",
-    "n": 1,
-    "successes": 1,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 2.7426504429999987,
-    "medianApiCalls": 2,
+    "medianSeconds": 3.2426122840000025,
+    "medianApiCalls": 3,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -739,14 +889,14 @@
     "scenario": "noisy_network",
     "method": "model_pixels_luna",
     "model": "\u2014",
-    "n": 1,
-    "successes": 1,
+    "n": 3,
+    "successes": 3,
     "recognizedBlockers": 0,
-    "medianSeconds": 2.855113595999996,
-    "medianApiCalls": 2,
+    "medianSeconds": 3.8837694569999877,
+    "medianApiCalls": 3,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -754,14 +904,14 @@
     "scenario": "noisy_network",
     "method": "networkidle",
     "model": "\u2014",
-    "n": 1,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
     "medianSeconds": 5.000674773999999,
     "medianApiCalls": 0,
     "medianHelperCalls": 0,
     "statuses": {
-      "error": 1
+      "error": 3
     }
   },
   {
@@ -769,14 +919,14 @@
     "scenario": "noisy_network",
     "method": "visible",
     "model": "\u2014",
-    "n": 1,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
     "medianSeconds": 0.02260648300000321,
     "medianApiCalls": 0,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -784,14 +934,14 @@
     "scenario": "validation_blocker",
     "method": "autowait",
     "model": "\u2014",
-    "n": 1,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
-    "medianSeconds": 0.017971686999997474,
+    "medianSeconds": 0.01911203899999964,
     "medianApiCalls": 0,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -799,14 +949,14 @@
     "scenario": "validation_blocker",
     "method": "dom_settle",
     "model": "\u2014",
-    "n": 1,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
     "medianSeconds": 0.27906890399999973,
     "medianApiCalls": 0,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -814,14 +964,14 @@
     "scenario": "validation_blocker",
     "method": "domcontentloaded",
     "model": "\u2014",
-    "n": 1,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
     "medianSeconds": 0.021257661999989068,
     "medianApiCalls": 0,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -829,14 +979,14 @@
     "scenario": "validation_blocker",
     "method": "hybrid_dom_luna",
     "model": "\u2014",
-    "n": 1,
+    "n": 3,
     "successes": 0,
-    "recognizedBlockers": 1,
-    "medianSeconds": 0.991067612999992,
+    "recognizedBlockers": 3,
+    "medianSeconds": 1.0510239010000368,
     "medianApiCalls": 1,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -844,14 +994,14 @@
     "scenario": "validation_blocker",
     "method": "load",
     "model": "\u2014",
-    "n": 1,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
     "medianSeconds": 0.023064868000001296,
     "medianApiCalls": 0,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -859,14 +1009,14 @@
     "scenario": "validation_blocker",
     "method": "model_dom_jev",
     "model": "\u2014",
-    "n": 1,
+    "n": 3,
     "successes": 0,
-    "recognizedBlockers": 1,
-    "medianSeconds": 1.2208830269999889,
+    "recognizedBlockers": 3,
+    "medianSeconds": 1.287918026999978,
     "medianApiCalls": 1,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -874,14 +1024,14 @@
     "scenario": "validation_blocker",
     "method": "model_dom_luna",
     "model": "\u2014",
-    "n": 1,
+    "n": 3,
     "successes": 0,
-    "recognizedBlockers": 1,
-    "medianSeconds": 1.217567538000003,
+    "recognizedBlockers": 3,
+    "medianSeconds": 1.1030064220000058,
     "medianApiCalls": 1,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -889,14 +1039,14 @@
     "scenario": "validation_blocker",
     "method": "model_pixels_luna",
     "model": "\u2014",
-    "n": 1,
+    "n": 3,
     "successes": 0,
-    "recognizedBlockers": 1,
-    "medianSeconds": 1.3348488389999984,
+    "recognizedBlockers": 3,
+    "medianSeconds": 1.3972574940000195,
     "medianApiCalls": 1,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -904,14 +1054,14 @@
     "scenario": "validation_blocker",
     "method": "networkidle",
     "model": "\u2014",
-    "n": 1,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
     "medianSeconds": 0.5241755209999974,
     "medianApiCalls": 0,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   },
   {
@@ -919,14 +1069,14 @@
     "scenario": "validation_blocker",
     "method": "visible",
     "model": "\u2014",
-    "n": 1,
+    "n": 3,
     "successes": 0,
     "recognizedBlockers": 0,
     "medianSeconds": 0.020059013000005507,
     "medianApiCalls": 0,
     "medianHelperCalls": 0,
     "statuses": {
-      "ok": 1
+      "ok": 3
     }
   }
 ]

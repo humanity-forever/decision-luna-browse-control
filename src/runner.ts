@@ -405,7 +405,11 @@ export async function runGoal(
       batch.consumed(action.target, obs);
       const execStart = performance.now();
       try {
-        await session.execute(action, obs, condition.mode, goal.values);
+        const subjectField = definition(kind).key;
+        await session.execute(action, obs, condition.mode, goal.values, {
+          name: goal.expected[subjectField],
+          field: subjectField,
+        });
         row.actions++;
         if (readOnly) row.requeryActions++;
         history.push({ action });

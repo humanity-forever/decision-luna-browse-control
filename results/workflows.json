@@ -86,23 +86,23 @@
     "supported": true,
     "available": true,
     "success": false,
-    "wallMs": 120237.03785700002,
-    "apiCalls": 115,
-    "apiMs": 26646.298143999884,
-    "actions": 13,
+    "wallMs": 55551.59737799998,
+    "apiCalls": 33,
+    "apiMs": 8885.326956999896,
+    "actions": 30,
     "helperCalls": 0,
     "waitDecisions": 0,
-    "waitingMs": 26004.76946300044,
-    "observationMs": 215.64762200028053,
-    "executionMs": 261.2646480000112,
+    "waitingMs": 21376.475044999737,
+    "observationMs": 79.47655099979602,
+    "executionMs": 651.0806239999947,
     "cacheHits": 0,
     "costs": {
       "openai": 0,
-      "typesafe": 0.005139077999998021
+      "typesafe": 0.001680000000000792
     },
     "statuses": {
       "dependency_failed": 2,
-      "blocked": 1
+      "failed": 1
     }
   },
   {
@@ -121,23 +121,23 @@
     "supported": true,
     "available": true,
     "success": false,
-    "wallMs": 58789.70436700003,
-    "apiCalls": 59,
-    "apiMs": 14690.391021999996,
-    "actions": 30,
+    "wallMs": 120310.649707,
+    "apiCalls": 117,
+    "apiMs": 27709.604309999966,
+    "actions": 11,
     "helperCalls": 0,
-    "waitDecisions": 26,
-    "waitingMs": 8456.962560999877,
-    "observationMs": 182.1912649999431,
-    "executionMs": 863.8734259999183,
+    "waitDecisions": 7,
+    "waitingMs": 3419.6666739998036,
+    "observationMs": 376.4151869996567,
+    "executionMs": 267.2650030000659,
     "cacheHits": 0,
     "costs": {
       "openai": 0,
-      "typesafe": 0.0030250080000011614
+      "typesafe": 0.006350169999998045
     },
     "statuses": {
       "dependency_failed": 2,
-      "failed": 1
+      "blocked": 1
     }
   },
   {
@@ -157,15 +157,15 @@
     "supported": true,
     "available": true,
     "success": true,
-    "wallMs": 38419.46108,
+    "wallMs": 43787.842671,
     "apiCalls": 27,
-    "apiMs": 18338.286352000017,
+    "apiMs": 18723.628108999976,
     "actions": 19,
     "helperCalls": 0,
     "waitDecisions": 1,
-    "waitingMs": 3319.811565999986,
-    "observationMs": 798.8447690000022,
-    "executionMs": 310.9958680000068,
+    "waitingMs": 3359.6765099999957,
+    "observationMs": 777.586352000001,
+    "executionMs": 350.8996259999926,
     "cacheHits": 0,
     "costs": {
       "openai": 0.005893100000022855,
@@ -192,15 +192,15 @@
     "supported": true,
     "available": true,
     "success": true,
-    "wallMs": 40264.44547199998,
+    "wallMs": 48428.88263199999,
     "apiCalls": 31,
-    "apiMs": 20035.795785999988,
+    "apiMs": 21983.335105000035,
     "actions": 19,
     "helperCalls": 0,
     "waitDecisions": 5,
     "waitingMs": 0,
-    "observationMs": 1018.045700000017,
-    "executionMs": 494.5071160000225,
+    "observationMs": 912.7811400000646,
+    "executionMs": 495.76084699993953,
     "cacheHits": 0,
     "costs": {
       "openai": 0.006774800000030723,
@@ -226,23 +226,25 @@
     "oneCodeVersion": true,
     "supported": true,
     "available": true,
-    "success": true,
-    "wallMs": 32894.09873399999,
-    "apiCalls": 29,
-    "apiMs": 8587.27611599995,
-    "actions": 21,
+    "success": false,
+    "wallMs": 77823.25304099999,
+    "apiCalls": 69,
+    "apiMs": 21164.837195000095,
+    "actions": 37,
     "helperCalls": 0,
     "waitDecisions": 0,
-    "waitingMs": 6215.915108999987,
-    "observationMs": 61.78103900003771,
-    "executionMs": 440.11452000001736,
+    "waitingMs": 2102.2462369999266,
+    "observationMs": 131.8042410000271,
+    "executionMs": 929.4054160000669,
     "cacheHits": 0,
     "costs": {
-      "openai": 0.0025873000000018465,
+      "openai": 0.006721299999810526,
       "typesafe": 0
     },
     "statuses": {
-      "success": 3
+      "dependency_failed": 1,
+      "success": 1,
+      "failed": 1
     }
   },
   {
@@ -260,23 +262,25 @@
     "oneCodeVersion": true,
     "supported": true,
     "available": true,
-    "success": true,
-    "wallMs": 35609.36763599998,
-    "apiCalls": 36,
-    "apiMs": 10797.757178000043,
-    "actions": 21,
+    "success": false,
+    "wallMs": 81170.59655400002,
+    "apiCalls": 72,
+    "apiMs": 22627.316024999905,
+    "actions": 37,
     "helperCalls": 0,
-    "waitDecisions": 6,
-    "waitingMs": 2470.1729190000187,
-    "observationMs": 108.69430800006376,
-    "executionMs": 558.4834829999891,
+    "waitDecisions": 2,
+    "waitingMs": 171.1698660000111,
+    "observationMs": 211.20607700012624,
+    "executionMs": 991.3235469999054,
     "cacheHits": 0,
     "costs": {
-      "openai": 0.003245899999996027,
+      "openai": 0.00698929999977338,
       "typesafe": 0
     },
     "statuses": {
-      "success": 3
+      "dependency_failed": 1,
+      "success": 1,
+      "failed": 1
     }
   },
   {

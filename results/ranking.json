@@ -6,7 +6,7 @@
       "verifiedFlows": 9,
       "attemptedFlows": 9,
       "successFraction": 1.0,
-      "successfulMedianSeconds": 41.98818631799985,
+      "successfulMedianSeconds": 42.67908762300014,
       "successfulMedianEstimatedUsd": 0.005905599999962874,
       "totalEstimatedUsd": 0.056051899999872035
     },
@@ -15,27 +15,27 @@
       "verifiedFlows": 9,
       "attemptedFlows": 9,
       "successFraction": 1.0,
-      "successfulMedianSeconds": 44.00197349599982,
+      "successfulMedianSeconds": 45.90364930199995,
       "successfulMedianEstimatedUsd": 0.006791399999954706,
       "totalEstimatedUsd": 0.06415249999984951
     },
     {
       "condition": "luna-dom-solo-poll",
-      "verifiedFlows": 7,
+      "verifiedFlows": 6,
       "attemptedFlows": 9,
-      "successFraction": 0.7777777777777778,
-      "successfulMedianSeconds": 35.60936763599998,
-      "successfulMedianEstimatedUsd": 0.0033066000000019358,
-      "totalEstimatedUsd": 0.035008599999827084
+      "successFraction": 0.6666666666666666,
+      "successfulMedianSeconds": 35.11164347750007,
+      "successfulMedianEstimatedUsd": 0.003323849999993911,
+      "totalEstimatedUsd": 0.038751999999604436
     },
     {
       "condition": "luna-dom-solo-native",
-      "verifiedFlows": 7,
+      "verifiedFlows": 6,
       "attemptedFlows": 9,
-      "successFraction": 0.7777777777777778,
-      "successfulMedianSeconds": 36.77722162300022,
-      "successfulMedianEstimatedUsd": 0.0028963000000032935,
-      "totalEstimatedUsd": 0.031255299999969566
+      "successFraction": 0.6666666666666666,
+      "successfulMedianSeconds": 36.826515322999796,
+      "successfulMedianEstimatedUsd": 0.00292910000001001,
+      "totalEstimatedUsd": 0.035389299999778245
     },
     {
       "condition": "jev-dom-solo-native",
@@ -44,7 +44,7 @@
       "successFraction": 0.0,
       "successfulMedianSeconds": null,
       "successfulMedianEstimatedUsd": null,
-      "totalEstimatedUsd": 0.03785428800000745
+      "totalEstimatedUsd": 0.03439521000001022
     },
     {
       "condition": "jev-dom-solo-poll",
@@ -53,7 +53,7 @@
       "successFraction": 0.0,
       "successfulMedianSeconds": null,
       "successfulMedianEstimatedUsd": null,
-      "totalEstimatedUsd": 0.041768204000009246
+      "totalEstimatedUsd": 0.04509336600000613
     }
   ]
 }

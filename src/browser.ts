@@ -1,8 +1,74 @@
-import { chromium, type Browser, type Page } from "playwright";
+import { chromium, type Browser, type Page, type Locator } from "playwright";
 import { createHash } from "node:crypto";
 import type { Observation, Mode, Action } from "./types.js";
 import { Recording } from "./recording.js";
 import { sameInputValue } from "./inputValue.js";
+
+export async function assertCommitSubject(
+  target: Locator,
+  binding: { name: string; field: string },
+): Promise<void> {
+  const matches = await target.evaluate((element, expected) => {
+    const normalize = (s: string) =>
+      s.trim().replace(/\s+/g, " ").toLowerCase();
+    const shown = (e: Element) =>
+      e.getClientRects().length > 0 &&
+      getComputedStyle(e).display !== "none" &&
+      getComputedStyle(e).visibility !== "hidden";
+    const name = normalize(expected.name);
+    const dialog = element.closest("dialog,[role=dialog]");
+    if (dialog) {
+      const text = normalize(
+        Array.from(dialog.querySelectorAll("*"))
+          .filter(shown)
+          .flatMap((e) =>
+            Array.from(e.childNodes)
+              .filter((n) => n.nodeType === Node.TEXT_NODE)
+              .map((n) => n.textContent ?? ""),
+          )
+          .join(" "),
+      );
+      const index = text.indexOf(name);
+      const word = (c: string) => /[\p{L}\p{N}]/u.test(c);
+      return (
+        index >= 0 &&
+        !word(text[index - 1] ?? "") &&
+        !word(text[index + name.length] ?? "")
+      );
+    }
+    const form = element.closest("form");
+    if (form) {
+      const identifiers = Array.from(
+        form.querySelectorAll("input,textarea,select"),
+      )
+        .filter(shown)
+        .filter((e) => {
+          const field = e as HTMLInputElement;
+          const label =
+            e.getAttribute("aria-label") ??
+            Array.from(field.labels ?? [])
+              .map((x) => x.textContent ?? "")
+              .join(" ");
+          return normalize(label) === normalize(expected.field);
+        });
+      return (
+        identifiers.length === 1 &&
+        normalize((identifiers[0] as HTMLInputElement).value) === name
+      );
+    }
+    const scope =
+      element.closest("section,article,main") ?? element.getRootNode();
+    return Array.from(
+      (scope as ParentNode).querySelectorAll(
+        "h1,h2,h3,h4,h5,h6,[role=heading]",
+      ),
+    )
+      .filter(shown)
+      .some((e) => normalize(e.textContent ?? "") === name);
+  }, binding);
+  if (!matches)
+    throw Error("Saved-record action no longer matches the requested subject");
+}
 
 export async function observe(page: Page, mode: Mode): Promise<Observation> {
   const start = performance.now();
@@ -28,6 +94,19 @@ export async function observe(page: Page, mode: Mode): Promise<Observation> {
   const elements: Observation["elements"] = [];
   for (let frameIndex = 0; frameIndex < frames.length; frameIndex++) {
     try {
+      if (frames[frameIndex] !== page.mainFrame()) {
+        let ancestor = frames[frameIndex];
+        let hidden = false;
+        while (ancestor.parentFrame()) {
+          const owner = await ancestor.frameElement();
+          if (!(await owner.isVisible())) {
+            hidden = true;
+            break;
+          }
+          ancestor = ancestor.parentFrame()!;
+        }
+        if (hidden) continue;
+      }
       const part = await frames[frameIndex].evaluate((frame) => {
         const roots: (Document | ShadowRoot)[] = [document];
         for (let i = 0; i < roots.length; i++)
@@ -156,6 +235,7 @@ export class BrowserSession {
     obs: Observation,
     mode: Mode,
     values: Record<string, string>,
+    subject?: { name: string; field: string },
   ): Promise<void> {
     if (action.operation === "wait") {
       return;
@@ -193,13 +273,62 @@ export class BrowserSession {
       !(await target.isEnabled())
     )
       throw Error("Target is stale, disabled or hidden");
+    const checkControl = async () => {
+      const live = await target.evaluate((e) => {
+        const field = e as HTMLInputElement;
+        const labels = Array.from(field.labels ?? [])
+          .map((x) => x.textContent ?? "")
+          .join(" ");
+        return {
+          tag: e.tagName.toLowerCase(),
+          type: field.type ?? "",
+          label: (
+            e.getAttribute("aria-label") ??
+            (labels ||
+              e.getAttribute("placeholder") ||
+              e.textContent ||
+              field.name ||
+              field.id)
+          )
+            .trim()
+            .slice(0, 240),
+          busy: !!e.closest("[aria-busy=true]"),
+          options:
+            e.tagName === "SELECT"
+              ? Array.from((e as HTMLSelectElement).options).map((o) => o.text)
+              : undefined,
+        };
+      });
+      if (
+        live.tag !== info.tag ||
+        live.type !== info.type ||
+        live.label !== info.label ||
+        live.busy ||
+        JSON.stringify(live.options) !== JSON.stringify(info.options)
+      )
+        throw Error("Control meaning or readiness changed after observation");
+    };
+    await checkControl();
     if (action.operation === "click") {
+      await target.click({ trial: true, timeout: 4000 });
+      await checkControl();
+      if (
+        subject &&
+        /save|confirm|archive|cancel booking|resolve/i.test(info.label)
+      )
+        await assertCommitSubject(target, subject);
       await target.click({ timeout: 4000 });
       return;
     }
     const wanted = values[action.value];
     if (wanted === undefined) throw Error("Unknown supplied value");
     if (action.operation === "type") {
+      const current = await target.inputValue();
+      if (
+        !sameInputValue(current, info.value, info.label, info.type) &&
+        !sameInputValue(current, wanted, info.label, info.type)
+      )
+        throw Error("Input value changed after observation");
       if (
         sameInputValue(await target.inputValue(), wanted, info.label, info.type)
       )

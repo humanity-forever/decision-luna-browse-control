@@ -10,8 +10,8 @@
       0.561497031755032
     ],
     "statuses": {
-      "blocked": 2,
-      "failed": 1
+      "failed": 2,
+      "blocked": 1
     }
   },
   {
@@ -25,8 +25,8 @@
       0.561497031755032
     ],
     "statuses": {
-      "failed": 2,
-      "blocked": 1
+      "blocked": 2,
+      "failed": 1
     }
   },
   {
@@ -116,20 +116,6 @@
   {
     "kind": "contacts",
     "condition": "luna-dom-solo-native",
-    "operation": "close",
-    "attempted": 1,
-    "successes": 1,
-    "wilson95": [
-      0.20654931437724644,
-      0.9999999999999999
-    ],
-    "statuses": {
-      "success": 1
-    }
-  },
-  {
-    "kind": "contacts",
-    "condition": "luna-dom-solo-native",
     "operation": "create",
     "attempted": 3,
     "successes": 3,
@@ -146,28 +132,13 @@
     "condition": "luna-dom-solo-native",
     "operation": "update",
     "attempted": 3,
-    "successes": 1,
+    "successes": 0,
     "wilson95": [
-      0.061491944720398706,
-      0.7923403991979452
+      0,
+      0.561497031755032
     ],
     "statuses": {
-      "success": 1,
-      "failed": 2
-    }
-  },
-  {
-    "kind": "contacts",
-    "condition": "luna-dom-solo-poll",
-    "operation": "close",
-    "attempted": 1,
-    "successes": 1,
-    "wilson95": [
-      0.20654931437724644,
-      0.9999999999999999
-    ],
-    "statuses": {
-      "success": 1
+      "failed": 3
     }
   },
   {
@@ -189,14 +160,13 @@
     "condition": "luna-dom-solo-poll",
     "operation": "update",
     "attempted": 3,
-    "successes": 1,
+    "successes": 0,
     "wilson95": [
-      0.061491944720398706,
-      0.7923403991979452
+      0,
+      0.561497031755032
     ],
     "statuses": {
-      "success": 1,
-      "failed": 2
+      "failed": 3
     }
   },
   {

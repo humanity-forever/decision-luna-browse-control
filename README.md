@@ -12,9 +12,20 @@ The applications run in real Chromium and save state on a local server. Success 
 
 [Watch the complete 35-second synthetic room workflow at original speed](assets/demo.mp4) · [Recording provenance](assets/demo-provenance.json)
 
-**Study status:** the primary three-repetition comparison, helper follow-up and original-system study are complete. Independent component experiments and the documented isolated contact timing rerun are still running or queued. Timing summaries are provisional.
+**Best measured direct-model setting:** Luna + DOM and screenshot + bounded native waits, **9/9 verified flows**, median **42.7 seconds**, median successful-flow API estimate **$0.00591**. The study has three repetitions per synthetic application; the 9/9 Wilson 95% interval is about 70%–100%. These measurements belong to frozen controller `a06ddd7`, with the disclosed isolated contact correction.
 
-[Measured results](results/RESULTS.md) · [Failure analysis](results/FAILURES.md) · [API roles](results/API_ROLES.md) · [Protocol](docs/PROTOCOL.md) · [Architecture](docs/ARCHITECTURE.md) · [Goals & Decisions](docs/GOALS_AND_DECISIONS.md) · [Reference systems](docs/BASELINES.md)
+| Direct-model setting | Verified flows | Median successful time |
+|---|---:|---:|
+| Luna · DOM + screenshot · native waits | 9/9 | 42.7s |
+| Luna · DOM + screenshot · model polling | 9/9 | 45.9s |
+| Luna · DOM only · either waiting policy | 6/9 each | 35.1s / 36.8s |
+| Jev · DOM only · either waiting policy | 0/9 each | — |
+
+The separate helper follow-up completed **17/18 flows**; original `jev-browser` completed **3/3 support-ticket flows** and stopped on all contact/shadow-root and room/iframe flows. Its results are preserved as a system comparison. A shorter failed attempt is not a successful speedup.
+
+The current release adds live control/subject checks before saving or closing, plus hidden-ancestor-frame exclusion. Those changes follow the frozen comparison and have separate tests and release checks; the old 9/9 result is not attributed to the revised release.
+
+[Measured results](results/RESULTS.md) · [Failure analysis](results/FAILURES.md) · [API roles](results/API_ROLES.md) · [Protocol](docs/PROTOCOL.md) · [Architecture](docs/ARCHITECTURE.md) · [Goals & Decisions](docs/GOALS_AND_DECISIONS.md) · [Reference systems](docs/BASELINES.md) · [Component experiments](results/COMPONENTS.md)
 
 ![Measured full-flow success and successful timing](results/figures/condition-comparison.svg)
 

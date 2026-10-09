@@ -71,6 +71,30 @@
     },
     "scope": "Local synthetic browser primitives and model component calls; not live-site task performance or a native CUA baseline."
   },
+  "timing-recheck": {
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "seed": "browser-lab-2026-10-09",
+    "repeats": 1,
+    "selectedApps": [
+      "contacts"
+    ],
+    "selectedConditionIds": [
+      "luna-dom-solo-poll",
+      "jev-dom-solo-poll",
+      "luna-dom-solo-native",
+      "jev-dom-solo-native",
+      "luna-combined-solo-poll",
+      "luna-combined-solo-native",
+      "jev-combined-solo-poll",
+      "jev-combined-solo-native"
+    ],
+    "createdAt": "2026-10-09T15:50:32.372Z",
+    "studyAllowance": {
+      "openai": 1,
+      "typesafe": 1
+    },
+    "scriptHash": "25233307351b6e5418721ddb95c553970c6379d587da3bf72c2e57b3510b1c4c"
+  },
   "environment": {
     "vm": "ARM64 Ubuntu 24.04 / KVM",
     "vcpus": 4,

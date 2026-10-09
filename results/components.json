@@ -3165,5 +3165,4694 @@
       "typesafe": 0
     },
     "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-noisy_network-hybrid_dom_luna-1",
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "hybrid_dom_luna",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 1,
+    "wallMs": 3035.8177260000084,
+    "errorClass": null,
+    "apiCalls": 1,
+    "apiMs": 263.0664950000064,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 1,
+        "retries": 0,
+        "inputTokens": 321,
+        "outputTokens": 0,
+        "usageResponses": 1,
+        "estimatedOrReservedUsd": 3.209999999999997e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          263.06843100000697
+        ],
+        "logicalRequestLatenciesMs": [
+          931.6182540000154
+        ]
+      }
+    },
+    "costs": {
+      "openai": 3.209999999999997e-05,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-noisy_network-visible-1",
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "visible",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 20.576176999980817,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-noisy_network-model_dom_jev-1",
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "model_dom_jev",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 3,
+    "wallMs": 3557.536307000002,
+    "errorClass": null,
+    "apiCalls": 3,
+    "apiMs": 1173.9617229999858,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 1631,
+        "outputTokens": 117,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 6.850200000000002e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          706.0935410000093,
+          207.64181999998982,
+          260.23066599998856
+        ],
+        "logicalRequestLatenciesMs": [
+          1269.2476510000124,
+          734.8491640000138,
+          794.7387499999895
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0,
+      "typesafe": 6.850200000000002e-05
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-noisy_network-load-1",
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "load",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 20.14647999999579,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-noisy_network-model_dom_luna-1",
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "model_dom_luna",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 3,
+    "wallMs": 3242.6122840000025,
+    "errorClass": null,
+    "apiCalls": 3,
+    "apiMs": 1266.8117110000458,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 971,
+        "outputTokens": 0,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 9.709999999999992e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          652.7874210000155,
+          299.8747310000181,
+          314.1542469999986
+        ],
+        "logicalRequestLatenciesMs": [
+          1107.5812999999907,
+          747.2572039999941,
+          711.924743999989
+        ]
+      }
+    },
+    "costs": {
+      "openai": 9.709999999999992e-05,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-noisy_network-domcontentloaded-1",
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "domcontentloaded",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 19.880692000006093,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-noisy_network-model_pixels_luna-1",
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "model_pixels_luna",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 3,
+    "wallMs": 3883.7694569999876,
+    "errorClass": null,
+    "apiCalls": 3,
+    "apiMs": 1361.4170880000165,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 4620,
+        "outputTokens": 0,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 0.0004620000000000041,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          503.5259789999982,
+          479.49377100000856,
+          378.4011940000055
+        ],
+        "logicalRequestLatenciesMs": [
+          1098.1771690000023,
+          1031.9436250000144,
+          940.9859980000183
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.0004620000000000041,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-noisy_network-dom_settle-1",
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "dom_settle",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 282.9754520000133,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-noisy_network-networkidle-1",
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "networkidle",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "error",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": false,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 5000.303004999994,
+    "errorClass": "TimeoutError",
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-hydration-hybrid_dom_luna-1",
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "hybrid_dom_luna",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 1,
+    "wallMs": 3372.832481999998,
+    "errorClass": null,
+    "apiCalls": 1,
+    "apiMs": 709.8185519999824,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 1,
+        "retries": 0,
+        "inputTokens": 321,
+        "outputTokens": 0,
+        "usageResponses": 1,
+        "estimatedOrReservedUsd": 3.209999999999997e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          709.8200399999914
+        ],
+        "logicalRequestLatenciesMs": [
+          1293.7464870000258
+        ]
+      }
+    },
+    "costs": {
+      "openai": 3.209999999999997e-05,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-hydration-autowait-1",
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "autowait",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 23.044115999975475,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-hydration-model_dom_luna-1",
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "model_dom_luna",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 3,
+    "wallMs": 3511.4777630000026,
+    "errorClass": null,
+    "apiCalls": 3,
+    "apiMs": 1020.4895319999487,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 971,
+        "outputTokens": 0,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 9.709999999999992e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          371.76443499999004,
+          352.0547179999994,
+          296.6746989999956
+        ],
+        "logicalRequestLatenciesMs": [
+          936.3848899999866,
+          937.3014079999994,
+          906.8227159999951
+        ]
+      }
+    },
+    "costs": {
+      "openai": 9.709999999999992e-05,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-hydration-visible-1",
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "visible",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 21.439851000002818,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-hydration-model_dom_jev-1",
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "model_dom_jev",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 3,
+    "wallMs": 3480.7725959999952,
+    "errorClass": null,
+    "apiCalls": 3,
+    "apiMs": 960.0119800000393,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 1631,
+        "outputTokens": 117,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 6.850200000000002e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          524.9073689999932,
+          223.9140170000028,
+          211.19493100000545
+        ],
+        "logicalRequestLatenciesMs": [
+          1122.727423000004,
+          842.0703090000025,
+          750.3145670000231
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0,
+      "typesafe": 6.850200000000002e-05
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-hydration-networkidle-1",
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "networkidle",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 523.6643690000055,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-hydration-domcontentloaded-1",
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "domcontentloaded",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 25.497776000003796,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-hydration-load-1",
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "load",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 23.10276700000395,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-hydration-dom_settle-1",
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "dom_settle",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 274.89916699999594,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-hydration-model_pixels_luna-1",
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "model_pixels_luna",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 3,
+    "wallMs": 4336.098544999986,
+    "errorClass": null,
+    "apiCalls": 3,
+    "apiMs": 1643.6972960000276,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 4620,
+        "outputTokens": 0,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 0.0004620000000000041,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          823.5591880000138,
+          498.4994200000074,
+          321.6425610000151
+        ],
+        "logicalRequestLatenciesMs": [
+          1450.751930999977,
+          1118.802727000002,
+          908.1061050000135
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.0004620000000000041,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-validation_blocker-autowait-1",
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "autowait",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 19.11203899999964,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-validation_blocker-model_dom_jev-1",
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "model_dom_jev",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": false,
+    "readyChoice": "blocked",
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": true,
+    "polls": 1,
+    "wallMs": 1416.3598249999923,
+    "errorClass": null,
+    "apiCalls": 1,
+    "apiMs": 545.9679830000096,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 1,
+        "retries": 0,
+        "inputTokens": 553,
+        "outputTokens": 39,
+        "usageResponses": 1,
+        "estimatedOrReservedUsd": 2.3226000000000106e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          545.969695000007
+        ],
+        "logicalRequestLatenciesMs": [
+          1103.5225470000005
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0,
+      "typesafe": 2.3226000000000106e-05
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-validation_blocker-dom_settle-1",
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "dom_settle",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 284.1337779999885,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-validation_blocker-domcontentloaded-1",
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "domcontentloaded",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 22.823008000006666,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-validation_blocker-model_pixels_luna-1",
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "model_pixels_luna",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": false,
+    "readyChoice": "blocked",
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": true,
+    "polls": 1,
+    "wallMs": 1436.5424930000154,
+    "errorClass": null,
+    "apiCalls": 1,
+    "apiMs": 493.8493080000044,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 1,
+        "retries": 0,
+        "inputTokens": 1540,
+        "outputTokens": 0,
+        "usageResponses": 1,
+        "estimatedOrReservedUsd": 0.00015400000000000136,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          493.85100399999646
+        ],
+        "logicalRequestLatenciesMs": [
+          1129.481379999983
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.00015400000000000136,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-validation_blocker-load-1",
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "load",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 24.976725999993505,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-validation_blocker-hybrid_dom_luna-1",
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "hybrid_dom_luna",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": false,
+    "readyChoice": "blocked",
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": true,
+    "polls": 1,
+    "wallMs": 1088.9625789999845,
+    "errorClass": null,
+    "apiCalls": 1,
+    "apiMs": 270.81004199999734,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 1,
+        "retries": 0,
+        "inputTokens": 333,
+        "outputTokens": 0,
+        "usageResponses": 1,
+        "estimatedOrReservedUsd": 3.3299999999999996e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          270.8110980000056
+        ],
+        "logicalRequestLatenciesMs": [
+          782.95341799999
+        ]
+      }
+    },
+    "costs": {
+      "openai": 3.3299999999999996e-05,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-validation_blocker-networkidle-1",
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "networkidle",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 528.6650569999765,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-validation_blocker-visible-1",
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "visible",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 25.641514999995707,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-validation_blocker-model_dom_luna-1",
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "model_dom_luna",
+    "round": 1,
+    "delayMs": 1800,
+    "status": "ok",
+    "success": false,
+    "readyChoice": "blocked",
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": true,
+    "polls": 1,
+    "wallMs": 1103.0064220000058,
+    "errorClass": null,
+    "apiCalls": 1,
+    "apiMs": 290.4596979999915,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 1,
+        "retries": 0,
+        "inputTokens": 333,
+        "outputTokens": 0,
+        "usageResponses": 1,
+        "estimatedOrReservedUsd": 3.3299999999999996e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          290.461249999993
+        ],
+        "logicalRequestLatenciesMs": [
+          850.3789140000008
+        ]
+      }
+    },
+    "costs": {
+      "openai": 3.3299999999999996e-05,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-disabled_iframe-visible-2",
+    "suite": "waiting",
+    "scenario": "disabled_iframe",
+    "method": "visible",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": false,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 23.115222000022186,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-disabled_iframe-model_pixels_luna-2",
+    "suite": "waiting",
+    "scenario": "disabled_iframe",
+    "method": "model_pixels_luna",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 4,
+    "wallMs": 5751.111509999988,
+    "errorClass": null,
+    "apiCalls": 4,
+    "apiMs": 2187.8229819999833,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 6160,
+        "outputTokens": 0,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.0006160000000000054,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          512.5769920000166,
+          462.64174799999455,
+          598.5825499999919,
+          614.0264759999991
+        ],
+        "logicalRequestLatenciesMs": [
+          1167.758520000003,
+          1118.6756030000106,
+          1142.6567789999826,
+          1137.7239069999778
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.0006160000000000054,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-disabled_iframe-model_dom_jev-2",
+    "suite": "waiting",
+    "scenario": "disabled_iframe",
+    "method": "model_dom_jev",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 5,
+    "wallMs": 5515.277666999988,
+    "errorClass": null,
+    "apiCalls": 5,
+    "apiMs": 1620.1370269999607,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 5,
+        "retries": 0,
+        "inputTokens": 2741,
+        "outputTokens": 195,
+        "usageResponses": 5,
+        "estimatedOrReservedUsd": 0.00011512200000000027,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          609.9900809999963,
+          289.81857400000445,
+          288.0455500000098,
+          217.99053099998855,
+          214.29992299998412
+        ],
+        "logicalRequestLatenciesMs": [
+          1139.2588070000056,
+          812.9030029999849,
+          762.4667130000016,
+          751.0732919999864,
+          839.5965350000188
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.00011512200000000027
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-disabled_iframe-domcontentloaded-2",
+    "suite": "waiting",
+    "scenario": "disabled_iframe",
+    "method": "domcontentloaded",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": false,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 18.896917000005487,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-disabled_iframe-dom_settle-2",
+    "suite": "waiting",
+    "scenario": "disabled_iframe",
+    "method": "dom_settle",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": false,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 275.18895799998427,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-disabled_iframe-model_dom_luna-2",
+    "suite": "waiting",
+    "scenario": "disabled_iframe",
+    "method": "model_dom_luna",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 4,
+    "wallMs": 4996.324548000004,
+    "errorClass": null,
+    "apiCalls": 4,
+    "apiMs": 1502.2855529999943,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 1312,
+        "outputTokens": 0,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.00013119999999999994,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          717.1984039999952,
+          255.94995599999675,
+          265.0874509999994,
+          264.05577400000766
+        ],
+        "logicalRequestLatenciesMs": [
+          1271.6425229999877,
+          797.4064570000046,
+          870.3690910000005,
+          942.37917499998
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.00013119999999999994,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-disabled_iframe-load-2",
+    "suite": "waiting",
+    "scenario": "disabled_iframe",
+    "method": "load",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": false,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 19.47859499999322,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-disabled_iframe-hybrid_dom_luna-2",
+    "suite": "waiting",
+    "scenario": "disabled_iframe",
+    "method": "hybrid_dom_luna",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 1,
+    "wallMs": 5078.496577999991,
+    "errorClass": null,
+    "apiCalls": 1,
+    "apiMs": 572.6277669999981,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 1,
+        "retries": 0,
+        "inputTokens": 325,
+        "outputTokens": 0,
+        "usageResponses": 1,
+        "estimatedOrReservedUsd": 3.249999999999998e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          572.6295109999774
+        ],
+        "logicalRequestLatenciesMs": [
+          1196.1266969999997
+        ]
+      }
+    },
+    "costs": {
+      "openai": 3.249999999999998e-05,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-disabled_iframe-autowait-2",
+    "suite": "waiting",
+    "scenario": "disabled_iframe",
+    "method": "autowait",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 3778.440676999977,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-disabled_iframe-networkidle-2",
+    "suite": "waiting",
+    "scenario": "disabled_iframe",
+    "method": "networkidle",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": false,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 499.8114260000002,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-late_control-hybrid_dom_luna-2",
+    "suite": "waiting",
+    "scenario": "late_control",
+    "method": "hybrid_dom_luna",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 1,
+    "wallMs": 5294.354687000014,
+    "errorClass": null,
+    "apiCalls": 1,
+    "apiMs": 561.2995689999952,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 1,
+        "retries": 0,
+        "inputTokens": 321,
+        "outputTokens": 0,
+        "usageResponses": 1,
+        "estimatedOrReservedUsd": 3.209999999999997e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          561.3009449999954
+        ],
+        "logicalRequestLatenciesMs": [
+          1278.1384189999953
+        ]
+      }
+    },
+    "costs": {
+      "openai": 3.209999999999997e-05,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-late_control-visible-2",
+    "suite": "waiting",
+    "scenario": "late_control",
+    "method": "visible",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 3821.8368829999818,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-late_control-dom_settle-2",
+    "suite": "waiting",
+    "scenario": "late_control",
+    "method": "dom_settle",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": false,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 273.5529220000026,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-late_control-load-2",
+    "suite": "waiting",
+    "scenario": "late_control",
+    "method": "load",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": false,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 15.85237199999392,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-late_control-model_dom_luna-2",
+    "suite": "waiting",
+    "scenario": "late_control",
+    "method": "model_dom_luna",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 3,
+    "wallMs": 4777.847482000012,
+    "errorClass": null,
+    "apiCalls": 3,
+    "apiMs": 2141.6829920000164,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 813,
+        "outputTokens": 0,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 8.130000000000008e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          610.03564799999,
+          1246.8767380000209,
+          284.7754220000061
+        ],
+        "logicalRequestLatenciesMs": [
+          1391.7581729999802,
+          1840.2010770000052,
+          757.4703490000102
+        ]
+      }
+    },
+    "costs": {
+      "openai": 8.130000000000008e-05,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-late_control-networkidle-2",
+    "suite": "waiting",
+    "scenario": "late_control",
+    "method": "networkidle",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": false,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 519.8109819999954,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-late_control-autowait-2",
+    "suite": "waiting",
+    "scenario": "late_control",
+    "method": "autowait",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 3838.051267999981,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-late_control-domcontentloaded-2",
+    "suite": "waiting",
+    "scenario": "late_control",
+    "method": "domcontentloaded",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": false,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 21.650339999992866,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-late_control-model_dom_jev-2",
+    "suite": "waiting",
+    "scenario": "late_control",
+    "method": "model_dom_jev",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 5,
+    "wallMs": 5350.45767600002,
+    "errorClass": null,
+    "apiCalls": 5,
+    "apiMs": 1664.1112839999842,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 5,
+        "retries": 0,
+        "inputTokens": 2365,
+        "outputTokens": 195,
+        "usageResponses": 5,
+        "estimatedOrReservedUsd": 9.932999999999969e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          507.7205719999911,
+          288.42782299997634,
+          406.23599600000307,
+          233.16721499999403,
+          228.56718199999887
+        ],
+        "logicalRequestLatenciesMs": [
+          997.9139290000021,
+          756.7862209999876,
+          903.5956319999823,
+          784.3002020000131,
+          742.79009699999
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0,
+      "typesafe": 9.932999999999969e-05
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-late_control-model_pixels_luna-2",
+    "suite": "waiting",
+    "scenario": "late_control",
+    "method": "model_pixels_luna",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 4,
+    "wallMs": 6040.165860999987,
+    "errorClass": null,
+    "apiCalls": 4,
+    "apiMs": 2496.376990000019,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 6160,
+        "outputTokens": 0,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.0006160000000000054,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          1009.0427090000012,
+          544.3619039999903,
+          598.7111480000021,
+          344.2671980000159
+        ],
+        "logicalRequestLatenciesMs": [
+          1543.631486999977,
+          1053.2294500000135,
+          1190.7750970000052,
+          1068.5119859999977
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.0006160000000000054,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-covered_button-load-2",
+    "suite": "waiting",
+    "scenario": "covered_button",
+    "method": "load",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": false,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 30.191506999981357,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-covered_button-hybrid_dom_luna-2",
+    "suite": "waiting",
+    "scenario": "covered_button",
+    "method": "hybrid_dom_luna",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 1,
+    "wallMs": 4971.297498,
+    "errorClass": null,
+    "apiCalls": 1,
+    "apiMs": 570.5217079999857,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 1,
+        "retries": 0,
+        "inputTokens": 314,
+        "outputTokens": 0,
+        "usageResponses": 1,
+        "estimatedOrReservedUsd": 3.1400000000000004e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          570.5227159999777
+        ],
+        "logicalRequestLatenciesMs": [
+          1064.538984999992
+        ]
+      }
+    },
+    "costs": {
+      "openai": 3.1400000000000004e-05,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-covered_button-visible-2",
+    "suite": "waiting",
+    "scenario": "covered_button",
+    "method": "visible",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": false,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 30.067658999993,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-covered_button-model_pixels_luna-2",
+    "suite": "waiting",
+    "scenario": "covered_button",
+    "method": "model_pixels_luna",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 4,
+    "wallMs": 5343.93058700001,
+    "errorClass": null,
+    "apiCalls": 4,
+    "apiMs": 1902.4506609999517,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 6140,
+        "outputTokens": 0,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.0006140000000000034,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          454.0673829999869,
+          532.7509409999766,
+          571.1936029999924,
+          344.4445580000174
+        ],
+        "logicalRequestLatenciesMs": [
+          1276.872805000021,
+          1025.874880999996,
+          1060.096606999985,
+          908.5723080000025
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.0006140000000000034,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-covered_button-networkidle-2",
+    "suite": "waiting",
+    "scenario": "covered_button",
+    "method": "networkidle",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": false,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 533.2132020000136,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-covered_button-autowait-2",
+    "suite": "waiting",
+    "scenario": "covered_button",
+    "method": "autowait",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 3977.1319830000284,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-covered_button-dom_settle-2",
+    "suite": "waiting",
+    "scenario": "covered_button",
+    "method": "dom_settle",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": false,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 292.79220999998506,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-covered_button-model_dom_luna-2",
+    "suite": "waiting",
+    "scenario": "covered_button",
+    "method": "model_dom_luna",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 4,
+    "wallMs": 4877.542668999988,
+    "errorClass": null,
+    "apiCalls": 4,
+    "apiMs": 1463.2345729999652,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 1283,
+        "outputTokens": 0,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.00012830000000000025,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          600.718727999978,
+          312.2014569999883,
+          260.6406410000054,
+          289.68040300000575
+        ],
+        "logicalRequestLatenciesMs": [
+          1256.9141980000131,
+          913.3365230000054,
+          850.2770409999939,
+          831.49263600001
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.00012830000000000025,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-covered_button-domcontentloaded-2",
+    "suite": "waiting",
+    "scenario": "covered_button",
+    "method": "domcontentloaded",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": false,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 37.499806000007084,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-covered_button-model_dom_jev-2",
+    "suite": "waiting",
+    "scenario": "covered_button",
+    "method": "model_dom_jev",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 5,
+    "wallMs": 5578.261186999996,
+    "errorClass": null,
+    "apiCalls": 5,
+    "apiMs": 1527.4303499999805,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 5,
+        "retries": 0,
+        "inputTokens": 2696,
+        "outputTokens": 195,
+        "usageResponses": 5,
+        "estimatedOrReservedUsd": 0.000113232,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          573.6857569999993,
+          223.8053329999966,
+          216.8922049999819,
+          232.6179589999956,
+          280.4362480000127
+        ],
+        "logicalRequestLatenciesMs": [
+          1191.180051000003,
+          759.2724560000061,
+          756.356231999991,
+          794.3656869999832,
+          832.3351120000007
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.000113232
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-noisy_network-model_pixels_luna-2",
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "model_pixels_luna",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 4,
+    "wallMs": 5546.517730000021,
+    "errorClass": null,
+    "apiCalls": 4,
+    "apiMs": 2208.776861999999,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 6160,
+        "outputTokens": 0,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.0006160000000000054,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          950.2961099999957,
+          467.25419800000964,
+          473.43924400000833,
+          317.79345399999875
+        ],
+        "logicalRequestLatenciesMs": [
+          1509.970673999982,
+          993.9451539999864,
+          1040.777334000013,
+          873.7245579999872
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.0006160000000000054,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-noisy_network-autowait-2",
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "autowait",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 19.698044999997364,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-noisy_network-domcontentloaded-2",
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "domcontentloaded",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 19.173947999981465,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-noisy_network-hybrid_dom_luna-2",
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "hybrid_dom_luna",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 1,
+    "wallMs": 5363.664710000012,
+    "errorClass": null,
+    "apiCalls": 1,
+    "apiMs": 596.4404890000005,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 1,
+        "retries": 0,
+        "inputTokens": 321,
+        "outputTokens": 0,
+        "usageResponses": 1,
+        "estimatedOrReservedUsd": 3.209999999999997e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          596.4419130000169
+        ],
+        "logicalRequestLatenciesMs": [
+          1387.572948999994
+        ]
+      }
+    },
+    "costs": {
+      "openai": 3.209999999999997e-05,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-noisy_network-model_dom_jev-2",
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "model_dom_jev",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 5,
+    "wallMs": 5398.860821999959,
+    "errorClass": null,
+    "apiCalls": 5,
+    "apiMs": 1418.8572699999786,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 5,
+        "retries": 0,
+        "inputTokens": 2721,
+        "outputTokens": 195,
+        "usageResponses": 5,
+        "estimatedOrReservedUsd": 0.00011428200000000006,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          527.9268460000167,
+          220.71104399999604,
+          232.25160200003302,
+          218.1858030000003,
+          219.79063100001076
+        ],
+        "logicalRequestLatenciesMs": [
+          1102.675157999969,
+          702.0459459999693,
+          746.4317529999535,
+          784.6960930000059,
+          805.4208590000053
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.00011428200000000006
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-noisy_network-networkidle-2",
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "networkidle",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "error",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": false,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 5001.305087000015,
+    "errorClass": "TimeoutError",
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-noisy_network-visible-2",
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "visible",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 28.991684000007808,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-noisy_network-model_dom_luna-2",
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "model_dom_luna",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 4,
+    "wallMs": 4818.189202999987,
+    "errorClass": null,
+    "apiCalls": 4,
+    "apiMs": 1383.2600860000239,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 1296,
+        "outputTokens": 0,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.0001295999999999999,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          568.3673520000302,
+          267.53570800001035,
+          280.0963869999978,
+          267.26630299998214
+        ],
+        "logicalRequestLatenciesMs": [
+          1146.2452150000026,
+          940.6382250000024,
+          855.6313979999977,
+          779.034233000013
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.0001295999999999999,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-noisy_network-load-2",
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "load",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 21.107369999983348,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-noisy_network-dom_settle-2",
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "dom_settle",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 278.67506600002525,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-hydration-hybrid_dom_luna-2",
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "hybrid_dom_luna",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 1,
+    "wallMs": 5321.066971000051,
+    "errorClass": null,
+    "apiCalls": 1,
+    "apiMs": 711.3195819999673,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 1,
+        "retries": 0,
+        "inputTokens": 321,
+        "outputTokens": 0,
+        "usageResponses": 1,
+        "estimatedOrReservedUsd": 3.209999999999997e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          711.3207819999661
+        ],
+        "logicalRequestLatenciesMs": [
+          1352.3408550000167
+        ]
+      }
+    },
+    "costs": {
+      "openai": 3.209999999999997e-05,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-hydration-model_dom_jev-2",
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "model_dom_jev",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 5,
+    "wallMs": 5668.101632000005,
+    "errorClass": null,
+    "apiCalls": 5,
+    "apiMs": 1536.0324089999776,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 5,
+        "retries": 0,
+        "inputTokens": 2721,
+        "outputTokens": 195,
+        "usageResponses": 5,
+        "estimatedOrReservedUsd": 0.00011428200000000006,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          573.2637349999859,
+          224.9934769999818,
+          252.46636000002036,
+          227.5244669999811,
+          257.7910099999863
+        ],
+        "logicalRequestLatenciesMs": [
+          1183.6879040000495,
+          759.2888159999857,
+          769.671352000034,
+          747.4068620000035,
+          958.367407999991
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.00011428200000000006
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-hydration-networkidle-2",
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "networkidle",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 523.986819999991,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-hydration-visible-2",
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "visible",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 28.01509800000349,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-hydration-model_dom_luna-2",
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "model_dom_luna",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 5,
+    "wallMs": 5688.02727999998,
+    "errorClass": null,
+    "apiCalls": 5,
+    "apiMs": 1770.7616970000672,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 5,
+        "retries": 0,
+        "inputTokens": 1621,
+        "outputTokens": 0,
+        "usageResponses": 5,
+        "estimatedOrReservedUsd": 0.00016209999999999987,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          653.8896269999677,
+          272.7027259999886,
+          313.62747199996375,
+          253.9119950000313,
+          276.63648500002455
+        ],
+        "logicalRequestLatenciesMs": [
+          1202.6165690000053,
+          791.8092999999644,
+          795.4702479999978,
+          807.8181500000064,
+          920.9043370000436
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.00016209999999999987,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-hydration-dom_settle-2",
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "dom_settle",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 273.8849480000208,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-hydration-model_pixels_luna-2",
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "model_pixels_luna",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": true,
+    "readyChoice": "ready",
+    "mechanicallyReady": true,
+    "applicationReady": true,
+    "correctlyRecognizedBlocker": false,
+    "polls": 4,
+    "wallMs": 5199.184196000046,
+    "errorClass": null,
+    "apiCalls": 4,
+    "apiMs": 1841.4062440000125,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 6160,
+        "outputTokens": 0,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.0006160000000000054,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          494.58586700004525,
+          516.1281019999878,
+          509.822669999965,
+          320.87447000003885
+        ],
+        "logicalRequestLatenciesMs": [
+          1053.4571729999734,
+          1068.9611009999644,
+          1082.7448640000075,
+          886.3814809999894
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.0006160000000000054,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-hydration-autowait-2",
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "autowait",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 20.262994999997318,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-hydration-domcontentloaded-2",
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "domcontentloaded",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 20.96255100000417,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-hydration-load-2",
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "load",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 19.862727999978233,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-validation_blocker-model_pixels_luna-2",
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "model_pixels_luna",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": "blocked",
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": true,
+    "polls": 1,
+    "wallMs": 1397.2574940000195,
+    "errorClass": null,
+    "apiCalls": 1,
+    "apiMs": 525.0973820000072,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 1,
+        "retries": 0,
+        "inputTokens": 1540,
+        "outputTokens": 0,
+        "usageResponses": 1,
+        "estimatedOrReservedUsd": 0.00015400000000000136,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          525.0985660000006
+        ],
+        "logicalRequestLatenciesMs": [
+          1085.3874130000477
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.00015400000000000136,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-validation_blocker-load-2",
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "load",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 19.611998999956995,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-validation_blocker-networkidle-2",
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "networkidle",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 518.2061170000234,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-validation_blocker-model_dom_luna-2",
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "model_dom_luna",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": "blocked",
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": true,
+    "polls": 1,
+    "wallMs": 1098.9318349999958,
+    "errorClass": null,
+    "apiCalls": 1,
+    "apiMs": 279.41638499998953,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 1,
+        "retries": 0,
+        "inputTokens": 333,
+        "outputTokens": 0,
+        "usageResponses": 1,
+        "estimatedOrReservedUsd": 3.3299999999999996e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          279.41749000002164
+        ],
+        "logicalRequestLatenciesMs": [
+          827.0419519999996
+        ]
+      }
+    },
+    "costs": {
+      "openai": 3.3299999999999996e-05,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-validation_blocker-model_dom_jev-2",
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "model_dom_jev",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": "blocked",
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": true,
+    "polls": 1,
+    "wallMs": 1287.9180269999779,
+    "errorClass": null,
+    "apiCalls": 1,
+    "apiMs": 532.7485500000184,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 1,
+        "retries": 0,
+        "inputTokens": 553,
+        "outputTokens": 39,
+        "usageResponses": 1,
+        "estimatedOrReservedUsd": 2.3226000000000106e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          532.7498300000443
+        ],
+        "logicalRequestLatenciesMs": [
+          1062.269728000043
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0,
+      "typesafe": 2.3226000000000106e-05
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-validation_blocker-autowait-2",
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "autowait",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 27.606482000031974,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-validation_blocker-dom_settle-2",
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "dom_settle",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 277.27291399997193,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-validation_blocker-visible-2",
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "visible",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 20.014520999975502,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-validation_blocker-hybrid_dom_luna-2",
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "hybrid_dom_luna",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": "blocked",
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": true,
+    "polls": 1,
+    "wallMs": 1051.0239010000369,
+    "errorClass": null,
+    "apiCalls": 1,
+    "apiMs": 287.2647579999757,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 1,
+        "retries": 0,
+        "inputTokens": 333,
+        "outputTokens": 0,
+        "usageResponses": 1,
+        "estimatedOrReservedUsd": 3.3299999999999996e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          287.26613399997586
+        ],
+        "logicalRequestLatenciesMs": [
+          801.2838050000137
+        ]
+      }
+    },
+    "costs": {
+      "openai": 3.3299999999999996e-05,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "wait-validation_blocker-domcontentloaded-2",
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "domcontentloaded",
+    "round": 2,
+    "delayMs": 3600,
+    "status": "ok",
+    "success": false,
+    "readyChoice": null,
+    "mechanicallyReady": true,
+    "applicationReady": false,
+    "correctlyRecognizedBlocker": false,
+    "polls": 0,
+    "wallMs": 19.06383800000185,
+    "errorClass": null,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "apiStatistics": {},
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "mapping-luna-choice-0",
+    "suite": "mapping",
+    "model": "luna",
+    "method": "choice",
+    "round": 0,
+    "status": "ok",
+    "success": true,
+    "correctFields": 4,
+    "totalFields": 4,
+    "outOfSuppliedSet": false,
+    "wallMs": 4210.882564999978,
+    "apiCalls": 4,
+    "apiMs": 1127.2512599999318,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 2076,
+        "outputTokens": 0,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.00020760000000000006,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          291.98323600000003,
+          296.45983700000215,
+          258.3827440000023,
+          280.4304669999983
+        ],
+        "logicalRequestLatenciesMs": [
+          864.1322229999932,
+          849.7154190000147,
+          769.4887860000017,
+          774.138849000039
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.00020760000000000006,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "mapping-luna-generated-0",
+    "suite": "mapping",
+    "model": "luna",
+    "method": "generated",
+    "round": 0,
+    "status": "ok",
+    "success": true,
+    "correctFields": 4,
+    "totalFields": 4,
+    "outOfSuppliedSet": false,
+    "wallMs": 11931.445745999983,
+    "apiCalls": 4,
+    "apiMs": 9402.545672999986,
+    "apiStatistics": {
+      "gpt-6.1-sol/typing": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "typing",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 1696,
+        "outputTokens": 56,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.003952000000000001,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          1839.3545349999913,
+          2123.936617999978,
+          2337.0367439999827,
+          3102.246640999976
+        ],
+        "logicalRequestLatenciesMs": [
+          2354.2205349999713,
+          2699.591128,
+          3017.463683000009,
+          3814.49863300001
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.003952000000000001,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "mapping-jev-generated-0",
+    "suite": "mapping",
+    "model": "jev",
+    "method": "generated",
+    "round": 0,
+    "status": "ok",
+    "success": true,
+    "correctFields": 4,
+    "totalFields": 4,
+    "outOfSuppliedSet": false,
+    "wallMs": 11728.992269999988,
+    "apiCalls": 4,
+    "apiMs": 9034.22733699996,
+    "apiStatistics": {
+      "gpt-6.1-sol/typing": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "typing",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 1696,
+        "outputTokens": 56,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.003952000000000001,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          2471.60513500002,
+          2099.889892999956,
+          2116.0738509999937,
+          2346.6645540000172
+        ],
+        "logicalRequestLatenciesMs": [
+          3156.2024769999553,
+          2812.0788389999652,
+          2731.188617000007,
+          2976.012527999992
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.003952000000000001,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "mapping-jev-choice-0",
+    "suite": "mapping",
+    "model": "jev",
+    "method": "choice",
+    "round": 0,
+    "status": "ok",
+    "success": true,
+    "correctFields": 4,
+    "totalFields": 4,
+    "outOfSuppliedSet": false,
+    "wallMs": 4717.600827999995,
+    "apiCalls": 4,
+    "apiMs": 1303.3356400000048,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 3192,
+        "outputTokens": 180,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.00013406400000000014,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          556.7721770000062,
+          242.13059000001522,
+          284.38157700002193,
+          220.0563999999431
+        ],
+        "logicalRequestLatenciesMs": [
+          1200.414975999971,
+          791.3254440000164,
+          825.3439919999801,
+          765.6850310000009
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.00013406400000000014
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "mapping-luna-generated-1",
+    "suite": "mapping",
+    "model": "luna",
+    "method": "generated",
+    "round": 1,
+    "status": "ok",
+    "success": true,
+    "correctFields": 4,
+    "totalFields": 4,
+    "outOfSuppliedSet": false,
+    "wallMs": 16801.431510999973,
+    "apiCalls": 4,
+    "apiMs": 14216.808938000002,
+    "apiStatistics": {
+      "gpt-6.1-sol/typing": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "typing",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 1696,
+        "outputTokens": 56,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.003952000000000001,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          7055.8058929999825,
+          2834.6978409999865,
+          1801.1833810000098,
+          2525.127374999982
+        ],
+        "logicalRequestLatenciesMs": [
+          7694.879136000003,
+          3527.3561479999917,
+          2422.699821999995,
+          3114.9276379999937
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.003952000000000001,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "mapping-luna-choice-1",
+    "suite": "mapping",
+    "model": "luna",
+    "method": "choice",
+    "round": 1,
+    "status": "ok",
+    "success": true,
+    "correctFields": 4,
+    "totalFields": 4,
+    "outOfSuppliedSet": false,
+    "wallMs": 4136.036638999998,
+    "apiCalls": 4,
+    "apiMs": 1136.736162999936,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 2076,
+        "outputTokens": 0,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.00020760000000000006,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          278.44670899998164,
+          298.9760869999882,
+          273.63379599998007,
+          285.6849149999907
+        ],
+        "logicalRequestLatenciesMs": [
+          739.0265730000101,
+          755.9791439999826,
+          784.2560039999662,
+          902.3578229999985
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.00020760000000000006,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "mapping-jev-choice-1",
+    "suite": "mapping",
+    "model": "jev",
+    "method": "choice",
+    "round": 1,
+    "status": "ok",
+    "success": true,
+    "correctFields": 4,
+    "totalFields": 4,
+    "outOfSuppliedSet": false,
+    "wallMs": 5271.144892000011,
+    "apiCalls": 4,
+    "apiMs": 1670.2134049999877,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 3182,
+        "outputTokens": 180,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.00013364400000000004,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          777.1809169999906,
+          270.79248200001894,
+          264.58865300001344,
+          357.657080999983
+        ],
+        "logicalRequestLatenciesMs": [
+          1486.0092359999544,
+          865.9930269999895,
+          873.2311849999824,
+          947.4136849999777
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.00013364400000000004
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "mapping-jev-generated-1",
+    "suite": "mapping",
+    "model": "jev",
+    "method": "generated",
+    "round": 1,
+    "status": "ok",
+    "success": true,
+    "correctFields": 4,
+    "totalFields": 4,
+    "outOfSuppliedSet": false,
+    "wallMs": 15998.006605000002,
+    "apiCalls": 4,
+    "apiMs": 13418.386526999995,
+    "apiStatistics": {
+      "gpt-6.1-sol/typing": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "typing",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 1696,
+        "outputTokens": 56,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.003952000000000001,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          5557.68284199998,
+          3107.5360169999767,
+          2945.604355999967,
+          1807.5690239999676
+        ],
+        "logicalRequestLatenciesMs": [
+          6246.201984999992,
+          3677.1851340000285,
+          3590.956279999984,
+          2429.0085309999995
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.003952000000000001,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "mapping-luna-generated-2",
+    "suite": "mapping",
+    "model": "luna",
+    "method": "generated",
+    "round": 2,
+    "status": "ok",
+    "success": true,
+    "correctFields": 4,
+    "totalFields": 4,
+    "outOfSuppliedSet": false,
+    "wallMs": 12652.358662999992,
+    "apiCalls": 4,
+    "apiMs": 10265.056152999983,
+    "apiStatistics": {
+      "gpt-6.1-sol/typing": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "typing",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 1696,
+        "outputTokens": 56,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.003952000000000001,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          2786.3657840000233,
+          3162.0528269999777,
+          2078.774253999989,
+          2237.869735999964
+        ],
+        "logicalRequestLatenciesMs": [
+          3439.608460999967,
+          3779.2811469999724,
+          2583.8695880000014,
+          2794.5883669999894
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.003952000000000001,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "mapping-luna-choice-2",
+    "suite": "mapping",
+    "model": "luna",
+    "method": "choice",
+    "round": 2,
+    "status": "ok",
+    "success": true,
+    "correctFields": 4,
+    "totalFields": 4,
+    "outOfSuppliedSet": false,
+    "wallMs": 3987.8844520000275,
+    "apiCalls": 4,
+    "apiMs": 1195.091562000045,
+    "apiStatistics": {
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 2076,
+        "outputTokens": 0,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.00020760000000000006,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          303.1751010000007,
+          284.2937230000389,
+          313.7874839999713,
+          293.8406299999915
+        ],
+        "logicalRequestLatenciesMs": [
+          834.1768700000248,
+          764.1777359999833,
+          784.0091350000002,
+          756.7388679999858
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.00020760000000000006,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "mapping-jev-generated-2",
+    "suite": "mapping",
+    "model": "jev",
+    "method": "generated",
+    "round": 2,
+    "status": "ok",
+    "success": true,
+    "correctFields": 4,
+    "totalFields": 4,
+    "outOfSuppliedSet": false,
+    "wallMs": 10754.359219000034,
+    "apiCalls": 4,
+    "apiMs": 8083.809184999962,
+    "apiStatistics": {
+      "gpt-6.1-sol/typing": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "typing",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 1696,
+        "outputTokens": 56,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.003952000000000001,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          1957.4887640000088,
+          1976.3584890000056,
+          2249.6484320000163,
+          1900.3189559999737
+        ],
+        "logicalRequestLatenciesMs": [
+          2548.582093999954,
+          2617.6617960000294,
+          3023.277683000022,
+          2517.4544269999606
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.003952000000000001,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "mapping-jev-choice-2",
+    "suite": "mapping",
+    "model": "jev",
+    "method": "choice",
+    "round": 2,
+    "status": "ok",
+    "success": true,
+    "correctFields": 4,
+    "totalFields": 4,
+    "outOfSuppliedSet": false,
+    "wallMs": 4461.580315999978,
+    "apiCalls": 4,
+    "apiMs": 1387.9203290000441,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 3192,
+        "outputTokens": 180,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.00013406400000000014,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          690.5524679999799,
+          251.76361900003394,
+          213.63513499998953,
+          231.97409899998456
+        ],
+        "logicalRequestLatenciesMs": [
+          1308.0852070000255,
+          766.3809280000278,
+          703.5609019999974,
+          741.5295760000008
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.00013406400000000014
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "helper-luna-every_action-0",
+    "suite": "helper",
+    "model": "luna",
+    "policy": "every_action",
+    "round": 0,
+    "status": "ok",
+    "success": true,
+    "helperCalls": 7,
+    "steps": 6,
+    "wallMs": 39823.49039600004,
+    "apiCalls": 14,
+    "apiMs": 29876.276206999843,
+    "apiStatistics": {
+      "gpt-6.1-sol/planning": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "planning",
+        "calls": 7,
+        "retries": 0,
+        "inputTokens": 1283,
+        "outputTokens": 415,
+        "usageResponses": 7,
+        "estimatedOrReservedUsd": 0.0067160000000000015,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          4305.8922349999775,
+          3389.8011799999513,
+          3350.310985999997,
+          2879.9869760000147,
+          2788.3303849999793,
+          3373.9004380000406,
+          7780.9250239999965
+        ],
+        "logicalRequestLatenciesMs": [
+          4985.472687000001,
+          3991.3442819999764,
+          3890.675319000031,
+          3463.6196220000274,
+          3340.111673000036,
+          3983.5708950000117,
+          8380.491435999982
+        ]
+      },
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 7,
+        "retries": 0,
+        "inputTokens": 2487,
+        "outputTokens": 0,
+        "usageResponses": 7,
+        "estimatedOrReservedUsd": 0.00024870000000000014,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          317.2848530000192,
+          273.3013300000457,
+          264.88703500002157,
+          331.56075499998406,
+          275.40931399998954,
+          280.96272700000554,
+          263.736762000015
+        ],
+        "logicalRequestLatenciesMs": [
+          872.4288550000056,
+          817.4273050000193,
+          841.4519730000175,
+          863.8679470000206,
+          918.301325999957,
+          883.4941460000118,
+          751.6485040000407
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.006964700000000002,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "helper-luna-handoff-0",
+    "suite": "helper",
+    "model": "luna",
+    "policy": "handoff",
+    "round": 0,
+    "status": "ok",
+    "success": true,
+    "helperCalls": 3,
+    "steps": 6,
+    "wallMs": 18318.429371999984,
+    "apiCalls": 10,
+    "apiMs": 10777.951171000022,
+    "apiStatistics": {
+      "gpt-6.1-sol/planning": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "planning",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 673,
+        "outputTokens": 178,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 0.003126000000000002,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          3218.0597410000046,
+          2602.2660940000205,
+          3032.3906970000244
+        ],
+        "logicalRequestLatenciesMs": [
+          3702.4402729999856,
+          3126.397011999972,
+          3672.435461999965
+        ]
+      },
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 7,
+        "retries": 0,
+        "inputTokens": 2511,
+        "outputTokens": 0,
+        "usageResponses": 7,
+        "estimatedOrReservedUsd": 0.0002511,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          262.3620349999983,
+          269.9880899999989,
+          257.9219879999873,
+          274.27275900001405,
+          287.2373260000022,
+          263.7163850000361,
+          309.7523440000368
+        ],
+        "logicalRequestLatenciesMs": [
+          763.1053580000298,
+          954.1352579999948,
+          823.212704000005,
+          836.0477070000488,
+          840.9392630000366,
+          849.6164209999843,
+          875.4422689999919
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.003377100000000002,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "helper-jev-handoff-0",
+    "suite": "helper",
+    "model": "jev",
+    "policy": "handoff",
+    "round": 0,
+    "status": "ok",
+    "success": true,
+    "helperCalls": 3,
+    "steps": 6,
+    "wallMs": 20422.23110700003,
+    "apiCalls": 10,
+    "apiMs": 12512.26393700001,
+    "apiStatistics": {
+      "gpt-6.1-sol/planning": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "planning",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 673,
+        "outputTokens": 182,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 0.0031660000000000004,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          3750.8666710000252,
+          3664.7232010000153,
+          2731.6388079999597
+        ],
+        "logicalRequestLatenciesMs": [
+          4298.702885999985,
+          4232.782077000011,
+          3349.1976640000357
+        ]
+      },
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 7,
+        "retries": 0,
+        "inputTokens": 4047,
+        "outputTokens": 315,
+        "usageResponses": 7,
+        "estimatedOrReservedUsd": 0.00016997400000000004,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          674.8904430000111,
+          238.33196799998404,
+          238.79376099997899,
+          212.88608399999794,
+          539.5945760000031,
+          244.04015800001798,
+          216.51086000003852
+        ],
+        "logicalRequestLatenciesMs": [
+          1280.1748469999875,
+          762.0754240000388,
+          772.0157169999438,
+          756.6711989999749,
+          1187.1881610000273,
+          922.259563999949,
+          833.2670930000022
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.0031660000000000004,
+      "typesafe": 0.00016997400000000004
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "helper-jev-every_action-0",
+    "suite": "helper",
+    "model": "jev",
+    "policy": "every_action",
+    "round": 0,
+    "status": "ok",
+    "success": true,
+    "helperCalls": 7,
+    "steps": 6,
+    "wallMs": 41030.499026000034,
+    "apiCalls": 14,
+    "apiMs": 31173.692913000006,
+    "apiStatistics": {
+      "gpt-6.1-sol/planning": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "planning",
+        "calls": 7,
+        "retries": 0,
+        "inputTokens": 1283,
+        "outputTokens": 415,
+        "usageResponses": 7,
+        "estimatedOrReservedUsd": 0.006715999999999998,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          3940.4735179999843,
+          3013.893241999962,
+          3131.798194000032,
+          3548.8538410000037,
+          2480.3914769999683,
+          2292.9451080000727,
+          10280.192487000022
+        ],
+        "logicalRequestLatenciesMs": [
+          4566.430608000024,
+          3575.113362999982,
+          3708.709442000021,
+          4079.8509410000406,
+          3116.6986189999734,
+          2938.09934299998,
+          10910.668320999946
+        ]
+      },
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 7,
+        "retries": 0,
+        "inputTokens": 4011,
+        "outputTokens": 315,
+        "usageResponses": 7,
+        "estimatedOrReservedUsd": 0.00016846199999999987,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          535.9446079999907,
+          249.32964800001355,
+          214.76500000001397,
+          520.6962019999628,
+          207.53498000005493,
+          209.31992199993692,
+          547.5717749999603
+        ],
+        "logicalRequestLatenciesMs": [
+          1072.8797790000099,
+          784.0147120000329,
+          758.3104590000003,
+          1095.3647609999753,
+          714.2072819999885,
+          749.5145649999613,
+          1119.8171380000422
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.006715999999999998,
+      "typesafe": 0.00016846199999999987
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "helper-luna-handoff-1",
+    "suite": "helper",
+    "model": "luna",
+    "policy": "handoff",
+    "round": 1,
+    "status": "ok",
+    "success": true,
+    "helperCalls": 3,
+    "steps": 6,
+    "wallMs": 18393.83269999991,
+    "apiCalls": 10,
+    "apiMs": 11371.546207999927,
+    "apiStatistics": {
+      "gpt-6.1-sol/planning": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "planning",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 673,
+        "outputTokens": 180,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 0.0031460000000000012,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          3843.6119859999744,
+          2715.0944609999424,
+          2705.942179000005
+        ],
+        "logicalRequestLatenciesMs": [
+          4415.454004999949,
+          3335.324545999989,
+          3291.805352000054
+        ]
+      },
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 7,
+        "retries": 0,
+        "inputTokens": 2504,
+        "outputTokens": 0,
+        "usageResponses": 7,
+        "estimatedOrReservedUsd": 0.00025040000000000045,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          296.97173900005873,
+          273.93542999995407,
+          260.4838410000084,
+          289.86533800000325,
+          339.71905600000173,
+          286.4282329999842,
+          359.5068250000477
+        ],
+        "logicalRequestLatenciesMs": [
+          861.7101760000223,
+          688.2574979999335,
+          732.3110879999585,
+          809.1484080000082,
+          931.3437660000054,
+          828.8287100000307,
+          869.9728660000255
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.0033964000000000017,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "helper-luna-every_action-1",
+    "suite": "helper",
+    "model": "luna",
+    "policy": "every_action",
+    "round": 1,
+    "status": "ok",
+    "success": true,
+    "helperCalls": 7,
+    "steps": 6,
+    "wallMs": 36039.72831499996,
+    "apiCalls": 14,
+    "apiMs": 26651.866005999967,
+    "apiStatistics": {
+      "gpt-6.1-sol/planning": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "planning",
+        "calls": 7,
+        "retries": 0,
+        "inputTokens": 1283,
+        "outputTokens": 440,
+        "usageResponses": 7,
+        "estimatedOrReservedUsd": 0.006966,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          2873.4586529999506,
+          2755.802766000037,
+          3735.4210979999043,
+          2808.2759180000285,
+          3045.082470000023,
+          2335.2868050000397,
+          7154.542756999959
+        ],
+        "logicalRequestLatenciesMs": [
+          3456.1737029999495,
+          3365.5487980000908,
+          4247.546576000052,
+          3374.572907999973,
+          3524.9188909999793,
+          2896.311751000001,
+          7701.745799000026
+        ]
+      },
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 7,
+        "retries": 0,
+        "inputTokens": 2512,
+        "outputTokens": 0,
+        "usageResponses": 7,
+        "estimatedOrReservedUsd": 0.00025120000000000003,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          289.0990420000162,
+          269.163261000067,
+          266.568147999933,
+          277.16429500002414,
+          306.54109000007156,
+          276.56460799998604,
+          258.9104880000232
+        ],
+        "logicalRequestLatenciesMs": [
+          848.223510999931,
+          833.0188010000857,
+          757.0994959999807,
+          824.5037139999913,
+          834.8605779999634,
+          804.5407360000536,
+          787.1708420000505
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.0072172,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "helper-jev-every_action-1",
+    "suite": "helper",
+    "model": "jev",
+    "policy": "every_action",
+    "round": 1,
+    "status": "ok",
+    "success": true,
+    "helperCalls": 7,
+    "steps": 6,
+    "wallMs": 36913.320902000065,
+    "apiCalls": 14,
+    "apiMs": 27802.19376399985,
+    "apiStatistics": {
+      "gpt-6.1-sol/planning": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "planning",
+        "calls": 7,
+        "retries": 0,
+        "inputTokens": 1283,
+        "outputTokens": 412,
+        "usageResponses": 7,
+        "estimatedOrReservedUsd": 0.006686000000000003,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          2727.425249999971,
+          3553.1028669999214,
+          3351.042422999977,
+          3168.9152560000075,
+          2722.621639000019,
+          2486.118411000003,
+          6870.7085400000215
+        ],
+        "logicalRequestLatenciesMs": [
+          3226.2884569999296,
+          4150.655388999963,
+          3944.211156000034,
+          3733.253073,
+          3235.155927999993,
+          2998.3899909999454,
+          7451.228749000002
+        ]
+      },
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 7,
+        "retries": 0,
+        "inputTokens": 4005,
+        "outputTokens": 315,
+        "usageResponses": 7,
+        "estimatedOrReservedUsd": 0.00016821000000000002,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          539.8724250000669,
+          541.9849819999654,
+          552.9914880000288,
+          270.01334700000007,
+          246.41494799999055,
+          236.2040220000781,
+          534.7955579999834
+        ],
+        "logicalRequestLatenciesMs": [
+          1038.7137739999453,
+          1107.1234519999707,
+          1040.7375939999474,
+          774.9140079999343,
+          766.1612209999003,
+          713.5638700000709,
+          1087.7204680000432
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.006686000000000003,
+      "typesafe": 0.00016821000000000002
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "helper-jev-handoff-1",
+    "suite": "helper",
+    "model": "jev",
+    "policy": "handoff",
+    "round": 1,
+    "status": "ok",
+    "success": true,
+    "helperCalls": 3,
+    "steps": 6,
+    "wallMs": 18907.671528999927,
+    "apiCalls": 10,
+    "apiMs": 11215.063234000234,
+    "apiStatistics": {
+      "gpt-6.1-sol/planning": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "planning",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 673,
+        "outputTokens": 174,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 0.003086,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          2784.820303000044,
+          3200.6171970000723,
+          3301.9554589999607
+        ],
+        "logicalRequestLatenciesMs": [
+          3444.8730490000453,
+          3671.0209199999226,
+          3889.0404059999855
+        ]
+      },
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 7,
+        "retries": 0,
+        "inputTokens": 4026,
+        "outputTokens": 315,
+        "usageResponses": 7,
+        "estimatedOrReservedUsd": 0.0001690919999999998,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          270.56400200002827,
+          218.63189499999862,
+          215.93994399998337,
+          223.97132599994075,
+          215.51078300003428,
+          552.4455860001035,
+          230.61979499994777
+        ],
+        "logicalRequestLatenciesMs": [
+          928.5320030000294,
+          817.573473000084,
+          810.7749579999363,
+          737.0385140000144,
+          808.405080000055,
+          1107.4556510000257,
+          833.6385500000324
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.003086,
+      "typesafe": 0.0001690919999999998
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "helper-luna-handoff-2",
+    "suite": "helper",
+    "model": "luna",
+    "policy": "handoff",
+    "round": 2,
+    "status": "ok",
+    "success": true,
+    "helperCalls": 3,
+    "steps": 6,
+    "wallMs": 20960.843757000053,
+    "apiCalls": 10,
+    "apiMs": 13738.112954999786,
+    "apiStatistics": {
+      "gpt-6.1-sol/planning": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "planning",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 673,
+        "outputTokens": 169,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 0.0030360000000000005,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          2887.1056099999696,
+          2607.876848999993,
+          2941.3470299999462
+        ],
+        "logicalRequestLatenciesMs": [
+          3483.493875999935,
+          3189.5387300000293,
+          3597.7414369999897
+        ]
+      },
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 7,
+        "retries": 0,
+        "inputTokens": 2488,
+        "outputTokens": 0,
+        "usageResponses": 7,
+        "estimatedOrReservedUsd": 0.0002488000000000002,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          557.6490849999245,
+          545.6160570000065,
+          1080.2781899999827,
+          591.1531249999534,
+          320.7522970000282,
+          909.8390880000079,
+          1296.5086159999482
+        ],
+        "logicalRequestLatenciesMs": [
+          1090.650781000033,
+          1059.1462349999929,
+          1693.1262029999634,
+          1116.3875710000284,
+          899.6251719999127,
+          1398.7940630000085,
+          1742.6396449999884
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.003284800000000001,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "helper-luna-every_action-2",
+    "suite": "helper",
+    "model": "luna",
+    "policy": "every_action",
+    "round": 2,
+    "status": "ok",
+    "success": true,
+    "helperCalls": 7,
+    "steps": 6,
+    "wallMs": 39511.60331600008,
+    "apiCalls": 14,
+    "apiMs": 30144.16594700003,
+    "apiStatistics": {
+      "gpt-6.1-sol/planning": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "planning",
+        "calls": 7,
+        "retries": 0,
+        "inputTokens": 1283,
+        "outputTokens": 402,
+        "usageResponses": 7,
+        "estimatedOrReservedUsd": 0.006586000000000002,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          2693.467473000055,
+          2830.6783619999187,
+          3492.879144000006,
+          2691.8205960000632,
+          3353.350548000075,
+          2610.4465439999476,
+          9122.72444999998
+        ],
+        "logicalRequestLatenciesMs": [
+          3223.7165300000925,
+          3414.482493999996,
+          4020.319126000046,
+          3217.8832050000783,
+          4006.3143360000104,
+          3124.6108960000565,
+          9611.670293999952
+        ]
+      },
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 7,
+        "retries": 0,
+        "inputTokens": 2474,
+        "outputTokens": 0,
+        "usageResponses": 7,
+        "estimatedOrReservedUsd": 0.00024740000000000005,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          1184.990168999997,
+          681.324093000032,
+          269.36322599998675,
+          344.4675650000572,
+          262.3213599999435,
+          275.9976269999752,
+          330.34843799995724
+        ],
+        "logicalRequestLatenciesMs": [
+          1762.8312670000596,
+          1188.3318290000316,
+          818.4132460000692,
+          969.3401239999803,
+          803.702321000048,
+          792.4509710000129,
+          783.1733719999902
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.006833400000000002,
+      "typesafe": 0
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "helper-jev-handoff-2",
+    "suite": "helper",
+    "model": "jev",
+    "policy": "handoff",
+    "round": 2,
+    "status": "ok",
+    "success": true,
+    "helperCalls": 3,
+    "steps": 6,
+    "wallMs": 17359.46762000001,
+    "apiCalls": 10,
+    "apiMs": 10215.952312999987,
+    "apiStatistics": {
+      "gpt-6.1-sol/planning": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "planning",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 673,
+        "outputTokens": 165,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 0.0029960000000000004,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          2851.0287119999994,
+          2607.7818980000447,
+          2712.01713199995
+        ],
+        "logicalRequestLatenciesMs": [
+          3461.9558949999046,
+          3120.8134440000867,
+          3256.3356449999847
+        ]
+      },
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 7,
+        "retries": 0,
+        "inputTokens": 4014,
+        "outputTokens": 315,
+        "usageResponses": 7,
+        "estimatedOrReservedUsd": 0.0001685879999999999,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          567.0332730000373,
+          265.1801320000086,
+          218.60666099993978,
+          246.23536499997135,
+          272.8159330000635,
+          242.81222099997103,
+          232.4590179999359
+        ],
+        "logicalRequestLatenciesMs": [
+          1138.0432320000837,
+          943.064207999967,
+          712.6403589999536,
+          767.6944120000117,
+          757.5681160000386,
+          704.8962809999939,
+          744.5303260000655
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.0029960000000000004,
+      "typesafe": 0.0001685879999999999
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "helper-jev-every_action-2",
+    "suite": "helper",
+    "model": "jev",
+    "policy": "every_action",
+    "round": 2,
+    "status": "ok",
+    "success": true,
+    "helperCalls": 7,
+    "steps": 6,
+    "wallMs": 31928.882733000093,
+    "apiCalls": 14,
+    "apiMs": 21982.26241100009,
+    "apiStatistics": {
+      "gpt-6.1-sol/planning": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "planning",
+        "calls": 7,
+        "retries": 0,
+        "inputTokens": 1283,
+        "outputTokens": 393,
+        "usageResponses": 7,
+        "estimatedOrReservedUsd": 0.006495999999999998,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          2578.8209389999975,
+          2504.459940999979,
+          3090.604753999971,
+          2997.5463159999344,
+          2295.6137769999914,
+          2521.724596999935,
+          3865.2570560000604
+        ],
+        "logicalRequestLatenciesMs": [
+          3132.950034999987,
+          3112.0501670000376,
+          3699.7595369999763,
+          3530.7378640000243,
+          2876.219366000034,
+          3119.861595000024,
+          4414.765831000055
+        ]
+      },
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 7,
+        "retries": 0,
+        "inputTokens": 3989,
+        "outputTokens": 315,
+        "usageResponses": 7,
+        "estimatedOrReservedUsd": 0.00016753800000000006,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          212.86359600001015,
+          252.55771700001787,
+          247.1299519999884,
+          226.1263279999839,
+          225.71895800007042,
+          267.73535000008997,
+          696.1210019999417
+        ],
+        "logicalRequestLatenciesMs": [
+          793.5074939999031,
+          844.9675409999909,
+          753.1715880000265,
+          806.2013419999275,
+          835.3180680000223,
+          847.9146470000269,
+          1293.186103999964
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.006495999999999998,
+      "typesafe": 0.00016753800000000006
+    },
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b"
+  },
+  {
+    "id": "freshness-noise-enabled_only-0",
+    "suite": "freshness_noise",
+    "policy": "enabled_only",
+    "round": 0,
+    "status": "ok",
+    "success": true,
+    "validActionRejected": false,
+    "wallMs": 44.57135600000004,
+    "wrongTargetAction": false,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "ecd03735755d5d38d7d80ea05ea74a948d634020b2cb02cee1327cda68159ed7"
+  },
+  {
+    "id": "freshness-noise-full_snapshot-0",
+    "suite": "freshness_noise",
+    "policy": "full_snapshot",
+    "round": 0,
+    "status": "ok",
+    "success": false,
+    "validActionRejected": true,
+    "wallMs": 2.647734000000014,
+    "wrongTargetAction": false,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "ecd03735755d5d38d7d80ea05ea74a948d634020b2cb02cee1327cda68159ed7"
+  },
+  {
+    "id": "freshness-noise-enabled_only-1",
+    "suite": "freshness_noise",
+    "policy": "enabled_only",
+    "round": 1,
+    "status": "ok",
+    "success": true,
+    "validActionRejected": false,
+    "wallMs": 31.465169999999944,
+    "wrongTargetAction": false,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "ecd03735755d5d38d7d80ea05ea74a948d634020b2cb02cee1327cda68159ed7"
+  },
+  {
+    "id": "freshness-noise-full_snapshot-1",
+    "suite": "freshness_noise",
+    "policy": "full_snapshot",
+    "round": 1,
+    "status": "ok",
+    "success": false,
+    "validActionRejected": true,
+    "wallMs": 1.5080469999999195,
+    "wrongTargetAction": false,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "ecd03735755d5d38d7d80ea05ea74a948d634020b2cb02cee1327cda68159ed7"
+  },
+  {
+    "id": "freshness-noise-enabled_only-2",
+    "suite": "freshness_noise",
+    "policy": "enabled_only",
+    "round": 2,
+    "status": "ok",
+    "success": true,
+    "validActionRejected": false,
+    "wallMs": 30.684689000000162,
+    "wrongTargetAction": false,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "ecd03735755d5d38d7d80ea05ea74a948d634020b2cb02cee1327cda68159ed7"
+  },
+  {
+    "id": "freshness-noise-full_snapshot-2",
+    "suite": "freshness_noise",
+    "policy": "full_snapshot",
+    "round": 2,
+    "status": "ok",
+    "success": false,
+    "validActionRejected": true,
+    "wallMs": 1.69768299999987,
+    "wrongTargetAction": false,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "scriptHash": "ecd03735755d5d38d7d80ea05ea74a948d634020b2cb02cee1327cda68159ed7"
   }
 ]
