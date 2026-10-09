@@ -115,115 +115,6 @@
     "verifiedStoredRecord": true
   },
   {
-    "id": "b0-contacts-luna-dom-guided-native-update",
-    "kind": "contacts",
-    "operation": "update",
-    "condition": {
-      "model": "luna",
-      "mode": "dom",
-      "assisted": true,
-      "guidance": "shortlist",
-      "history": 8,
-      "bundled": true,
-      "recovery": 0,
-      "settle": true
-    },
-    "status": "success",
-    "success": true,
-    "wallMs": 39561.906284,
-    "actions": 6,
-    "waitDecisions": 0,
-    "helperCalls": 9,
-    "batchCacheHits": 0,
-    "waitingMs": 1660.8877549999888,
-    "observationMs": 17.750017000005755,
-    "executionMs": 121.4812560000064,
-    "requeryActions": 1,
-    "codeHash": "b8462b5530d0ba6abe15180e7be57755da7b4d75",
-    "promptHash": "d71cce6cc9d8347949c44e1e14df21cf8f58ee923dc971f98f0482ee73e22443",
-    "apiCalls": 19,
-    "apiMs": 28488.315430000024,
-    "apiStatistics": {
-      "gpt-6.1-sol/planning": {
-        "provider": "openai",
-        "model": "gpt-6.1-sol",
-        "purpose": "planning",
-        "calls": 9,
-        "retries": 0,
-        "inputTokens": 7525,
-        "outputTokens": 407,
-        "usageResponses": 9,
-        "estimatedOrReservedUsd": 0.019119999999999995,
-        "pendingRequests": 0,
-        "failedRequests": 0,
-        "transportLatenciesMs": [
-          2579.9865530000025,
-          2518.6331839999984,
-          3128.585389,
-          2476.775422999999,
-          4301.316608000008,
-          2781.2962470000057,
-          2351.6104510000005,
-          2555.936050000004,
-          2873.043484000009
-        ],
-        "logicalRequestLatenciesMs": [
-          2985.630459,
-          2935.31654,
-          3510.611898999996,
-          2886.471816999998,
-          4736.983588999996,
-          3181.646609999996,
-          2697.5871689999913,
-          2950.404871999999,
-          3320.431693000006
-        ]
-      },
-      "gpt-6-luna/decision": {
-        "provider": "openai",
-        "model": "gpt-6-luna",
-        "purpose": "decision",
-        "calls": 10,
-        "retries": 0,
-        "inputTokens": 8380,
-        "outputTokens": 0,
-        "usageResponses": 10,
-        "estimatedOrReservedUsd": 0.000838,
-        "pendingRequests": 0,
-        "failedRequests": 0,
-        "transportLatenciesMs": [
-          285.6258950000047,
-          349.5828160000019,
-          273.7546780000048,
-          297.00490299999365,
-          277.2784279999978,
-          305.3574760000047,
-          290.3144830000092,
-          330.2346899999975,
-          252.75550799998746,
-          259.2483479999937
-        ],
-        "logicalRequestLatenciesMs": [
-          653.6695739999996,
-          729.0891499999998,
-          649.9243539999952,
-          687.1908199999962,
-          682.1985140000033,
-          717.9156709999952,
-          669.4482500000013,
-          740.1610380000056,
-          641.8473939999967,
-          612.6273490000021
-        ]
-      }
-    },
-    "costs": {
-      "openai": 0.019957999999988374,
-      "typesafe": 0
-    },
-    "verifiedStoredRecord": true
-  },
-  {
     "id": "b0-contacts-luna-dom-guided-native-create",
     "kind": "contacts",
     "operation": "create",
@@ -332,6 +223,115 @@
     },
     "costs": {
       "openai": 0.020175899999969715,
+      "typesafe": 0
+    },
+    "verifiedStoredRecord": true
+  },
+  {
+    "id": "b0-contacts-luna-dom-guided-native-update",
+    "kind": "contacts",
+    "operation": "update",
+    "condition": {
+      "model": "luna",
+      "mode": "dom",
+      "assisted": true,
+      "guidance": "shortlist",
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "status": "success",
+    "success": true,
+    "wallMs": 39561.906284,
+    "actions": 6,
+    "waitDecisions": 0,
+    "helperCalls": 9,
+    "batchCacheHits": 0,
+    "waitingMs": 1660.8877549999888,
+    "observationMs": 17.750017000005755,
+    "executionMs": 121.4812560000064,
+    "requeryActions": 1,
+    "codeHash": "b8462b5530d0ba6abe15180e7be57755da7b4d75",
+    "promptHash": "d71cce6cc9d8347949c44e1e14df21cf8f58ee923dc971f98f0482ee73e22443",
+    "apiCalls": 19,
+    "apiMs": 28488.315430000024,
+    "apiStatistics": {
+      "gpt-6.1-sol/planning": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "planning",
+        "calls": 9,
+        "retries": 0,
+        "inputTokens": 7525,
+        "outputTokens": 407,
+        "usageResponses": 9,
+        "estimatedOrReservedUsd": 0.019119999999999995,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          2579.9865530000025,
+          2518.6331839999984,
+          3128.585389,
+          2476.775422999999,
+          4301.316608000008,
+          2781.2962470000057,
+          2351.6104510000005,
+          2555.936050000004,
+          2873.043484000009
+        ],
+        "logicalRequestLatenciesMs": [
+          2985.630459,
+          2935.31654,
+          3510.611898999996,
+          2886.471816999998,
+          4736.983588999996,
+          3181.646609999996,
+          2697.5871689999913,
+          2950.404871999999,
+          3320.431693000006
+        ]
+      },
+      "gpt-6-luna/decision": {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "purpose": "decision",
+        "calls": 10,
+        "retries": 0,
+        "inputTokens": 8380,
+        "outputTokens": 0,
+        "usageResponses": 10,
+        "estimatedOrReservedUsd": 0.000838,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          285.6258950000047,
+          349.5828160000019,
+          273.7546780000048,
+          297.00490299999365,
+          277.2784279999978,
+          305.3574760000047,
+          290.3144830000092,
+          330.2346899999975,
+          252.75550799998746,
+          259.2483479999937
+        ],
+        "logicalRequestLatenciesMs": [
+          653.6695739999996,
+          729.0891499999998,
+          649.9243539999952,
+          687.1908199999962,
+          682.1985140000033,
+          717.9156709999952,
+          669.4482500000013,
+          740.1610380000056,
+          641.8473939999967,
+          612.6273490000021
+        ]
+      }
+    },
+    "costs": {
+      "openai": 0.019957999999988374,
       "typesafe": 0
     },
     "verifiedStoredRecord": true

@@ -12,9 +12,11 @@ The applications run in real Chromium and save state on a local server. Success 
 
 [Watch the complete 35-second synthetic room workflow at original speed](assets/demo.mp4) · [Recording provenance](assets/demo-provenance.json)
 
-**Study status:** the frozen three-repetition primary comparison is complete. Helper, original-system and component follow-ups are running; the documented isolated contact timing rerun is pending. Timing summaries are provisional.
+**Study status:** the primary three-repetition comparison, helper follow-up and original-system study are complete. Independent component experiments and the documented isolated contact timing rerun are still running or queued. Timing summaries are provisional.
 
-[Measured results](results/RESULTS.md) · [Protocol](docs/PROTOCOL.md) · [Architecture](docs/ARCHITECTURE.md) · [Reference systems](docs/BASELINES.md)
+[Measured results](results/RESULTS.md) · [Failure analysis](results/FAILURES.md) · [API roles](results/API_ROLES.md) · [Protocol](docs/PROTOCOL.md) · [Architecture](docs/ARCHITECTURE.md) · [Goals & Decisions](docs/GOALS_AND_DECISIONS.md) · [Reference systems](docs/BASELINES.md)
+
+![Measured full-flow success and successful timing](results/figures/condition-comparison.svg)
 
 ## What gets compared
 

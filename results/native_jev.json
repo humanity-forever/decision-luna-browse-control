@@ -1,1 +1,1025 @@
-[]
+[
+  {
+    "id": "original-jev-contacts-0-close",
+    "kind": "contacts",
+    "operation": "close",
+    "status": "dependency_failed",
+    "success": false
+  },
+  {
+    "id": "original-jev-contacts-0-create",
+    "kind": "contacts",
+    "operation": "create",
+    "sourceCommit": "e04be30575de055e7d99b2505d35a228cf190722",
+    "status": "failed",
+    "success": false,
+    "wallMs": 4404.8929339999995,
+    "nativeStatus": "stuck",
+    "apiCalls": 3,
+    "apiMs": 2225.947942,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 1958,
+        "outputTokens": 249,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 8.223600000000007e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          1791.2324629999994,
+          225.2542709999998,
+          209.47252000000026
+        ],
+        "logicalRequestLatenciesMs": [
+          2305.6653640000004,
+          726.169911,
+          695.1976489999997
+        ]
+      }
+    },
+    "verifiedStoredRecord": false,
+    "unrelatedRecordChanges": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 8.223600000012432e-05
+    }
+  },
+  {
+    "id": "original-jev-contacts-0-update",
+    "kind": "contacts",
+    "operation": "update",
+    "status": "dependency_failed",
+    "success": false
+  },
+  {
+    "id": "original-jev-contacts-1-close",
+    "kind": "contacts",
+    "operation": "close",
+    "status": "dependency_failed",
+    "success": false
+  },
+  {
+    "id": "original-jev-contacts-1-create",
+    "kind": "contacts",
+    "operation": "create",
+    "sourceCommit": "e04be30575de055e7d99b2505d35a228cf190722",
+    "status": "failed",
+    "success": false,
+    "wallMs": 2745.6061939999927,
+    "nativeStatus": "stuck",
+    "apiCalls": 3,
+    "apiMs": 694.4196230000089,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 1958,
+        "outputTokens": 249,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 8.223600000000007e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          222.8870220000099,
+          238.282910000009,
+          233.25193100000615
+        ],
+        "logicalRequestLatenciesMs": [
+          686.8104759999987,
+          723.9310089999926,
+          722.5506179999938
+        ]
+      }
+    },
+    "verifiedStoredRecord": false,
+    "unrelatedRecordChanges": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 8.223600000012432e-05
+    }
+  },
+  {
+    "id": "original-jev-contacts-1-update",
+    "kind": "contacts",
+    "operation": "update",
+    "status": "dependency_failed",
+    "success": false
+  },
+  {
+    "id": "original-jev-contacts-2-close",
+    "kind": "contacts",
+    "operation": "close",
+    "status": "dependency_failed",
+    "success": false
+  },
+  {
+    "id": "original-jev-contacts-2-create",
+    "kind": "contacts",
+    "operation": "create",
+    "sourceCommit": "e04be30575de055e7d99b2505d35a228cf190722",
+    "status": "failed",
+    "success": false,
+    "wallMs": 2925.206837000005,
+    "nativeStatus": "stuck",
+    "apiCalls": 3,
+    "apiMs": 718.0655690000276,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 1958,
+        "outputTokens": 249,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 8.223600000000007e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          223.34349999998813,
+          230.23259400000097,
+          264.4930750000058
+        ],
+        "logicalRequestLatenciesMs": [
+          763.2623779999849,
+          734.6336120000051,
+          779.7042340000044
+        ]
+      }
+    },
+    "verifiedStoredRecord": false,
+    "unrelatedRecordChanges": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 8.223600000012432e-05
+    }
+  },
+  {
+    "id": "original-jev-contacts-2-update",
+    "kind": "contacts",
+    "operation": "update",
+    "status": "dependency_failed",
+    "success": false
+  },
+  {
+    "id": "original-jev-rooms-0-close",
+    "kind": "rooms",
+    "operation": "close",
+    "status": "dependency_failed",
+    "success": false
+  },
+  {
+    "id": "original-jev-rooms-0-create",
+    "kind": "rooms",
+    "operation": "create",
+    "sourceCommit": "e04be30575de055e7d99b2505d35a228cf190722",
+    "status": "failed",
+    "success": false,
+    "wallMs": 2776.330897,
+    "nativeStatus": "stuck",
+    "apiCalls": 3,
+    "apiMs": 667.9895380000007,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 1967,
+        "outputTokens": 249,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 8.261399999999995e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          213.25964699999986,
+          238.6585439999999,
+          216.07510699999875
+        ],
+        "logicalRequestLatenciesMs": [
+          701.6837499999992,
+          711.7407409999996,
+          725.9759610000001
+        ]
+      }
+    },
+    "verifiedStoredRecord": false,
+    "unrelatedRecordChanges": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 8.261400000009189e-05
+    }
+  },
+  {
+    "id": "original-jev-rooms-0-update",
+    "kind": "rooms",
+    "operation": "update",
+    "status": "dependency_failed",
+    "success": false
+  },
+  {
+    "id": "original-jev-rooms-1-close",
+    "kind": "rooms",
+    "operation": "close",
+    "status": "dependency_failed",
+    "success": false
+  },
+  {
+    "id": "original-jev-rooms-1-create",
+    "kind": "rooms",
+    "operation": "create",
+    "sourceCommit": "e04be30575de055e7d99b2505d35a228cf190722",
+    "status": "failed",
+    "success": false,
+    "wallMs": 2939.845465000006,
+    "nativeStatus": "stuck",
+    "apiCalls": 3,
+    "apiMs": 661.7024640000018,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 1967,
+        "outputTokens": 249,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 8.261399999999995e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          249.09949100000085,
+          206.15585300000384,
+          206.45145599999523
+        ],
+        "logicalRequestLatenciesMs": [
+          725.6835759999958,
+          749.3453310000041,
+          820.2395349999861
+        ]
+      }
+    },
+    "verifiedStoredRecord": false,
+    "unrelatedRecordChanges": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 8.261400000009189e-05
+    }
+  },
+  {
+    "id": "original-jev-rooms-1-update",
+    "kind": "rooms",
+    "operation": "update",
+    "status": "dependency_failed",
+    "success": false
+  },
+  {
+    "id": "original-jev-rooms-2-close",
+    "kind": "rooms",
+    "operation": "close",
+    "status": "dependency_failed",
+    "success": false
+  },
+  {
+    "id": "original-jev-rooms-2-create",
+    "kind": "rooms",
+    "operation": "create",
+    "sourceCommit": "e04be30575de055e7d99b2505d35a228cf190722",
+    "status": "failed",
+    "success": false,
+    "wallMs": 2869.711466000008,
+    "nativeStatus": "stuck",
+    "apiCalls": 3,
+    "apiMs": 699.3350210000062,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 1967,
+        "outputTokens": 249,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 8.261399999999995e-05,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          241.67404099999112,
+          231.3735109999834,
+          226.29135700000916
+        ],
+        "logicalRequestLatenciesMs": [
+          735.047304000007,
+          698.9225860000006,
+          820.8872270000284
+        ]
+      }
+    },
+    "verifiedStoredRecord": false,
+    "unrelatedRecordChanges": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 8.261400000009189e-05
+    }
+  },
+  {
+    "id": "original-jev-rooms-2-update",
+    "kind": "rooms",
+    "operation": "update",
+    "status": "dependency_failed",
+    "success": false
+  },
+  {
+    "id": "original-jev-support-0-close",
+    "kind": "support",
+    "operation": "close",
+    "sourceCommit": "e04be30575de055e7d99b2505d35a228cf190722",
+    "status": "success",
+    "success": true,
+    "requeryMutationEvents": 0,
+    "wallMs": 8089.32209799999,
+    "nativeStatus": "done",
+    "requeryStatus": "done",
+    "apiCalls": 7,
+    "apiMs": 1631.2716509999736,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 7,
+        "retries": 0,
+        "inputTokens": 5717,
+        "outputTokens": 836,
+        "usageResponses": 7,
+        "estimatedOrReservedUsd": 0.00024011400000000004,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          248.6167029999924,
+          233.48537500000384,
+          207.93424299999606,
+          224.45698799999082,
+          216.73372400000517,
+          265.1638849999872,
+          234.8896769999992
+        ],
+        "logicalRequestLatenciesMs": [
+          769.3752139999997,
+          823.0113169999968,
+          770.739149999994,
+          743.8897960000031,
+          839.299794999999,
+          792.5716720000055,
+          731.3470900000102
+        ]
+      }
+    },
+    "verifiedStoredRecord": true,
+    "unrelatedRecordChanges": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.00024011400000001348
+    }
+  },
+  {
+    "id": "original-jev-support-0-create",
+    "kind": "support",
+    "operation": "create",
+    "sourceCommit": "e04be30575de055e7d99b2505d35a228cf190722",
+    "status": "success",
+    "success": true,
+    "requeryMutationEvents": 0,
+    "wallMs": 29991.300883000004,
+    "nativeStatus": "done",
+    "requeryStatus": "done",
+    "apiCalls": 13,
+    "apiMs": 16501.429419,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 10,
+        "retries": 0,
+        "inputTokens": 8778,
+        "outputTokens": 1252,
+        "usageResponses": 10,
+        "estimatedOrReservedUsd": 0.0003686760000000001,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          214.0634800000007,
+          222.1853460000002,
+          548.8132399999995,
+          211.94289599999684,
+          226.35142300000007,
+          215.63344599999982,
+          215.53263700000025,
+          720.2477809999982,
+          210.59317400000145,
+          238.70326800000475
+        ],
+        "logicalRequestLatenciesMs": [
+          758.4206970000014,
+          737.6795239999992,
+          1158.395672999999,
+          800.5545559999991,
+          759.9444350000012,
+          808.1827889999986,
+          720.2407540000022,
+          1222.955267999998,
+          655.0480599999937,
+          689.1195509999961
+        ]
+      },
+      "gpt-6.1-sol/typing": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "typing",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 373,
+        "outputTokens": 24,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 0.0009860000000000008,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          6904.472346999999,
+          2344.704113,
+          4228.209531999997
+        ],
+        "logicalRequestLatenciesMs": [
+          7585.868444999998,
+          2950.243883000003,
+          4745.163297000003
+        ]
+      }
+    },
+    "verifiedStoredRecord": true,
+    "unrelatedRecordChanges": 0,
+    "costs": {
+      "openai": 0.0009859999999974889,
+      "typesafe": 0.00036867600000012324
+    }
+  },
+  {
+    "id": "original-jev-support-0-update",
+    "kind": "support",
+    "operation": "update",
+    "sourceCommit": "e04be30575de055e7d99b2505d35a228cf190722",
+    "status": "success",
+    "success": true,
+    "requeryMutationEvents": 0,
+    "wallMs": 28887.858513999992,
+    "nativeStatus": "done",
+    "requeryStatus": "done",
+    "apiCalls": 18,
+    "apiMs": 12039.81046400001,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 14,
+        "retries": 0,
+        "inputTokens": 12507,
+        "outputTokens": 1716,
+        "usageResponses": 14,
+        "estimatedOrReservedUsd": 0.0005252940000000002,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          240.28628500000195,
+          222.97379299999739,
+          247.01468800000293,
+          527.9482349999962,
+          213.5132900000026,
+          253.8842599999989,
+          212.31537399999797,
+          209.82224400000268,
+          226.01886699999886,
+          213.49215999999433,
+          214.3140809999968,
+          535.8359960000089,
+          215.62014400000044,
+          228.6726040000067
+        ],
+        "logicalRequestLatenciesMs": [
+          785.7124269999986,
+          781.0637209999986,
+          766.784372999995,
+          1047.8805030000003,
+          711.2952799999985,
+          749.0309589999961,
+          705.5300530000022,
+          678.1104539999942,
+          725.0903890000045,
+          749.0230270000029,
+          725.935007,
+          1079.312929000007,
+          788.0134580000013,
+          755.3489700000064
+        ]
+      },
+      "gpt-6.1-sol/typing": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "typing",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 521,
+        "outputTokens": 32,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.0013620000000000004,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          2733.3798740000057,
+          1443.7277119999999,
+          2291.7600539999985,
+          1809.252274999999
+        ],
+        "logicalRequestLatenciesMs": [
+          3275.0982959999965,
+          1970.8071490000002,
+          2788.073826000007,
+          2280.650253
+        ]
+      }
+    },
+    "verifiedStoredRecord": true,
+    "unrelatedRecordChanges": 0,
+    "costs": {
+      "openai": 0.0013619999999860966,
+      "typesafe": 0.0005252940000000095
+    }
+  },
+  {
+    "id": "original-jev-support-1-close",
+    "kind": "support",
+    "operation": "close",
+    "sourceCommit": "e04be30575de055e7d99b2505d35a228cf190722",
+    "status": "success",
+    "success": true,
+    "requeryMutationEvents": 0,
+    "wallMs": 8255.940762999991,
+    "nativeStatus": "done",
+    "requeryStatus": "done",
+    "apiCalls": 7,
+    "apiMs": 1672.123981999961,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 7,
+        "retries": 0,
+        "inputTokens": 5717,
+        "outputTokens": 836,
+        "usageResponses": 7,
+        "estimatedOrReservedUsd": 0.00024011400000000004,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          294.01935800001957,
+          259.0308369999984,
+          210.99346499997773,
+          216.91264500000398,
+          228.27292300001136,
+          216.80679599998984,
+          246.09435900000972
+        ],
+        "logicalRequestLatenciesMs": [
+          870.049898999976,
+          802.7535219999845,
+          779.3844490000047,
+          773.9644480000134,
+          756.3212070000009,
+          775.2945290000062,
+          865.4383749999979
+        ]
+      }
+    },
+    "verifiedStoredRecord": true,
+    "unrelatedRecordChanges": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.00024011400000001348
+    }
+  },
+  {
+    "id": "original-jev-support-1-create",
+    "kind": "support",
+    "operation": "create",
+    "sourceCommit": "e04be30575de055e7d99b2505d35a228cf190722",
+    "status": "success",
+    "success": true,
+    "requeryMutationEvents": 0,
+    "wallMs": 25103.276542000007,
+    "nativeStatus": "done",
+    "requeryStatus": "done",
+    "apiCalls": 13,
+    "apiMs": 10745.133547000005,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 10,
+        "retries": 0,
+        "inputTokens": 8778,
+        "outputTokens": 1252,
+        "usageResponses": 10,
+        "estimatedOrReservedUsd": 0.0003686760000000001,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          267.29928500000096,
+          213.19210700000986,
+          575.1392389999965,
+          281.78555400000187,
+          246.85701100000006,
+          245.5071370000078,
+          251.63526199999615,
+          537.3511549999967,
+          226.3046769999928,
+          230.00646300001245
+        ],
+        "logicalRequestLatenciesMs": [
+          938.9155230000033,
+          785.757620000004,
+          1162.1697890000069,
+          838.396292999998,
+          824.4612020000059,
+          904.2343770000007,
+          928.162089999998,
+          1171.0967369999998,
+          816.045054999995,
+          775.400529999999
+        ]
+      },
+      "gpt-6.1-sol/typing": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "typing",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 373,
+        "outputTokens": 24,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 0.0009860000000000008,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          3444.5365630000015,
+          1964.4915570000012,
+          2261.039073000007
+        ],
+        "logicalRequestLatenciesMs": [
+          4061.321121000001,
+          2671.1728250000015,
+          2818.546602000002
+        ]
+      }
+    },
+    "verifiedStoredRecord": true,
+    "unrelatedRecordChanges": 0,
+    "costs": {
+      "openai": 0.0009859999999974889,
+      "typesafe": 0.00036867600000012324
+    }
+  },
+  {
+    "id": "original-jev-support-1-update",
+    "kind": "support",
+    "operation": "update",
+    "sourceCommit": "e04be30575de055e7d99b2505d35a228cf190722",
+    "status": "success",
+    "success": true,
+    "requeryMutationEvents": 0,
+    "wallMs": 36408.35984999999,
+    "nativeStatus": "done",
+    "requeryStatus": "done",
+    "apiCalls": 18,
+    "apiMs": 19323.650615000006,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 14,
+        "retries": 0,
+        "inputTokens": 12507,
+        "outputTokens": 1716,
+        "usageResponses": 14,
+        "estimatedOrReservedUsd": 0.0005252940000000002,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          229.57047600000806,
+          249.85531400000036,
+          231.88076400000136,
+          273.18853699999454,
+          560.5611780000036,
+          257.69750899999053,
+          279.4149089999846,
+          212.9836490000016,
+          235.59389700001338,
+          235.02365499999723,
+          215.10040399999707,
+          554.3981820000045,
+          219.35866599998553,
+          204.4534799999965
+        ],
+        "logicalRequestLatenciesMs": [
+          727.3237019999942,
+          796.294928999996,
+          796.1699989999906,
+          895.8617930000037,
+          1159.8350939999946,
+          793.4218020000117,
+          863.7900359999912,
+          677.5665560000052,
+          648.2228509999986,
+          661.5731169999926,
+          770.3125240000081,
+          1000.6013440000243,
+          777.3634310000052,
+          801.7872069999867
+        ]
+      },
+      "gpt-6.1-sol/typing": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "typing",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 521,
+        "outputTokens": 32,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.0013620000000000004,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          2278.514289999992,
+          9149.541557000004,
+          1758.971703999996,
+          2177.601773000002
+        ],
+        "logicalRequestLatenciesMs": [
+          2932.2249490000104,
+          9775.049295999997,
+          2219.199336999998,
+          2619.6285300000163
+        ]
+      }
+    },
+    "verifiedStoredRecord": true,
+    "unrelatedRecordChanges": 0,
+    "costs": {
+      "openai": 0.0013619999999860966,
+      "typesafe": 0.0005252940000000095
+    }
+  },
+  {
+    "id": "original-jev-support-2-close",
+    "kind": "support",
+    "operation": "close",
+    "sourceCommit": "e04be30575de055e7d99b2505d35a228cf190722",
+    "status": "success",
+    "success": true,
+    "requeryMutationEvents": 0,
+    "wallMs": 8354.22383600002,
+    "nativeStatus": "done",
+    "requeryStatus": "done",
+    "apiCalls": 7,
+    "apiMs": 1591.0953940000036,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 7,
+        "retries": 0,
+        "inputTokens": 5717,
+        "outputTokens": 836,
+        "usageResponses": 7,
+        "estimatedOrReservedUsd": 0.00024011400000000004,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          231.06176400001277,
+          224.97621000002255,
+          223.76640499997302,
+          219.29775399999926,
+          225.70043999998597,
+          245.33069899998372,
+          220.96813900000416
+        ],
+        "logicalRequestLatenciesMs": [
+          752.0902149999747,
+          836.7719109999889,
+          849.9825710000005,
+          848.4688270000042,
+          841.9091420000186,
+          829.635866000026,
+          787.7776599999925
+        ]
+      }
+    },
+    "verifiedStoredRecord": true,
+    "unrelatedRecordChanges": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.00024011400000001348
+    }
+  },
+  {
+    "id": "original-jev-support-2-create",
+    "kind": "support",
+    "operation": "create",
+    "sourceCommit": "e04be30575de055e7d99b2505d35a228cf190722",
+    "status": "success",
+    "success": true,
+    "requeryMutationEvents": 0,
+    "wallMs": 27282.84217400002,
+    "nativeStatus": "done",
+    "requeryStatus": "done",
+    "apiCalls": 13,
+    "apiMs": 12680.906981999928,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 10,
+        "retries": 0,
+        "inputTokens": 8778,
+        "outputTokens": 1252,
+        "usageResponses": 10,
+        "estimatedOrReservedUsd": 0.0003686760000000001,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          228.35580799999298,
+          232.31104999998934,
+          527.048450000002,
+          240.38524199998938,
+          279.6180250000034,
+          213.20510799999465,
+          219.1578949999821,
+          559.2813029999961,
+          235.30345599999418,
+          203.4453270000231
+        ],
+        "logicalRequestLatenciesMs": [
+          738.901743000024,
+          832.0902819999901,
+          1174.004106999986,
+          780.2998640000005,
+          951.1097909999953,
+          886.8730630000064,
+          876.5520400000096,
+          1272.2433079999755,
+          834.1313289999962,
+          858.9801489999809
+        ]
+      },
+      "gpt-6.1-sol/typing": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "typing",
+        "calls": 3,
+        "retries": 0,
+        "inputTokens": 373,
+        "outputTokens": 24,
+        "usageResponses": 3,
+        "estimatedOrReservedUsd": 0.0009860000000000008,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          5029.013435000001,
+          2030.4563710000075,
+          2683.346153999999
+        ],
+        "logicalRequestLatenciesMs": [
+          5706.822500999988,
+          2701.8613880000194,
+          3304.2564490000077
+        ]
+      }
+    },
+    "verifiedStoredRecord": true,
+    "unrelatedRecordChanges": 0,
+    "costs": {
+      "openai": 0.0009859999999974889,
+      "typesafe": 0.00036867600000012324
+    }
+  },
+  {
+    "id": "original-jev-support-2-update",
+    "kind": "support",
+    "operation": "update",
+    "sourceCommit": "e04be30575de055e7d99b2505d35a228cf190722",
+    "status": "success",
+    "success": true,
+    "requeryMutationEvents": 0,
+    "wallMs": 27680.028796,
+    "nativeStatus": "done",
+    "requeryStatus": "done",
+    "apiCalls": 18,
+    "apiMs": 10734.104437999922,
+    "apiStatistics": {
+      "jev-1.13.0/decision": {
+        "provider": "typesafe",
+        "model": "jev-1.13.0",
+        "purpose": "decision",
+        "calls": 14,
+        "retries": 0,
+        "inputTokens": 12507,
+        "outputTokens": 1716,
+        "usageResponses": 14,
+        "estimatedOrReservedUsd": 0.0005252940000000002,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          219.44968200000585,
+          202.39429699999164,
+          205.6040379999904,
+          242.7139099999913,
+          286.45126700002584,
+          360.5604479999747,
+          268.57165800000075,
+          215.25453299999936,
+          232.59130800000275,
+          217.71401500000502,
+          223.30133300001035,
+          572.1044620000175,
+          213.71200699999463,
+          208.43078699999023
+        ],
+        "logicalRequestLatenciesMs": [
+          757.2342760000029,
+          717.8170190000092,
+          747.3360500000126,
+          742.3740780000226,
+          846.0778189999983,
+          916.9651359999843,
+          809.7187209999829,
+          783.8287280000222,
+          805.6271529999794,
+          727.7184359999956,
+          707.695097000018,
+          1055.6113889999979,
+          692.9319079999987,
+          688.9736039999989
+        ]
+      },
+      "gpt-6.1-sol/typing": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "purpose": "typing",
+        "calls": 4,
+        "retries": 0,
+        "inputTokens": 521,
+        "outputTokens": 32,
+        "usageResponses": 4,
+        "estimatedOrReservedUsd": 0.0013620000000000004,
+        "pendingRequests": 0,
+        "failedRequests": 0,
+        "transportLatenciesMs": [
+          2115.379684000014,
+          2421.9209310000006,
+          1310.130736000021,
+          1217.8364460000012
+        ],
+        "logicalRequestLatenciesMs": [
+          2654.6495440000144,
+          2940.568146000005,
+          1824.775656999991,
+          1804.192779999983
+        ]
+      }
+    },
+    "verifiedStoredRecord": true,
+    "unrelatedRecordChanges": 0,
+    "costs": {
+      "openai": 0.0013619999999860966,
+      "typesafe": 0.0005252940000000095
+    }
+  }
+]

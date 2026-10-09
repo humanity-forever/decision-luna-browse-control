@@ -1,0 +1,20 @@
+[
+  {
+    "workflow": "b0-contacts-luna-dom-guided-native",
+    "kind": "contacts",
+    "condition": "luna-dom-guided-native",
+    "completedDisposition": true,
+    "success": true,
+    "codeVersions": [
+      "b8462b5530d0ba6abe15180e7be57755da7b4d75"
+    ],
+    "wallSeconds": 127.006890753,
+    "estimatedUsd": 0.06384509999993782,
+    "apiCalls": 62,
+    "helperCalls": 29,
+    "cacheHits": 0,
+    "statuses": {
+      "success": 3
+    }
+  }
+]

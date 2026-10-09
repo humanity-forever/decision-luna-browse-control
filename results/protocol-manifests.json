@@ -1,0 +1,85 @@
+{
+  "study": {
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "seed": "browser-lab-2026-10-09",
+    "repeats": 3,
+    "selectedApps": [
+      "contacts",
+      "rooms",
+      "support"
+    ],
+    "selectedConditionIds": [
+      "luna-dom-solo-poll",
+      "jev-dom-solo-poll",
+      "luna-dom-solo-native",
+      "jev-dom-solo-native",
+      "luna-combined-solo-poll",
+      "luna-combined-solo-native",
+      "jev-combined-solo-poll",
+      "jev-combined-solo-native"
+    ],
+    "createdAt": "2026-10-09T13:47:10.281Z",
+    "studyAllowance": {
+      "openai": 2,
+      "typesafe": 2
+    },
+    "scriptHash": "25233307351b6e5418721ddb95c553970c6379d587da3bf72c2e57b3510b1c4c"
+  },
+  "helper-study": {
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "seed": "helper-study-2026-10-09",
+    "repeats": 1,
+    "selectedApps": [
+      "contacts",
+      "rooms",
+      "support"
+    ],
+    "selectedConditionIds": [
+      "luna-dom-guided-poll",
+      "luna-dom-guided-native",
+      "jev-dom-guided-poll",
+      "jev-dom-guided-native",
+      "luna-combined-guided-native",
+      "luna-dom-guided-native-batch"
+    ],
+    "createdAt": "2026-10-09T14:41:47.788Z",
+    "studyAllowance": {
+      "openai": 4,
+      "typesafe": 4
+    },
+    "scriptHash": "25233307351b6e5418721ddb95c553970c6379d587da3bf72c2e57b3510b1c4c"
+  },
+  "native-study": {
+    "experimentScriptHash": "6d1da7a5ae821daa4b143581a177ef08765603af6fac3e0da2eeb03416fdcf7e",
+    "sourceCommit": "e04be30575de055e7d99b2505d35a228cf190722",
+    "repeats": 3,
+    "maximumActions": 30,
+    "maximumSeconds": 120,
+    "typing": "gpt-6.1-sol low, 1024 output cap; package default cap raised; unsupported temperature removed",
+    "sourceHash": "a06ddd75bab618f8858c6da32db95cb52582ae73"
+  },
+  "architecture-study": {
+    "scriptHash": "3148dcafe93d69fb0864e3892585e21bcab6d959905f251bfe281c86cddd5d7b",
+    "seed": "repo-factors-2026-10-09",
+    "createdAt": "2026-10-09T15:37:44.324Z",
+    "controllerScope": "Independent browser lab",
+    "repeats": 3,
+    "paid": true,
+    "studyAllowance": {
+      "openai": 3,
+      "typesafe": 1
+    },
+    "scope": "Local synthetic browser primitives and model component calls; not live-site task performance or a native CUA baseline."
+  },
+  "environment": {
+    "vm": "ARM64 Ubuntu 24.04 / KVM",
+    "vcpus": 4,
+    "ramGiB": 8,
+    "viewport": [
+      1440,
+      900
+    ],
+    "browserTimezone": "America/New_York",
+    "execution": "Serial local VM; no paid external worker"
+  }
+}

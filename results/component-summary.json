@@ -1,0 +1,932 @@
+[
+  {
+    "suite": "freshness",
+    "scenario": "\u2014",
+    "method": "enabled_only",
+    "model": "\u2014",
+    "n": 3,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.04483243300000004,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 3
+    }
+  },
+  {
+    "suite": "freshness",
+    "scenario": "\u2014",
+    "method": "full_snapshot",
+    "model": "\u2014",
+    "n": 3,
+    "successes": 3,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.004664506000000074,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 3
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "covered_button",
+    "method": "autowait",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 2,
+    "recognizedBlockers": 0,
+    "medianSeconds": 1.3927686859999995,
+    "medianApiCalls": 0.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "covered_button",
+    "method": "dom_settle",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.2837656964999987,
+    "medianApiCalls": 0.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "covered_button",
+    "method": "domcontentloaded",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.02719040999999925,
+    "medianApiCalls": 0.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "covered_button",
+    "method": "hybrid_dom_luna",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 2,
+    "recognizedBlockers": 0,
+    "medianSeconds": 2.643909384999999,
+    "medianApiCalls": 1.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "covered_button",
+    "method": "load",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.029632067499995175,
+    "medianApiCalls": 0.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "covered_button",
+    "method": "model_dom_jev",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 2,
+    "recognizedBlockers": 0,
+    "medianSeconds": 3.0028614080000007,
+    "medianApiCalls": 2.5,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "covered_button",
+    "method": "model_dom_luna",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 2,
+    "recognizedBlockers": 0,
+    "medianSeconds": 2.8428993125000015,
+    "medianApiCalls": 2.5,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "covered_button",
+    "method": "model_pixels_luna",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 2,
+    "recognizedBlockers": 0,
+    "medianSeconds": 2.9311508649999993,
+    "medianApiCalls": 2.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "covered_button",
+    "method": "networkidle",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.5327551414999998,
+    "medianApiCalls": 0.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "covered_button",
+    "method": "visible",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.028708483999995225,
+    "medianApiCalls": 0.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "disabled_iframe",
+    "method": "autowait",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 2,
+    "recognizedBlockers": 0,
+    "medianSeconds": 1.5115824129999966,
+    "medianApiCalls": 0.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "disabled_iframe",
+    "method": "dom_settle",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.2757055494999995,
+    "medianApiCalls": 0.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "disabled_iframe",
+    "method": "domcontentloaded",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.018645236499995915,
+    "medianApiCalls": 0.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "disabled_iframe",
+    "method": "hybrid_dom_luna",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 2,
+    "recognizedBlockers": 0,
+    "medianSeconds": 2.693134531999999,
+    "medianApiCalls": 1.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "disabled_iframe",
+    "method": "load",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.017740984000001847,
+    "medianApiCalls": 0.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "disabled_iframe",
+    "method": "model_dom_jev",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 2,
+    "recognizedBlockers": 0,
+    "medianSeconds": 3.030731702999995,
+    "medianApiCalls": 2.5,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "disabled_iframe",
+    "method": "model_dom_luna",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 2,
+    "recognizedBlockers": 0,
+    "medianSeconds": 2.9453428614999986,
+    "medianApiCalls": 2.5,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "disabled_iframe",
+    "method": "model_pixels_luna",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 2,
+    "recognizedBlockers": 0,
+    "medianSeconds": 3.903838065500004,
+    "medianApiCalls": 2.5,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "disabled_iframe",
+    "method": "networkidle",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.505323306,
+    "medianApiCalls": 0.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "disabled_iframe",
+    "method": "visible",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.02042013649999899,
+    "medianApiCalls": 0.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "autowait",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.022008065000001808,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "dom_settle",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.2745066539999971,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "domcontentloaded",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.020871290000002773,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "hybrid_dom_luna",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 1,
+    "recognizedBlockers": 0,
+    "medianSeconds": 1.7840754979999984,
+    "medianApiCalls": 1,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "load",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.025571493999996163,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "model_dom_jev",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 1,
+    "recognizedBlockers": 0,
+    "medianSeconds": 2.2138910729999988,
+    "medianApiCalls": 2,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "model_dom_luna",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 1,
+    "recognizedBlockers": 0,
+    "medianSeconds": 2.715308302999998,
+    "medianApiCalls": 2,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "model_pixels_luna",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 1,
+    "recognizedBlockers": 0,
+    "medianSeconds": 2.4844894979999954,
+    "medianApiCalls": 2,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "networkidle",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.5305144349999973,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "hydration",
+    "method": "visible",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.022246094000001902,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "late_control",
+    "method": "autowait",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 2,
+    "recognizedBlockers": 0,
+    "medianSeconds": 1.3099817454999976,
+    "medianApiCalls": 0.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "late_control",
+    "method": "dom_settle",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.2716446164999997,
+    "medianApiCalls": 0.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "late_control",
+    "method": "domcontentloaded",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.01508228099999542,
+    "medianApiCalls": 0.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "late_control",
+    "method": "hybrid_dom_luna",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 2,
+    "recognizedBlockers": 0,
+    "medianSeconds": 2.323418022500002,
+    "medianApiCalls": 1.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "late_control",
+    "method": "load",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.014663843000002088,
+    "medianApiCalls": 0.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "late_control",
+    "method": "model_dom_jev",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 2,
+    "recognizedBlockers": 0,
+    "medianSeconds": 2.728063257000004,
+    "medianApiCalls": 2.5,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "late_control",
+    "method": "model_dom_luna",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 2,
+    "recognizedBlockers": 0,
+    "medianSeconds": 2.8748423710000024,
+    "medianApiCalls": 2.5,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "late_control",
+    "method": "model_pixels_luna",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 2,
+    "recognizedBlockers": 0,
+    "medianSeconds": 3.3870687175,
+    "medianApiCalls": 2.5,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "late_control",
+    "method": "networkidle",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.5200141040000017,
+    "medianApiCalls": 0.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "late_control",
+    "method": "visible",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 2,
+    "recognizedBlockers": 0,
+    "medianSeconds": 1.3118332859999973,
+    "medianApiCalls": 0.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "autowait",
+    "model": "\u2014",
+    "n": 2,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.020140903500003332,
+    "medianApiCalls": 0.0,
+    "medianHelperCalls": 0.0,
+    "statuses": {
+      "ok": 2
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "dom_settle",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.2779886999999944,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "domcontentloaded",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.021025494000001345,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "hybrid_dom_luna",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 1,
+    "recognizedBlockers": 0,
+    "medianSeconds": 1.803259957000002,
+    "medianApiCalls": 1,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "load",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.025620977999999014,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "model_dom_jev",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 1,
+    "recognizedBlockers": 0,
+    "medianSeconds": 2.4750568710000005,
+    "medianApiCalls": 2,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "model_dom_luna",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 1,
+    "recognizedBlockers": 0,
+    "medianSeconds": 2.7426504429999987,
+    "medianApiCalls": 2,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "model_pixels_luna",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 1,
+    "recognizedBlockers": 0,
+    "medianSeconds": 2.855113595999996,
+    "medianApiCalls": 2,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "networkidle",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 5.000674773999999,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "error": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "noisy_network",
+    "method": "visible",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.02260648300000321,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "autowait",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.017971686999997474,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "dom_settle",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.27906890399999973,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "domcontentloaded",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.021257661999989068,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "hybrid_dom_luna",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 0,
+    "recognizedBlockers": 1,
+    "medianSeconds": 0.991067612999992,
+    "medianApiCalls": 1,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "load",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.023064868000001296,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "model_dom_jev",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 0,
+    "recognizedBlockers": 1,
+    "medianSeconds": 1.2208830269999889,
+    "medianApiCalls": 1,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "model_dom_luna",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 0,
+    "recognizedBlockers": 1,
+    "medianSeconds": 1.217567538000003,
+    "medianApiCalls": 1,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "model_pixels_luna",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 0,
+    "recognizedBlockers": 1,
+    "medianSeconds": 1.3348488389999984,
+    "medianApiCalls": 1,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "networkidle",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.5241755209999974,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  },
+  {
+    "suite": "waiting",
+    "scenario": "validation_blocker",
+    "method": "visible",
+    "model": "\u2014",
+    "n": 1,
+    "successes": 0,
+    "recognizedBlockers": 0,
+    "medianSeconds": 0.020059013000005507,
+    "medianApiCalls": 0,
+    "medianHelperCalls": 0,
+    "statuses": {
+      "ok": 1
+    }
+  }
+]

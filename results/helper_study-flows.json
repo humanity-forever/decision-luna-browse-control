@@ -1,0 +1,327 @@
+[
+  {
+    "workflow": "b0-contacts-jev-dom-guided-native",
+    "kind": "contacts",
+    "condition": "jev-dom-guided-native",
+    "completedDisposition": true,
+    "success": true,
+    "codeVersions": [
+      "a06ddd75bab618f8858c6da32db95cb52582ae73"
+    ],
+    "wallSeconds": 180.28443446500003,
+    "estimatedUsd": 0.06864456999999724,
+    "apiCalls": 62,
+    "helperCalls": 29,
+    "cacheHits": 0,
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "workflow": "b0-contacts-jev-dom-guided-poll",
+    "kind": "contacts",
+    "condition": "jev-dom-guided-poll",
+    "completedDisposition": true,
+    "success": true,
+    "codeVersions": [
+      "a06ddd75bab618f8858c6da32db95cb52582ae73"
+    ],
+    "wallSeconds": 173.99512873700016,
+    "estimatedUsd": 0.07766309800003868,
+    "apiCalls": 70,
+    "helperCalls": 33,
+    "cacheHits": 0,
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "workflow": "b0-contacts-luna-combined-guided-native",
+    "kind": "contacts",
+    "condition": "luna-combined-guided-native",
+    "completedDisposition": true,
+    "success": true,
+    "codeVersions": [
+      "a06ddd75bab618f8858c6da32db95cb52582ae73"
+    ],
+    "wallSeconds": 152.606059633,
+    "estimatedUsd": 0.12907360000004076,
+    "apiCalls": 50,
+    "helperCalls": 23,
+    "cacheHits": 0,
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "workflow": "b0-contacts-luna-dom-guided-native",
+    "kind": "contacts",
+    "condition": "luna-dom-guided-native",
+    "completedDisposition": true,
+    "success": true,
+    "codeVersions": [
+      "a06ddd75bab618f8858c6da32db95cb52582ae73"
+    ],
+    "wallSeconds": 186.969196658,
+    "estimatedUsd": 0.07005190000003836,
+    "apiCalls": 62,
+    "helperCalls": 29,
+    "cacheHits": 0,
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "workflow": "b0-contacts-luna-dom-guided-native-batch",
+    "kind": "contacts",
+    "condition": "luna-dom-guided-native-batch",
+    "completedDisposition": true,
+    "success": true,
+    "codeVersions": [
+      "a06ddd75bab618f8858c6da32db95cb52582ae73"
+    ],
+    "wallSeconds": 159.701632351,
+    "estimatedUsd": 0.06891770000000008,
+    "apiCalls": 60,
+    "helperCalls": 27,
+    "cacheHits": 2,
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "workflow": "b0-contacts-luna-dom-guided-poll",
+    "kind": "contacts",
+    "condition": "luna-dom-guided-poll",
+    "completedDisposition": true,
+    "success": true,
+    "codeVersions": [
+      "a06ddd75bab618f8858c6da32db95cb52582ae73"
+    ],
+    "wallSeconds": 200.18409934899998,
+    "estimatedUsd": 0.0792767000000083,
+    "apiCalls": 70,
+    "helperCalls": 33,
+    "cacheHits": 0,
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "workflow": "b0-rooms-jev-dom-guided-native",
+    "kind": "rooms",
+    "condition": "jev-dom-guided-native",
+    "completedDisposition": true,
+    "success": true,
+    "codeVersions": [
+      "a06ddd75bab618f8858c6da32db95cb52582ae73"
+    ],
+    "wallSeconds": 147.87140762399997,
+    "estimatedUsd": 0.0647053179999908,
+    "apiCalls": 58,
+    "helperCalls": 26,
+    "cacheHits": 0,
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "workflow": "b0-rooms-jev-dom-guided-poll",
+    "kind": "rooms",
+    "condition": "jev-dom-guided-poll",
+    "completedDisposition": true,
+    "success": true,
+    "codeVersions": [
+      "a06ddd75bab618f8858c6da32db95cb52582ae73"
+    ],
+    "wallSeconds": 198.92870204699994,
+    "estimatedUsd": 0.0775386220000025,
+    "apiCalls": 68,
+    "helperCalls": 31,
+    "cacheHits": 0,
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "workflow": "b0-rooms-luna-combined-guided-native",
+    "kind": "rooms",
+    "condition": "luna-combined-guided-native",
+    "completedDisposition": true,
+    "success": false,
+    "codeVersions": [
+      "a06ddd75bab618f8858c6da32db95cb52582ae73"
+    ],
+    "wallSeconds": 142.44129293500004,
+    "estimatedUsd": 0.12276280000001805,
+    "apiCalls": 48,
+    "helperCalls": 21,
+    "cacheHits": 0,
+    "statuses": {
+      "failed": 1,
+      "success": 2
+    }
+  },
+  {
+    "workflow": "b0-rooms-luna-dom-guided-native",
+    "kind": "rooms",
+    "condition": "luna-dom-guided-native",
+    "completedDisposition": true,
+    "success": true,
+    "codeVersions": [
+      "a06ddd75bab618f8858c6da32db95cb52582ae73"
+    ],
+    "wallSeconds": 161.48323184600008,
+    "estimatedUsd": 0.06639749999997946,
+    "apiCalls": 58,
+    "helperCalls": 26,
+    "cacheHits": 0,
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "workflow": "b0-rooms-luna-dom-guided-native-batch",
+    "kind": "rooms",
+    "condition": "luna-dom-guided-native-batch",
+    "completedDisposition": true,
+    "success": true,
+    "codeVersions": [
+      "a06ddd75bab618f8858c6da32db95cb52582ae73"
+    ],
+    "wallSeconds": 138.94415126199996,
+    "estimatedUsd": 0.058596699999995394,
+    "apiCalls": 54,
+    "helperCalls": 22,
+    "cacheHits": 4,
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "workflow": "b0-rooms-luna-dom-guided-poll",
+    "kind": "rooms",
+    "condition": "luna-dom-guided-poll",
+    "completedDisposition": true,
+    "success": true,
+    "codeVersions": [
+      "a06ddd75bab618f8858c6da32db95cb52582ae73"
+    ],
+    "wallSeconds": 172.04287204900012,
+    "estimatedUsd": 0.08159980000000644,
+    "apiCalls": 70,
+    "helperCalls": 32,
+    "cacheHits": 0,
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "workflow": "b0-support-jev-dom-guided-native",
+    "kind": "support",
+    "condition": "jev-dom-guided-native",
+    "completedDisposition": true,
+    "success": true,
+    "codeVersions": [
+      "a06ddd75bab618f8858c6da32db95cb52582ae73"
+    ],
+    "wallSeconds": 175.84171015500021,
+    "estimatedUsd": 0.06914279000002288,
+    "apiCalls": 62,
+    "helperCalls": 29,
+    "cacheHits": 0,
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "workflow": "b0-support-jev-dom-guided-poll",
+    "kind": "support",
+    "condition": "jev-dom-guided-poll",
+    "completedDisposition": true,
+    "success": true,
+    "codeVersions": [
+      "a06ddd75bab618f8858c6da32db95cb52582ae73"
+    ],
+    "wallSeconds": 204.42508727499936,
+    "estimatedUsd": 0.07808721800000473,
+    "apiCalls": 70,
+    "helperCalls": 33,
+    "cacheHits": 0,
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "workflow": "b0-support-luna-combined-guided-native",
+    "kind": "support",
+    "condition": "luna-combined-guided-native",
+    "completedDisposition": true,
+    "success": true,
+    "codeVersions": [
+      "a06ddd75bab618f8858c6da32db95cb52582ae73"
+    ],
+    "wallSeconds": 143.83164364800044,
+    "estimatedUsd": 0.12399300000005553,
+    "apiCalls": 48,
+    "helperCalls": 22,
+    "cacheHits": 0,
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "workflow": "b0-support-luna-dom-guided-native",
+    "kind": "support",
+    "condition": "luna-dom-guided-native",
+    "completedDisposition": true,
+    "success": true,
+    "codeVersions": [
+      "a06ddd75bab618f8858c6da32db95cb52582ae73"
+    ],
+    "wallSeconds": 175.83140863500023,
+    "estimatedUsd": 0.07059940000004872,
+    "apiCalls": 62,
+    "helperCalls": 29,
+    "cacheHits": 0,
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "workflow": "b0-support-luna-dom-guided-native-batch",
+    "kind": "support",
+    "condition": "luna-dom-guided-native-batch",
+    "completedDisposition": true,
+    "success": true,
+    "codeVersions": [
+      "a06ddd75bab618f8858c6da32db95cb52582ae73"
+    ],
+    "wallSeconds": 165.2768636780004,
+    "estimatedUsd": 0.06889020000006951,
+    "apiCalls": 60,
+    "helperCalls": 27,
+    "cacheHits": 2,
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "workflow": "b0-support-luna-dom-guided-poll",
+    "kind": "support",
+    "condition": "luna-dom-guided-poll",
+    "completedDisposition": true,
+    "success": true,
+    "codeVersions": [
+      "a06ddd75bab618f8858c6da32db95cb52582ae73"
+    ],
+    "wallSeconds": 200.9369393590004,
+    "estimatedUsd": 0.08096510000004287,
+    "apiCalls": 72,
+    "helperCalls": 34,
+    "cacheHits": 0,
+    "statuses": {
+      "success": 3
+    }
+  }
+]
