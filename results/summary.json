@@ -1,0 +1,440 @@
+[
+  {
+    "kind": "contacts",
+    "condition": "jev-combined-solo-native",
+    "n": 0,
+    "successes": 0,
+    "wilson95": null,
+    "unsupported": 3,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": null,
+    "medianSuccessfulSeconds": null,
+    "totalEstimatedCostUsd": 0,
+    "estimatedCostPerVerifiedFlowUsd": null,
+    "medianHelperCalls": null,
+    "medianActions": null,
+    "medianWaitDecisions": null
+  },
+  {
+    "kind": "contacts",
+    "condition": "jev-combined-solo-poll",
+    "n": 0,
+    "successes": 0,
+    "wilson95": null,
+    "unsupported": 3,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": null,
+    "medianSuccessfulSeconds": null,
+    "totalEstimatedCostUsd": 0,
+    "estimatedCostPerVerifiedFlowUsd": null,
+    "medianHelperCalls": null,
+    "medianActions": null,
+    "medianWaitDecisions": null
+  },
+  {
+    "kind": "contacts",
+    "condition": "jev-dom-solo-native",
+    "n": 3,
+    "successes": 0,
+    "wilson95": [
+      0,
+      0.561497031755032
+    ],
+    "unsupported": 0,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": 120.01158129999996,
+    "medianSuccessfulSeconds": null,
+    "totalEstimatedCostUsd": 0.011941523999996706,
+    "estimatedCostPerVerifiedFlowUsd": null,
+    "medianHelperCalls": 0,
+    "medianActions": 13,
+    "medianWaitDecisions": 0
+  },
+  {
+    "kind": "contacts",
+    "condition": "jev-dom-solo-poll",
+    "n": 3,
+    "successes": 0,
+    "wilson95": [
+      0,
+      0.561497031755032
+    ],
+    "unsupported": 0,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": 60.517558429999745,
+    "medianSuccessfulSeconds": null,
+    "totalEstimatedCostUsd": 0.01260191200000027,
+    "estimatedCostPerVerifiedFlowUsd": null,
+    "medianHelperCalls": 0,
+    "medianActions": 30,
+    "medianWaitDecisions": 26
+  },
+  {
+    "kind": "contacts",
+    "condition": "luna-combined-solo-native",
+    "n": 3,
+    "successes": 3,
+    "wilson95": [
+      0.4385029682449681,
+      1
+    ],
+    "unsupported": 0,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": 39.72039671500004,
+    "medianSuccessfulSeconds": 39.72039671500004,
+    "totalEstimatedCostUsd": 0.017679300000068565,
+    "estimatedCostPerVerifiedFlowUsd": 0.005893100000022855,
+    "medianHelperCalls": 0,
+    "medianActions": 19,
+    "medianWaitDecisions": 1
+  },
+  {
+    "kind": "contacts",
+    "condition": "luna-combined-solo-poll",
+    "n": 3,
+    "successes": 3,
+    "wilson95": [
+      0.4385029682449681,
+      1
+    ],
+    "unsupported": 0,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": 41.78150741800014,
+    "medianSuccessfulSeconds": 41.78150741800014,
+    "totalEstimatedCostUsd": 0.02032440000009217,
+    "estimatedCostPerVerifiedFlowUsd": 0.006774800000030723,
+    "medianHelperCalls": 0,
+    "medianActions": 19,
+    "medianWaitDecisions": 5
+  },
+  {
+    "kind": "contacts",
+    "condition": "luna-dom-solo-native",
+    "n": 3,
+    "successes": 1,
+    "wilson95": [
+      0.061491944720398706,
+      0.7923403991979452
+    ],
+    "unsupported": 0,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": 50.646406974999934,
+    "medianSuccessfulSeconds": 32.89409873399999,
+    "totalEstimatedCostUsd": 0.013699399999950401,
+    "estimatedCostPerVerifiedFlowUsd": 0.013699399999950401,
+    "medianHelperCalls": 0,
+    "medianActions": 37,
+    "medianWaitDecisions": 0
+  },
+  {
+    "kind": "contacts",
+    "condition": "luna-dom-solo-poll",
+    "n": 3,
+    "successes": 1,
+    "wilson95": [
+      0.061491944720398706,
+      0.7923403991979452
+    ],
+    "unsupported": 0,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": 53.90417562100035,
+    "medianSuccessfulSeconds": 35.60936763599998,
+    "totalEstimatedCostUsd": 0.01527229999989288,
+    "estimatedCostPerVerifiedFlowUsd": 0.01527229999989288,
+    "medianHelperCalls": 0,
+    "medianActions": 37,
+    "medianWaitDecisions": 2
+  },
+  {
+    "kind": "rooms",
+    "condition": "jev-combined-solo-native",
+    "n": 0,
+    "successes": 0,
+    "wilson95": null,
+    "unsupported": 3,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": null,
+    "medianSuccessfulSeconds": null,
+    "totalEstimatedCostUsd": 0,
+    "estimatedCostPerVerifiedFlowUsd": null,
+    "medianHelperCalls": null,
+    "medianActions": null,
+    "medianWaitDecisions": null
+  },
+  {
+    "kind": "rooms",
+    "condition": "jev-combined-solo-poll",
+    "n": 0,
+    "successes": 0,
+    "wilson95": null,
+    "unsupported": 3,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": null,
+    "medianSuccessfulSeconds": null,
+    "totalEstimatedCostUsd": 0,
+    "estimatedCostPerVerifiedFlowUsd": null,
+    "medianHelperCalls": null,
+    "medianActions": null,
+    "medianWaitDecisions": null
+  },
+  {
+    "kind": "rooms",
+    "condition": "jev-dom-solo-native",
+    "n": 3,
+    "successes": 0,
+    "wilson95": [
+      0,
+      0.561497031755032
+    ],
+    "unsupported": 0,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": 64.482326458,
+    "medianSuccessfulSeconds": null,
+    "totalEstimatedCostUsd": 0.007592549999998477,
+    "estimatedCostPerVerifiedFlowUsd": null,
+    "medianHelperCalls": 0,
+    "medianActions": 38,
+    "medianWaitDecisions": 0
+  },
+  {
+    "kind": "rooms",
+    "condition": "jev-dom-solo-poll",
+    "n": 3,
+    "successes": 0,
+    "wilson95": [
+      0,
+      0.561497031755032
+    ],
+    "unsupported": 0,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": 71.80112129199993,
+    "medianSuccessfulSeconds": null,
+    "totalEstimatedCostUsd": 0.012300371999996673,
+    "estimatedCostPerVerifiedFlowUsd": null,
+    "medianHelperCalls": 0,
+    "medianActions": 38,
+    "medianWaitDecisions": 28
+  },
+  {
+    "kind": "rooms",
+    "condition": "luna-combined-solo-native",
+    "n": 3,
+    "successes": 3,
+    "wilson95": [
+      0.4385029682449681,
+      1
+    ],
+    "unsupported": 0,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": 45.116514392000155,
+    "medianSuccessfulSeconds": 45.116514392000155,
+    "totalEstimatedCostUsd": 0.020655799999914848,
+    "estimatedCostPerVerifiedFlowUsd": 0.006885266666638283,
+    "medianHelperCalls": 0,
+    "medianActions": 21,
+    "medianWaitDecisions": 0
+  },
+  {
+    "kind": "rooms",
+    "condition": "luna-combined-solo-poll",
+    "n": 3,
+    "successes": 3,
+    "wilson95": [
+      0.4385029682449681,
+      1
+    ],
+    "unsupported": 0,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": 46.90970367400022,
+    "medianSuccessfulSeconds": 46.90970367400022,
+    "totalEstimatedCostUsd": 0.023453899999893224,
+    "estimatedCostPerVerifiedFlowUsd": 0.007817966666631074,
+    "medianHelperCalls": 0,
+    "medianActions": 21,
+    "medianWaitDecisions": 4
+  },
+  {
+    "kind": "rooms",
+    "condition": "luna-dom-solo-native",
+    "n": 3,
+    "successes": 3,
+    "wilson95": [
+      0.4385029682449681,
+      1
+    ],
+    "unsupported": 0,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": 32.31242361200001,
+    "medianSuccessfulSeconds": 32.31242361200001,
+    "totalEstimatedCostUsd": 0.008914499999988834,
+    "estimatedCostPerVerifiedFlowUsd": 0.002971499999996278,
+    "medianHelperCalls": 0,
+    "medianActions": 21,
+    "medianWaitDecisions": 0
+  },
+  {
+    "kind": "rooms",
+    "condition": "luna-dom-solo-poll",
+    "n": 3,
+    "successes": 3,
+    "wilson95": [
+      0.4385029682449681,
+      1
+    ],
+    "unsupported": 0,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": 36.05306718300004,
+    "medianSuccessfulSeconds": 36.05306718300004,
+    "totalEstimatedCostUsd": 0.010337699999936945,
+    "estimatedCostPerVerifiedFlowUsd": 0.0034458999999789817,
+    "medianHelperCalls": 0,
+    "medianActions": 21,
+    "medianWaitDecisions": 4
+  },
+  {
+    "kind": "support",
+    "condition": "jev-combined-solo-native",
+    "n": 0,
+    "successes": 0,
+    "wilson95": null,
+    "unsupported": 3,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": null,
+    "medianSuccessfulSeconds": null,
+    "totalEstimatedCostUsd": 0,
+    "estimatedCostPerVerifiedFlowUsd": null,
+    "medianHelperCalls": null,
+    "medianActions": null,
+    "medianWaitDecisions": null
+  },
+  {
+    "kind": "support",
+    "condition": "jev-combined-solo-poll",
+    "n": 0,
+    "successes": 0,
+    "wilson95": null,
+    "unsupported": 3,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": null,
+    "medianSuccessfulSeconds": null,
+    "totalEstimatedCostUsd": 0,
+    "estimatedCostPerVerifiedFlowUsd": null,
+    "medianHelperCalls": null,
+    "medianActions": null,
+    "medianWaitDecisions": null
+  },
+  {
+    "kind": "support",
+    "condition": "jev-dom-solo-native",
+    "n": 3,
+    "successes": 0,
+    "wilson95": [
+      0,
+      0.561497031755032
+    ],
+    "unsupported": 0,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": 120.28343891800009,
+    "medianSuccessfulSeconds": null,
+    "totalEstimatedCostUsd": 0.01832021400001227,
+    "estimatedCostPerVerifiedFlowUsd": null,
+    "medianHelperCalls": 0,
+    "medianActions": 13,
+    "medianWaitDecisions": 0
+  },
+  {
+    "kind": "support",
+    "condition": "jev-dom-solo-poll",
+    "n": 3,
+    "successes": 0,
+    "wilson95": [
+      0,
+      0.561497031755032
+    ],
+    "unsupported": 0,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": 120.34266127400006,
+    "medianSuccessfulSeconds": null,
+    "totalEstimatedCostUsd": 0.016865920000012302,
+    "estimatedCostPerVerifiedFlowUsd": null,
+    "medianHelperCalls": 0,
+    "medianActions": 11,
+    "medianWaitDecisions": 6
+  },
+  {
+    "kind": "support",
+    "condition": "luna-combined-solo-native",
+    "n": 3,
+    "successes": 3,
+    "wilson95": [
+      0.4385029682449681,
+      1
+    ],
+    "unsupported": 0,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": 41.98818631799985,
+    "medianSuccessfulSeconds": 41.98818631799985,
+    "totalEstimatedCostUsd": 0.01771679999988862,
+    "estimatedCostPerVerifiedFlowUsd": 0.005905599999962874,
+    "medianHelperCalls": 0,
+    "medianActions": 19,
+    "medianWaitDecisions": 1
+  },
+  {
+    "kind": "support",
+    "condition": "luna-combined-solo-poll",
+    "n": 3,
+    "successes": 3,
+    "wilson95": [
+      0.4385029682449681,
+      1
+    ],
+    "unsupported": 0,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": 42.72627352300007,
+    "medianSuccessfulSeconds": 42.72627352300007,
+    "totalEstimatedCostUsd": 0.020374199999864118,
+    "estimatedCostPerVerifiedFlowUsd": 0.006791399999954706,
+    "medianHelperCalls": 0,
+    "medianActions": 19,
+    "medianWaitDecisions": 5
+  },
+  {
+    "kind": "support",
+    "condition": "luna-dom-solo-native",
+    "n": 3,
+    "successes": 3,
+    "wilson95": [
+      0.4385029682449681,
+      1
+    ],
+    "unsupported": 0,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": 37.093282534,
+    "medianSuccessfulSeconds": 37.093282534,
+    "totalEstimatedCostUsd": 0.00864140000003033,
+    "estimatedCostPerVerifiedFlowUsd": 0.0028804666666767766,
+    "medianHelperCalls": 0,
+    "medianActions": 19,
+    "medianWaitDecisions": 0
+  },
+  {
+    "kind": "support",
+    "condition": "luna-dom-solo-poll",
+    "n": 3,
+    "successes": 3,
+    "wilson95": [
+      0.4385029682449681,
+      1
+    ],
+    "unsupported": 0,
+    "providerUnavailable": 0,
+    "medianAttemptSeconds": 34.170219772000095,
+    "medianSuccessfulSeconds": 34.170219772000095,
+    "totalEstimatedCostUsd": 0.00939859999999726,
+    "estimatedCostPerVerifiedFlowUsd": 0.003132866666665753,
+    "medianHelperCalls": 0,
+    "medianActions": 19,
+    "medianWaitDecisions": 4
+  }
+]

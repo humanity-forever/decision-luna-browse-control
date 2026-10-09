@@ -1,0 +1,2536 @@
+[
+  {
+    "id": "b0-contacts-jev-combined-solo-native",
+    "kind": "contacts",
+    "condition": {
+      "model": "jev",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": false,
+    "available": true,
+    "success": false,
+    "wallMs": 0,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "actions": 0,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 0,
+    "observationMs": 0,
+    "executionMs": 0,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "statuses": {
+      "unsupported": 3
+    }
+  },
+  {
+    "id": "b0-contacts-jev-combined-solo-poll",
+    "kind": "contacts",
+    "condition": {
+      "model": "jev",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": false
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": false,
+    "available": true,
+    "success": false,
+    "wallMs": 0,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "actions": 0,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 0,
+    "observationMs": 0,
+    "executionMs": 0,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "statuses": {
+      "unsupported": 3
+    }
+  },
+  {
+    "id": "b0-contacts-jev-dom-solo-native",
+    "kind": "contacts",
+    "condition": {
+      "model": "jev",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 120237.03785700002,
+    "apiCalls": 115,
+    "apiMs": 26646.298143999884,
+    "actions": 13,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 26004.76946300044,
+    "observationMs": 215.64762200028053,
+    "executionMs": 261.2646480000112,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.005139077999998021
+    },
+    "statuses": {
+      "dependency_failed": 2,
+      "blocked": 1
+    }
+  },
+  {
+    "id": "b0-contacts-jev-dom-solo-poll",
+    "kind": "contacts",
+    "condition": {
+      "model": "jev",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 58789.70436700003,
+    "apiCalls": 59,
+    "apiMs": 14690.391021999996,
+    "actions": 30,
+    "helperCalls": 0,
+    "waitDecisions": 26,
+    "waitingMs": 8456.962560999877,
+    "observationMs": 182.1912649999431,
+    "executionMs": 863.8734259999183,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.0030250080000011614
+    },
+    "statuses": {
+      "dependency_failed": 2,
+      "failed": 1
+    }
+  },
+  {
+    "id": "b0-contacts-luna-combined-solo-native",
+    "kind": "contacts",
+    "condition": {
+      "model": "luna",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 38419.46108,
+    "apiCalls": 27,
+    "apiMs": 18338.286352000017,
+    "actions": 19,
+    "helperCalls": 0,
+    "waitDecisions": 1,
+    "waitingMs": 3319.811565999986,
+    "observationMs": 798.8447690000022,
+    "executionMs": 310.9958680000068,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.005893100000022855,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b0-contacts-luna-combined-solo-poll",
+    "kind": "contacts",
+    "condition": {
+      "model": "luna",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": false
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 40264.44547199998,
+    "apiCalls": 31,
+    "apiMs": 20035.795785999988,
+    "actions": 19,
+    "helperCalls": 0,
+    "waitDecisions": 5,
+    "waitingMs": 0,
+    "observationMs": 1018.045700000017,
+    "executionMs": 494.5071160000225,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.006774800000030723,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b0-contacts-luna-dom-solo-native",
+    "kind": "contacts",
+    "condition": {
+      "model": "luna",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 32894.09873399999,
+    "apiCalls": 29,
+    "apiMs": 8587.27611599995,
+    "actions": 21,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 6215.915108999987,
+    "observationMs": 61.78103900003771,
+    "executionMs": 440.11452000001736,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.0025873000000018465,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b0-contacts-luna-dom-solo-poll",
+    "kind": "contacts",
+    "condition": {
+      "model": "luna",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 35609.36763599998,
+    "apiCalls": 36,
+    "apiMs": 10797.757178000043,
+    "actions": 21,
+    "helperCalls": 0,
+    "waitDecisions": 6,
+    "waitingMs": 2470.1729190000187,
+    "observationMs": 108.69430800006376,
+    "executionMs": 558.4834829999891,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.003245899999996027,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b0-rooms-jev-combined-solo-native",
+    "kind": "rooms",
+    "condition": {
+      "model": "jev",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": false,
+    "available": true,
+    "success": false,
+    "wallMs": 0,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "actions": 0,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 0,
+    "observationMs": 0,
+    "executionMs": 0,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "statuses": {
+      "unsupported": 3
+    }
+  },
+  {
+    "id": "b0-rooms-jev-combined-solo-poll",
+    "kind": "rooms",
+    "condition": {
+      "model": "jev",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": false
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": false,
+    "available": true,
+    "success": false,
+    "wallMs": 0,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "actions": 0,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 0,
+    "observationMs": 0,
+    "executionMs": 0,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "statuses": {
+      "unsupported": 3
+    }
+  },
+  {
+    "id": "b0-rooms-jev-dom-solo-native",
+    "kind": "rooms",
+    "condition": {
+      "model": "jev",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 64482.326457999996,
+    "apiCalls": 47,
+    "apiMs": 11476.858580000058,
+    "actions": 38,
+    "helperCalls": 0,
+    "waitDecisions": 1,
+    "waitingMs": 23561.486251999857,
+    "observationMs": 141.98445100011304,
+    "executionMs": 1108.8654620003654,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.002582915999999491
+    },
+    "statuses": {
+      "dependency_failed": 1,
+      "success": 1,
+      "failed": 1
+    }
+  },
+  {
+    "id": "b0-rooms-jev-dom-solo-poll",
+    "kind": "rooms",
+    "condition": {
+      "model": "jev",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 70579.22176300007,
+    "apiCalls": 73,
+    "apiMs": 16710.395444999915,
+    "actions": 38,
+    "helperCalls": 0,
+    "waitDecisions": 28,
+    "waitingMs": 10042.423129999603,
+    "observationMs": 322.83423600019887,
+    "executionMs": 1049.474973000004,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.004075889999998861
+    },
+    "statuses": {
+      "dependency_failed": 1,
+      "success": 1,
+      "failed": 1
+    }
+  },
+  {
+    "id": "b0-rooms-luna-combined-solo-native",
+    "kind": "rooms",
+    "condition": {
+      "model": "luna",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 43750.17313999997,
+    "apiCalls": 30,
+    "apiMs": 20484.38789199991,
+    "actions": 21,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 3397.5683249998838,
+    "observationMs": 899.0071170000592,
+    "executionMs": 538.52813900006,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.0068142999999736276,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b0-rooms-luna-combined-solo-poll",
+    "kind": "rooms",
+    "condition": {
+      "model": "luna",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": false
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 45903.64930199995,
+    "apiCalls": 34,
+    "apiMs": 24217.586626999953,
+    "actions": 21,
+    "helperCalls": 0,
+    "waitDecisions": 4,
+    "waitingMs": 0,
+    "observationMs": 996.7296659999993,
+    "executionMs": 672.6532570000272,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.00774699999996642,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b0-rooms-luna-dom-solo-native",
+    "kind": "rooms",
+    "condition": {
+      "model": "luna",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 32312.423612000013,
+    "apiCalls": 30,
+    "apiMs": 9192.72695099999,
+    "actions": 21,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 4048.8345729997964,
+    "observationMs": 65.3292009999277,
+    "executionMs": 599.6002860001172,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.0028963000000032935,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b0-rooms-luna-dom-solo-poll",
+    "kind": "rooms",
+    "condition": {
+      "model": "luna",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 32698.133191000088,
+    "apiCalls": 34,
+    "apiMs": 9876.730218999903,
+    "actions": 21,
+    "helperCalls": 0,
+    "waitDecisions": 4,
+    "waitingMs": 1875.9500810003374,
+    "observationMs": 131.1415330003947,
+    "executionMs": 683.8077940000221,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.0033066000000019358,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b0-support-jev-combined-solo-native",
+    "kind": "support",
+    "condition": {
+      "model": "jev",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": false,
+    "available": true,
+    "success": false,
+    "wallMs": 0,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "actions": 0,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 0,
+    "observationMs": 0,
+    "executionMs": 0,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "statuses": {
+      "unsupported": 3
+    }
+  },
+  {
+    "id": "b0-support-jev-combined-solo-poll",
+    "kind": "support",
+    "condition": {
+      "model": "jev",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": false
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": false,
+    "available": true,
+    "success": false,
+    "wallMs": 0,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "actions": 0,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 0,
+    "observationMs": 0,
+    "executionMs": 0,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "statuses": {
+      "unsupported": 3
+    }
+  },
+  {
+    "id": "b0-support-jev-dom-solo-native",
+    "kind": "support",
+    "condition": {
+      "model": "jev",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 120283.43891800009,
+    "apiCalls": 116,
+    "apiMs": 28384.0781560007,
+    "actions": 11,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 19467.821276999544,
+    "observationMs": 207.09630000032485,
+    "executionMs": 227.2839939999394,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.006167092000004204
+    },
+    "statuses": {
+      "dependency_failed": 2,
+      "blocked": 1
+    }
+  },
+  {
+    "id": "b0-support-jev-dom-solo-poll",
+    "kind": "support",
+    "condition": {
+      "model": "jev",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 120100.38591900002,
+    "apiCalls": 120,
+    "apiMs": 29243.47765600006,
+    "actions": 9,
+    "helperCalls": 0,
+    "waitDecisions": 4,
+    "waitingMs": 16929.68804800103,
+    "observationMs": 382.5888930001529,
+    "executionMs": 205.0120899998583,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.005267850000004404
+    },
+    "statuses": {
+      "dependency_failed": 2,
+      "failed": 1
+    }
+  },
+  {
+    "id": "b0-support-luna-combined-solo-native",
+    "kind": "support",
+    "condition": {
+      "model": "luna",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 38158.97997600003,
+    "apiCalls": 27,
+    "apiMs": 17304.855253999936,
+    "actions": 19,
+    "helperCalls": 0,
+    "waitDecisions": 1,
+    "waitingMs": 3302.4239090004703,
+    "observationMs": 813.6869939997559,
+    "executionMs": 363.9760879999958,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.005905599999962874,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b0-support-luna-combined-solo-poll",
+    "kind": "support",
+    "condition": {
+      "model": "luna",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": false
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 42352.994706999976,
+    "apiCalls": 31,
+    "apiMs": 21673.372080999892,
+    "actions": 19,
+    "helperCalls": 0,
+    "waitDecisions": 5,
+    "waitingMs": 0,
+    "observationMs": 989.551097999909,
+    "executionMs": 509.9552089999197,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.006791399999954706,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b0-support-luna-dom-solo-native",
+    "kind": "support",
+    "condition": {
+      "model": "luna",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 40522.55938600004,
+    "apiCalls": 30,
+    "apiMs": 15117.363064000267,
+    "actions": 21,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 6041.762696000049,
+    "observationMs": 62.374621000373736,
+    "executionMs": 514.4593249997124,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.002708800000021938,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b0-support-luna-dom-solo-poll",
+    "kind": "support",
+    "condition": {
+      "model": "luna",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 34170.2197720001,
+    "apiCalls": 35,
+    "apiMs": 10084.759772000136,
+    "actions": 21,
+    "helperCalls": 0,
+    "waitDecisions": 6,
+    "waitingMs": 2066.6628769998206,
+    "observationMs": 105.17277200019453,
+    "executionMs": 549.0888620000333,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.0031586000000203285,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b1-contacts-jev-combined-solo-native",
+    "kind": "contacts",
+    "condition": {
+      "model": "jev",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": false,
+    "available": true,
+    "success": false,
+    "wallMs": 0,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "actions": 0,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 0,
+    "observationMs": 0,
+    "executionMs": 0,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "statuses": {
+      "unsupported": 3
+    }
+  },
+  {
+    "id": "b1-contacts-jev-combined-solo-poll",
+    "kind": "contacts",
+    "condition": {
+      "model": "jev",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": false
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": false,
+    "available": true,
+    "success": false,
+    "wallMs": 0,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "actions": 0,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 0,
+    "observationMs": 0,
+    "executionMs": 0,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "statuses": {
+      "unsupported": 3
+    }
+  },
+  {
+    "id": "b1-contacts-jev-dom-solo-native",
+    "kind": "contacts",
+    "condition": {
+      "model": "jev",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 120011.58129999996,
+    "apiCalls": 115,
+    "apiMs": 27387.339994000038,
+    "actions": 11,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 20355.659620999824,
+    "observationMs": 217.44129600119777,
+    "executionMs": 264.2157169999555,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.005122445999997893
+    },
+    "statuses": {
+      "dependency_failed": 2,
+      "blocked": 1
+    }
+  },
+  {
+    "id": "b1-contacts-jev-dom-solo-poll",
+    "kind": "contacts",
+    "condition": {
+      "model": "jev",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 120410.37870900007,
+    "apiCalls": 121,
+    "apiMs": 29082.525213999674,
+    "actions": 11,
+    "helperCalls": 0,
+    "waitDecisions": 6,
+    "waitingMs": 13452.428382000187,
+    "observationMs": 367.2247380018234,
+    "executionMs": 281.8681159997359,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.006499647999997915
+    },
+    "statuses": {
+      "dependency_failed": 2,
+      "blocked": 1
+    }
+  },
+  {
+    "id": "b1-contacts-luna-combined-solo-native",
+    "kind": "contacts",
+    "condition": {
+      "model": "luna",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 39720.39671500004,
+    "apiCalls": 27,
+    "apiMs": 17932.57144399942,
+    "actions": 19,
+    "helperCalls": 0,
+    "waitDecisions": 1,
+    "waitingMs": 3352.3758649996016,
+    "observationMs": 829.4431830001995,
+    "executionMs": 388.56676400033757,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.005893100000022855,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b1-contacts-luna-combined-solo-poll",
+    "kind": "contacts",
+    "condition": {
+      "model": "luna",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": false
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 41781.50741800014,
+    "apiCalls": 31,
+    "apiMs": 20390.897694999818,
+    "actions": 19,
+    "helperCalls": 0,
+    "waitDecisions": 5,
+    "waitingMs": 0,
+    "observationMs": 929.0465290001594,
+    "executionMs": 537.0543630004395,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.006774800000030723,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b1-contacts-luna-dom-solo-native",
+    "kind": "contacts",
+    "condition": {
+      "model": "luna",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 50646.40697499993,
+    "apiCalls": 49,
+    "apiMs": 14231.517081999686,
+    "actions": 37,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 3812.639638999244,
+    "observationMs": 82.93566099950112,
+    "executionMs": 909.9430910006631,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.0046219999999976835,
+      "typesafe": 0
+    },
+    "statuses": {
+      "dependency_failed": 1,
+      "success": 1,
+      "failed": 1
+    }
+  },
+  {
+    "id": "b1-contacts-luna-dom-solo-poll",
+    "kind": "contacts",
+    "condition": {
+      "model": "luna",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 53904.17562100035,
+    "apiCalls": 53,
+    "apiMs": 16670.995740999584,
+    "actions": 37,
+    "helperCalls": 0,
+    "waitDecisions": 2,
+    "waitingMs": 3279.1041010003537,
+    "observationMs": 149.13581099978182,
+    "executionMs": 1023.386753000319,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.005014399999978991,
+      "typesafe": 0
+    },
+    "statuses": {
+      "dependency_failed": 1,
+      "success": 1,
+      "failed": 1
+    }
+  },
+  {
+    "id": "b1-rooms-jev-combined-solo-native",
+    "kind": "rooms",
+    "condition": {
+      "model": "jev",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": false,
+    "available": true,
+    "success": false,
+    "wallMs": 0,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "actions": 0,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 0,
+    "observationMs": 0,
+    "executionMs": 0,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "statuses": {
+      "unsupported": 3
+    }
+  },
+  {
+    "id": "b1-rooms-jev-combined-solo-poll",
+    "kind": "rooms",
+    "condition": {
+      "model": "jev",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": false
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": false,
+    "available": true,
+    "success": false,
+    "wallMs": 0,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "actions": 0,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 0,
+    "observationMs": 0,
+    "executionMs": 0,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "statuses": {
+      "unsupported": 3
+    }
+  },
+  {
+    "id": "b1-rooms-jev-dom-solo-native",
+    "kind": "rooms",
+    "condition": {
+      "model": "jev",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 63407.08821199997,
+    "apiCalls": 45,
+    "apiMs": 11212.973072001012,
+    "actions": 38,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 23431.42860399885,
+    "observationMs": 119.61232399940491,
+    "executionMs": 1016.3038360003848,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.0024717839999994773
+    },
+    "statuses": {
+      "dependency_failed": 1,
+      "success": 1,
+      "failed": 1
+    }
+  },
+  {
+    "id": "b1-rooms-jev-dom-solo-poll",
+    "kind": "rooms",
+    "condition": {
+      "model": "jev",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 71801.12129199994,
+    "apiCalls": 73,
+    "apiMs": 17400.699124999577,
+    "actions": 38,
+    "helperCalls": 0,
+    "waitDecisions": 28,
+    "waitingMs": 6789.083343998762,
+    "observationMs": 319.12104400014505,
+    "executionMs": 998.2852320002858,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.004075889999998861
+    },
+    "statuses": {
+      "dependency_failed": 1,
+      "success": 1,
+      "failed": 1
+    }
+  },
+  {
+    "id": "b1-rooms-luna-combined-solo-native",
+    "kind": "rooms",
+    "condition": {
+      "model": "luna",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 45116.51439200016,
+    "apiCalls": 30,
+    "apiMs": 20838.44911000016,
+    "actions": 21,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 3378.417521000607,
+    "observationMs": 914.2906420000363,
+    "executionMs": 562.4046100005507,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.0068142999999736276,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b1-rooms-luna-combined-solo-poll",
+    "kind": "rooms",
+    "condition": {
+      "model": "luna",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": false
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 46909.70367400022,
+    "apiCalls": 34,
+    "apiMs": 23531.812756999396,
+    "actions": 21,
+    "helperCalls": 0,
+    "waitDecisions": 4,
+    "waitingMs": 0,
+    "observationMs": 1016.9991079992615,
+    "executionMs": 661.2911029998213,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.00774699999996642,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b1-rooms-luna-dom-solo-native",
+    "kind": "rooms",
+    "condition": {
+      "model": "luna",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 32290.207881000126,
+    "apiCalls": 30,
+    "apiMs": 8685.428236000007,
+    "actions": 21,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 3778.287487999769,
+    "observationMs": 68.41467500058934,
+    "executionMs": 568.6834700002801,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.0028963000000032935,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b1-rooms-luna-dom-solo-poll",
+    "kind": "rooms",
+    "condition": {
+      "model": "luna",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 36053.067183000036,
+    "apiCalls": 37,
+    "apiMs": 10701.910058000125,
+    "actions": 23,
+    "helperCalls": 0,
+    "waitDecisions": 4,
+    "waitingMs": 893.0871819998138,
+    "observationMs": 118.25546300038695,
+    "executionMs": 801.0756399999373,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.0036093999999593507,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b1-support-jev-combined-solo-native",
+    "kind": "support",
+    "condition": {
+      "model": "jev",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": false,
+    "available": true,
+    "success": false,
+    "wallMs": 0,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "actions": 0,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 0,
+    "observationMs": 0,
+    "executionMs": 0,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "statuses": {
+      "unsupported": 3
+    }
+  },
+  {
+    "id": "b1-support-jev-combined-solo-poll",
+    "kind": "support",
+    "condition": {
+      "model": "jev",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": false
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": false,
+    "available": true,
+    "success": false,
+    "wallMs": 0,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "actions": 0,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 0,
+    "observationMs": 0,
+    "executionMs": 0,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "statuses": {
+      "unsupported": 3
+    }
+  },
+  {
+    "id": "b1-support-jev-dom-solo-native",
+    "kind": "support",
+    "condition": {
+      "model": "jev",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 120406.902826,
+    "apiCalls": 115,
+    "apiMs": 27176.6810959992,
+    "actions": 13,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 21246.163387001026,
+    "observationMs": 224.95145300100558,
+    "executionMs": 279.1686970000155,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.006141136000004099
+    },
+    "statuses": {
+      "dependency_failed": 2,
+      "blocked": 1
+    }
+  },
+  {
+    "id": "b1-support-jev-dom-solo-poll",
+    "kind": "support",
+    "condition": {
+      "model": "jev",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 120342.66127400007,
+    "apiCalls": 119,
+    "apiMs": 28466.75558899995,
+    "actions": 13,
+    "helperCalls": 0,
+    "waitDecisions": 9,
+    "waitingMs": 7390.988504999783,
+    "observationMs": 435.63802099903114,
+    "executionMs": 257.8067610000726,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.005302206000003862
+    },
+    "statuses": {
+      "dependency_failed": 2,
+      "failed": 1
+    }
+  },
+  {
+    "id": "b1-support-luna-combined-solo-native",
+    "kind": "support",
+    "condition": {
+      "model": "luna",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 41988.18631799985,
+    "apiCalls": 27,
+    "apiMs": 18587.62375699915,
+    "actions": 19,
+    "helperCalls": 0,
+    "waitDecisions": 1,
+    "waitingMs": 3351.7314830007963,
+    "observationMs": 770.8596950001083,
+    "executionMs": 416.1158759989776,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.005905599999962874,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b1-support-luna-combined-solo-poll",
+    "kind": "support",
+    "condition": {
+      "model": "luna",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": false
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 42726.27352300007,
+    "apiCalls": 31,
+    "apiMs": 20658.15276199975,
+    "actions": 19,
+    "helperCalls": 0,
+    "waitDecisions": 5,
+    "waitingMs": 0,
+    "observationMs": 967.621739999624,
+    "executionMs": 495.118446999928,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.006791399999954706,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b1-support-luna-dom-solo-native",
+    "kind": "support",
+    "condition": {
+      "model": "luna",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 37093.282534,
+    "apiCalls": 32,
+    "apiMs": 9239.129710000474,
+    "actions": 19,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 3792.832583000418,
+    "observationMs": 64.56743000051938,
+    "executionMs": 492.19929099967703,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.002970699999991666,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b1-support-luna-dom-solo-poll",
+    "kind": "support",
+    "condition": {
+      "model": "luna",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 33254.39731199993,
+    "apiCalls": 32,
+    "apiMs": 9134.839544999879,
+    "actions": 19,
+    "helperCalls": 0,
+    "waitDecisions": 4,
+    "waitingMs": 449.94147500023246,
+    "observationMs": 74.80103099998087,
+    "executionMs": 486.85717299953103,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.0028988999999910448,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b2-contacts-jev-combined-solo-native",
+    "kind": "contacts",
+    "condition": {
+      "model": "jev",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": false,
+    "available": true,
+    "success": false,
+    "wallMs": 0,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "actions": 0,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 0,
+    "observationMs": 0,
+    "executionMs": 0,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "statuses": {
+      "unsupported": 3
+    }
+  },
+  {
+    "id": "b2-contacts-jev-combined-solo-poll",
+    "kind": "contacts",
+    "condition": {
+      "model": "jev",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": false
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": false,
+    "available": true,
+    "success": false,
+    "wallMs": 0,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "actions": 0,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 0,
+    "observationMs": 0,
+    "executionMs": 0,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "statuses": {
+      "unsupported": 3
+    }
+  },
+  {
+    "id": "b2-contacts-jev-dom-solo-native",
+    "kind": "contacts",
+    "condition": {
+      "model": "jev",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 52678.261205999646,
+    "apiCalls": 33,
+    "apiMs": 7650.882946998812,
+    "actions": 30,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 21905.16081599798,
+    "observationMs": 58.95209499914199,
+    "executionMs": 726.390214998275,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.001680000000000792
+    },
+    "statuses": {
+      "dependency_failed": 2,
+      "failed": 1
+    }
+  },
+  {
+    "id": "b2-contacts-jev-dom-solo-poll",
+    "kind": "contacts",
+    "condition": {
+      "model": "jev",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 60517.55842999974,
+    "apiCalls": 60,
+    "apiMs": 14496.251223000232,
+    "actions": 30,
+    "helperCalls": 0,
+    "waitDecisions": 27,
+    "waitingMs": 2690.2796469982713,
+    "observationMs": 148.81829499918967,
+    "executionMs": 850.983697000891,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.003077256000001194
+    },
+    "statuses": {
+      "dependency_failed": 2,
+      "failed": 1
+    }
+  },
+  {
+    "id": "b2-contacts-luna-combined-solo-native",
+    "kind": "contacts",
+    "condition": {
+      "model": "luna",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 40799.774155000225,
+    "apiCalls": 27,
+    "apiMs": 17522.786992999725,
+    "actions": 19,
+    "helperCalls": 0,
+    "waitDecisions": 1,
+    "waitingMs": 3312.581112999469,
+    "observationMs": 705.0519510000013,
+    "executionMs": 385.90963799972087,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.005893100000022855,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b2-contacts-luna-combined-solo-poll",
+    "kind": "contacts",
+    "condition": {
+      "model": "luna",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": false
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 44001.97349599982,
+    "apiCalls": 31,
+    "apiMs": 20196.706217998173,
+    "actions": 19,
+    "helperCalls": 0,
+    "waitDecisions": 5,
+    "waitingMs": 0,
+    "observationMs": 943.2665450004861,
+    "executionMs": 458.4748789994046,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.006774800000030723,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b2-contacts-luna-dom-solo-native",
+    "kind": "contacts",
+    "condition": {
+      "model": "luna",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 73187.81490899995,
+    "apiCalls": 68,
+    "apiMs": 21640.65059900144,
+    "actions": 37,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 3327.150815999601,
+    "observationMs": 124.56328499969095,
+    "executionMs": 959.925890000537,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.006490099999950871,
+      "typesafe": 0
+    },
+    "statuses": {
+      "dependency_failed": 1,
+      "success": 1,
+      "failed": 1
+    }
+  },
+  {
+    "id": "b2-contacts-luna-dom-solo-poll",
+    "kind": "contacts",
+    "condition": {
+      "model": "luna",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 76274.92561500007,
+    "apiCalls": 73,
+    "apiMs": 21385.69029199984,
+    "actions": 37,
+    "helperCalls": 0,
+    "waitDecisions": 2,
+    "waitingMs": 860.2839610008523,
+    "observationMs": 191.42379700019956,
+    "executionMs": 925.3469170015305,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.007011999999917862,
+      "typesafe": 0
+    },
+    "statuses": {
+      "dependency_failed": 1,
+      "success": 1,
+      "failed": 1
+    }
+  },
+  {
+    "id": "b2-rooms-jev-combined-solo-native",
+    "kind": "rooms",
+    "condition": {
+      "model": "jev",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": false,
+    "available": true,
+    "success": false,
+    "wallMs": 0,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "actions": 0,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 0,
+    "observationMs": 0,
+    "executionMs": 0,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "statuses": {
+      "unsupported": 3
+    }
+  },
+  {
+    "id": "b2-rooms-jev-combined-solo-poll",
+    "kind": "rooms",
+    "condition": {
+      "model": "jev",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": false
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": false,
+    "available": true,
+    "success": false,
+    "wallMs": 0,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "actions": 0,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 0,
+    "observationMs": 0,
+    "executionMs": 0,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "statuses": {
+      "unsupported": 3
+    }
+  },
+  {
+    "id": "b2-rooms-jev-dom-solo-native",
+    "kind": "rooms",
+    "condition": {
+      "model": "jev",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 69393.9541419996,
+    "apiCalls": 46,
+    "apiMs": 11221.406248002313,
+    "actions": 38,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 23323.110028000083,
+    "observationMs": 137.81970999995247,
+    "executionMs": 1039.3699779980816,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.0025378499999995086
+    },
+    "statuses": {
+      "dependency_failed": 1,
+      "success": 1,
+      "failed": 1
+    }
+  },
+  {
+    "id": "b2-rooms-jev-dom-solo-poll",
+    "kind": "rooms",
+    "condition": {
+      "model": "jev",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 75692.83918499993,
+    "apiCalls": 74,
+    "apiMs": 17154.59846700169,
+    "actions": 38,
+    "helperCalls": 0,
+    "waitDecisions": 28,
+    "waitingMs": 2140.100806001108,
+    "observationMs": 245.4458440002054,
+    "executionMs": 1299.2746270005591,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.004148591999998952
+    },
+    "statuses": {
+      "dependency_failed": 1,
+      "success": 1,
+      "failed": 1
+    }
+  },
+  {
+    "id": "b2-rooms-luna-combined-solo-native",
+    "kind": "rooms",
+    "condition": {
+      "model": "luna",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 48547.52265200019,
+    "apiCalls": 31,
+    "apiMs": 22366.829268999398,
+    "actions": 21,
+    "helperCalls": 0,
+    "waitDecisions": 1,
+    "waitingMs": 3398.7431089999154,
+    "observationMs": 909.2699780003168,
+    "executionMs": 513.1895570000634,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.007027199999967593,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b2-rooms-luna-combined-solo-poll",
+    "kind": "rooms",
+    "condition": {
+      "model": "luna",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": false
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 52719.81026799977,
+    "apiCalls": 35,
+    "apiMs": 25862.755854000803,
+    "actions": 21,
+    "helperCalls": 0,
+    "waitDecisions": 5,
+    "waitingMs": 0,
+    "observationMs": 1031.9934730008245,
+    "executionMs": 637.7969539985061,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.007959899999960385,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b2-rooms-luna-dom-solo-native",
+    "kind": "rooms",
+    "condition": {
+      "model": "luna",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 36875.80902299937,
+    "apiCalls": 32,
+    "apiMs": 9561.13781800121,
+    "actions": 21,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 3581.838308000937,
+    "observationMs": 80.5276180007495,
+    "executionMs": 542.0117420000024,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.003121899999982247,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b2-rooms-luna-dom-solo-poll",
+    "kind": "rooms",
+    "condition": {
+      "model": "luna",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 38499.49008799996,
+    "apiCalls": 35,
+    "apiMs": 11090.663284000475,
+    "actions": 21,
+    "helperCalls": 0,
+    "waitDecisions": 4,
+    "waitingMs": 218.0046480000019,
+    "observationMs": 115.08961399877444,
+    "executionMs": 646.9040840002708,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.003421699999975658,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b2-support-jev-combined-solo-native",
+    "kind": "support",
+    "condition": {
+      "model": "jev",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": false,
+    "available": true,
+    "success": false,
+    "wallMs": 0,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "actions": 0,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 0,
+    "observationMs": 0,
+    "executionMs": 0,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "statuses": {
+      "unsupported": 3
+    }
+  },
+  {
+    "id": "b2-support-jev-combined-solo-poll",
+    "kind": "support",
+    "condition": {
+      "model": "jev",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": false
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": false,
+    "available": true,
+    "success": false,
+    "wallMs": 0,
+    "apiCalls": 0,
+    "apiMs": 0,
+    "actions": 0,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 0,
+    "observationMs": 0,
+    "executionMs": 0,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0
+    },
+    "statuses": {
+      "unsupported": 3
+    }
+  },
+  {
+    "id": "b2-support-jev-dom-solo-native",
+    "kind": "support",
+    "condition": {
+      "model": "jev",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 120210.32293500006,
+    "apiCalls": 112,
+    "apiMs": 26993.780595002696,
+    "actions": 13,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 11976.750851999503,
+    "observationMs": 238.32815999910235,
+    "executionMs": 302.8802469992079,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.006011986000003966
+    },
+    "statuses": {
+      "dependency_failed": 2,
+      "blocked": 1
+    }
+  },
+  {
+    "id": "b2-support-jev-dom-solo-poll",
+    "kind": "support",
+    "condition": {
+      "model": "jev",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": false,
+    "wallMs": 120366.15099400003,
+    "apiCalls": 118,
+    "apiMs": 28334.653924000915,
+    "actions": 11,
+    "helperCalls": 0,
+    "waitDecisions": 6,
+    "waitingMs": 4786.545323999133,
+    "observationMs": 443.2151160002686,
+    "executionMs": 244.98580699879676,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0,
+      "typesafe": 0.006295864000004037
+    },
+    "statuses": {
+      "dependency_failed": 2,
+      "blocked": 1
+    }
+  },
+  {
+    "id": "b2-support-luna-combined-solo-native",
+    "kind": "support",
+    "condition": {
+      "model": "luna",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 42679.087623000145,
+    "apiCalls": 27,
+    "apiMs": 17991.64659600146,
+    "actions": 19,
+    "helperCalls": 0,
+    "waitDecisions": 1,
+    "waitingMs": 3325.1820319988765,
+    "observationMs": 814.653261999134,
+    "executionMs": 352.0194390001707,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.005905599999962874,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b2-support-luna-combined-solo-poll",
+    "kind": "support",
+    "condition": {
+      "model": "luna",
+      "mode": "combined",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": false
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 45960.05276700016,
+    "apiCalls": 31,
+    "apiMs": 20723.886536000296,
+    "actions": 19,
+    "helperCalls": 0,
+    "waitDecisions": 5,
+    "waitingMs": 0,
+    "observationMs": 951.8673379993998,
+    "executionMs": 458.8891310002655,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.006791399999954706,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b2-support-luna-dom-solo-native",
+    "kind": "support",
+    "condition": {
+      "model": "luna",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0,
+      "settle": true
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 36777.22162300022,
+    "apiCalls": 32,
+    "apiMs": 9610.532569000963,
+    "actions": 19,
+    "helperCalls": 0,
+    "waitDecisions": 0,
+    "waitingMs": 3864.1726259998977,
+    "observationMs": 56.53471799986437,
+    "executionMs": 456.142990000546,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.002961900000016726,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "id": "b2-support-luna-dom-solo-poll",
+    "kind": "support",
+    "condition": {
+      "model": "luna",
+      "mode": "dom",
+      "assisted": false,
+      "history": 8,
+      "bundled": true,
+      "recovery": 0
+    },
+    "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+    "oneCodeVersion": true,
+    "supported": true,
+    "available": true,
+    "success": true,
+    "wallMs": 39100.09334400017,
+    "apiCalls": 36,
+    "apiMs": 11584.101828998886,
+    "actions": 19,
+    "helperCalls": 0,
+    "waitDecisions": 4,
+    "waitingMs": 275.08886999916285,
+    "observationMs": 73.97446399973705,
+    "executionMs": 487.5034989984706,
+    "cacheHits": 0,
+    "costs": {
+      "openai": 0.003341099999985886,
+      "typesafe": 0
+    },
+    "statuses": {
+      "success": 3
+    }
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "criterion": "Verified complete workflow fraction first; median successful time and estimated cost break ties. Known synthetic fixtures and small samples limit generalization.",
+  "rows": [
+    {
+      "condition": "luna-combined-solo-native",
+      "verifiedFlows": 9,
+      "attemptedFlows": 9,
+      "successFraction": 1.0,
+      "successfulMedianSeconds": 41.98818631799985,
+      "successfulMedianEstimatedUsd": 0.005905599999962874,
+      "totalEstimatedUsd": 0.056051899999872035
+    },
+    {
+      "condition": "luna-combined-solo-poll",
+      "verifiedFlows": 9,
+      "attemptedFlows": 9,
+      "successFraction": 1.0,
+      "successfulMedianSeconds": 44.00197349599982,
+      "successfulMedianEstimatedUsd": 0.006791399999954706,
+      "totalEstimatedUsd": 0.06415249999984951
+    },
+    {
+      "condition": "luna-dom-solo-poll",
+      "verifiedFlows": 7,
+      "attemptedFlows": 9,
+      "successFraction": 0.7777777777777778,
+      "successfulMedianSeconds": 35.60936763599998,
+      "successfulMedianEstimatedUsd": 0.0033066000000019358,
+      "totalEstimatedUsd": 0.035008599999827084
+    },
+    {
+      "condition": "luna-dom-solo-native",
+      "verifiedFlows": 7,
+      "attemptedFlows": 9,
+      "successFraction": 0.7777777777777778,
+      "successfulMedianSeconds": 36.77722162300022,
+      "successfulMedianEstimatedUsd": 0.0028963000000032935,
+      "totalEstimatedUsd": 0.031255299999969566
+    },
+    {
+      "condition": "jev-dom-solo-native",
+      "verifiedFlows": 0,
+      "attemptedFlows": 9,
+      "successFraction": 0.0,
+      "successfulMedianSeconds": null,
+      "successfulMedianEstimatedUsd": null,
+      "totalEstimatedUsd": 0.03785428800000745
+    },
+    {
+      "condition": "jev-dom-solo-poll",
+      "verifiedFlows": 0,
+      "attemptedFlows": 9,
+      "successFraction": 0.0,
+      "successfulMedianSeconds": null,
+      "successfulMedianEstimatedUsd": null,
+      "totalEstimatedUsd": 0.041768204000009246
+    }
+  ]
+}

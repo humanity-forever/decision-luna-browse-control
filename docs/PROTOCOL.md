@@ -13,3 +13,7 @@ Failures of creation prevent update and closure from starting. Unsupported input
 The helper pilot measured about $0.064 for a three-operation contact workflow. That pilot is separate from the primary study. To fit the shared provider budget, the main study fixes assistance off; a separately named one-repetition follow-up evaluates helper and batch mechanisms. Its sample sizes must not be pooled with the three-repetition direct-model study.
 
 Each application includes two synthetic unrelated records. The oracle compares them to an independent pre-run snapshot, making wrong-target updates and status changes observable. Target records are created independently under every condition. These fixture audits do not establish safety on arbitrary external websites.
+
+The primary contact block at repetition zero overlapped a short offline test run. An isolated rerun uses the same frozen source, seed and values. The comparison export substitutes that entire block only after every replacement outcome exists, and preserves the original outcomes in `results/original-contact-block.json`. This is a disclosed measurement correction, not selection of successful trials.
+
+Before the component study starts, its allowance wrapper was corrected to defer global provider caps to the shared Budget implementation, which already enforces the authorized per-provider sidecar limits. Its unchanged $3 OpenAI / $1 TypeSafe study allowance is still enforced. The component script hash records this amendment separately; primary and helper controller source remain frozen.

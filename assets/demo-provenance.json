@@ -1,0 +1,32 @@
+{
+  "case": "b0-rooms-luna-dom-solo-native",
+  "codeHash": "a06ddd75bab618f8858c6da32db95cb52582ae73",
+  "speed": 1,
+  "edits": "Phase boundaries are joined; no within-phase navigation is omitted. A caption covers only the lower margin.",
+  "segments": [
+    {
+      "runId": "b0-rooms-luna-dom-solo-native-create",
+      "operation": "create",
+      "rawSha256": "9825dfc763b31d7cf631b0b4006a4f73c305e705e78290883fc626235bae18b9",
+      "selection": "whole operation from initial browser observation through saved-state requery",
+      "speed": 1,
+      "agentWallMs": 14005.55462499999
+    },
+    {
+      "runId": "b0-rooms-luna-dom-solo-native-update",
+      "operation": "update",
+      "rawSha256": "1b89fa6c9ca200de95c863a7cb8b411dc1d3a84ddcbbf4816f20b55d2f9599d3",
+      "selection": "whole operation from initial browser observation through saved-state requery",
+      "speed": 1,
+      "agentWallMs": 11220.152341000037
+    },
+    {
+      "runId": "b0-rooms-luna-dom-solo-native-close",
+      "operation": "close",
+      "rawSha256": "a34f6342f69806e77b1a964baa74310bd8503f23157031cc7180fb5678774e35",
+      "selection": "whole operation from initial browser observation through saved-state requery",
+      "speed": 1,
+      "agentWallMs": 7086.716645999986
+    }
+  ]
+}

@@ -8,7 +8,13 @@ A goal stays fixed. The browser supplies fresh evidence. **Luna Decisions or Jev
 
 The applications run in real Chromium and save state on a local server. Success requires **saving, changing, closing, and reopening** the requested record, plus an independent stored-state check. These controlled examples are a reproducible benchmark, not measurements of commercial websites.
 
-[Measured results](results/RESULTS.md) · [Protocol](docs/PROTOCOL.md) · [Architecture](docs/ARCHITECTURE.md)
+[![Original-speed room workflow: save, change, cancel and reopen](assets/preview.png)](assets/demo.mp4)
+
+[Watch the complete 35-second synthetic room workflow at original speed](assets/demo.mp4) · [Recording provenance](assets/demo-provenance.json)
+
+**Study status:** the frozen three-repetition primary comparison is complete. Helper, original-system and component follow-ups are running; the documented isolated contact timing rerun is pending. Timing summaries are provisional.
+
+[Measured results](results/RESULTS.md) · [Protocol](docs/PROTOCOL.md) · [Architecture](docs/ARCHITECTURE.md) · [Reference systems](docs/BASELINES.md)
 
 ## What gets compared
 

@@ -1,0 +1,14 @@
+{
+  "auditedOperations": 128,
+  "unrelatedRecordChanges": 0,
+  "persistedExpectedStateWithoutVerifiedCompletion": 6,
+  "dispositions": {
+    "unsupported": 54,
+    "dependency_failed": 34,
+    "blocked": 7,
+    "failed": 15,
+    "success": 106
+  },
+  "timingCorrectionComplete": false,
+  "note": "Persisted state alone is insufficient: completion also requires fresh visible requery. Fixture audits are limited to recorded synthetic distractors. Duplicate and false-completion rates are not inferred from unrelated-record counts."
+}

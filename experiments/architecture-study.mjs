@@ -66,10 +66,7 @@ class StudyBudget extends Budget {
     const total = this.totals()[provider];
     if (
       total + estimate >
-      Math.min(
-        100,
-        manifest.budgetAtStart[provider] + manifest.studyAllowance[provider],
-      )
+      manifest.budgetAtStart[provider] + manifest.studyAllowance[provider]
     )
       throw new BudgetExceeded(
         provider + " component-study allowance exhausted",
