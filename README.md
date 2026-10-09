@@ -20,7 +20,7 @@ The applications run in real Chromium and save state on a local server. Success 
 | Waiting | Fresh model polling / bounded native waits + model judgment |
 | Input planning | Every-step shortlist / independent field-plan reuse |
 
-Models share the observer, executor, tasks, limits and verifier. Original Jev systems are analyzed separately. Unsupported visual input is recorded explicitly; it is never silently converted with OCR or another model. Confidence values from different providers are not comparable.
+The primary study uses decision models directly with no helper. A separate one-block follow-up measures helper presence, field-plan reuse and combined-image assistance. Models share the observer, executor, tasks, limits and verifier. Original Jev systems are analyzed separately. Unsupported visual input is recorded explicitly; it is never silently converted with OCR or another model. Confidence values from different providers are not comparable.
 
 ```mermaid
 flowchart LR
@@ -52,7 +52,7 @@ Store the two provider keys in a mode-0600 file under a mode-0700 directory, out
 {"openai":"YOUR_OPENAI_KEY","typesafe":"YOUR_TYPESAFE_KEY"}
 ```
 
-Run one small paid example first:
+Run one small paid example first (its pilot outcomes stay separate):
 
 ```bash
 npm run benchmark -- --paid --repeats 1 --apps contacts \
@@ -62,11 +62,11 @@ npm run benchmark -- --paid --repeats 1 --apps contacts \
 For a fresh complete study, use a separate runtime directory. The immutable manifest protects completed runs from accidental replay:
 
 ```bash
-LUNA_RUNTIME=.runtime/study npm run benchmark -- --paid --repeats 3 --allowance 4
-npm run report
+LUNA_RUNTIME=.runtime/study npm run benchmark -- --paid --repeats 3 --allowance 1
+LUNA_RUNTIME=.runtime/study npm run report
 ```
 
-`LUNA_CREDENTIALS` selects an existing private credential file. `LUNA_LEDGER` lets several experiments share one persistent provider ledger. Unknown-response costs remain reserved; helper calls and failed attempts count. Each provider has an independent $100 maximum, while each study also enforces its smaller allowance. Amounts are conservative token-rate estimates, not verified invoices.
+`LUNA_CREDENTIALS` selects an existing private credential file. `LUNA_LEDGER` lets several experiments share one persistent provider ledger. Unknown-response costs remain reserved; helper calls and failed attempts count. Each provider defaults to an independent $100 maximum. Explicitly approved limits can be set in the ledger sidecar `<ledger>.limits.json`, without changing the other provider, while each study also enforces its smaller allowance. Amounts are conservative token-rate estimates, not verified invoices.
 
 ## Examples you can inspect
 
@@ -75,6 +75,10 @@ npm run report
 - **Support Desk:** create a ticket with Normal priority, change it to Urgent, resolve it, and inspect saved status.
 
 Every repetition uses an independent server state. Closed records require an explicit all-records view. The agent receives goals and supplied values, without fixture receipts, internal server responses or scripted navigation paths. The verifier can inspect stored state separately.
+
+## Mechanism and original-system studies
+
+`experiments/architecture-study.mjs` measures bounded waits, model readiness, supplied-value choices, helper cadence and stale-state rejection on small local fixtures. Its receipts are checked independently. `experiments/native-jev.mjs` runs the pinned standalone library as a separate complete-system baseline, with all typing calls metered. A Computer Use bridge is marked unavailable when its required runtime is absent. Read [third-party notices](THIRD_PARTY_NOTICES.md) before reusing the DOM-settle arm.
 
 ## Reading the evidence
 

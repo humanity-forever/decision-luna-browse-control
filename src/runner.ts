@@ -112,15 +112,31 @@ function catalog(obs: Observation, readOnly: boolean) {
     });
   return result;
 }
+export function unrelatedChanges(world: FixtureWorld, id: string): number {
+  const state = world.states.get(id);
+  return (state?.protectedRecords ?? []).filter((before) => {
+    const now = state?.records.find((r) => r.id === before.id);
+    return !now || JSON.stringify(now) !== JSON.stringify(before);
+  }).length;
+}
 export function oracle(world: FixtureWorld, id: string, goal: Goal) {
   const state = world.states.get(id);
-  if (!state || state.records.length !== 1) return false;
-  const record = state.records[0],
+  if (
+    !state ||
+    state.records.length !== (state.protectedRecords?.length ?? 0) + 1 ||
+    unrelatedChanges(world, id) > 0
+  )
+    return false;
+  const targets = state.records.filter((r) =>
+    Object.entries(goal.expected).every(([k, v]) => r.fields[k] === v),
+  );
+  if (targets.length !== 1) return false;
+  const record = targets[0],
     event = state.events.at(-1);
   return (
     record.status === goal.status &&
-    Object.entries(goal.expected).every(([k, v]) => record.fields[k] === v) &&
-    event?.operation === goal.operation
+    event?.operation === goal.operation &&
+    event.id === record.id
   );
 }
 async function nativeSettle(session: BrowserSession) {
@@ -326,7 +342,9 @@ export async function runGoal(
               instructions:
                 "Choose the supplied value for this exact field; skip if none is suitable.",
               choices: [
-                ...(recommended
+                ...(recommended &&
+                recommended !== "none" &&
+                choices.some((c) => c.value === recommended)
                   ? choices.filter((c) => c.value === recommended)
                   : choices),
                 {
@@ -419,6 +437,7 @@ export async function runGoal(
       typesafe: after.typesafe - before.typesafe,
     };
     row.verifiedStoredRecord = oracle(world, worldId, goal);
+    row.unrelatedRecordChanges = unrelatedChanges(world, worldId);
     row.recording = await session.finishRecording();
     await session.close();
     writeFileSync(join(dir, "result.json"), JSON.stringify(row, null, 2), {

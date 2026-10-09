@@ -76,6 +76,38 @@ export const conditions: (Condition & { settle?: boolean })[] = [
     settle: true,
   },
 ];
+// Primary study uses small decision models directly; helper mechanisms are a separate budgeted follow-up.
+for (const model of ["luna", "jev"] as const)
+  conditions.push({
+    model,
+    mode: "dom",
+    assisted: false,
+    history: 8,
+    bundled: true,
+    recovery: 0,
+    settle: true,
+  });
+for (const model of ["luna", "jev"] as const)
+  for (const settle of [false, true])
+    conditions.push({
+      model,
+      mode: "combined",
+      assisted: false,
+      history: 8,
+      bundled: true,
+      recovery: 0,
+      settle,
+    });
+const primaryIds = [
+  "luna-dom-solo-poll",
+  "jev-dom-solo-poll",
+  "luna-dom-solo-native",
+  "jev-dom-solo-native",
+  "luna-combined-solo-poll",
+  "luna-combined-solo-native",
+  "jev-combined-solo-poll",
+  "jev-combined-solo-native",
+];
 export function conditionId(c: Condition & { settle?: boolean }) {
   return `${c.model}-${c.mode}-${c.assisted ? "guided" : "solo"}-${c.settle ? "native" : "poll"}${c.planCadence ? "-batch" : ""}`;
 }
@@ -104,8 +136,11 @@ else if (command === "benchmark") {
   ) as AppKind[];
   const selectedConditions = conditions.filter(
     (c) =>
-      option("conditions", "all") === "all" ||
-      option("conditions", "all").split(",").includes(conditionId(c)),
+      option("conditions", "main") === "all" ||
+      (option("conditions", "main") === "main"
+        ? primaryIds
+        : option("conditions", "main").split(",")
+      ).includes(conditionId(c)),
   );
   if (
     !selectedKinds.every((k) => ["contacts", "rooms", "support"].includes(k)) ||
@@ -122,6 +157,7 @@ else if (command === "benchmark") {
     repeats,
     conditions,
     selectedApps: selectedKinds,
+    unavailableProviders: option("unavailable", "").split(",").filter(Boolean),
     selectedConditionIds: selectedConditions.map(conditionId),
     createdAt: new Date().toISOString(),
     budgetAtStart: base.totals(),
@@ -139,7 +175,9 @@ else if (command === "benchmark") {
     manifest.seed !== seed ||
     JSON.stringify(manifest.selectedApps) !== JSON.stringify(selectedKinds) ||
     JSON.stringify(manifest.selectedConditionIds) !==
-      JSON.stringify(selectedConditions.map(conditionId))
+      JSON.stringify(selectedConditions.map(conditionId)) ||
+    JSON.stringify(manifest.unavailableProviders) !==
+      JSON.stringify(draft.unavailableProviders)
   )
     throw Error("Frozen study changed; use a new runtime directory");
   writeFileSync(manifestPath, JSON.stringify(manifest, null, 2), {
@@ -165,10 +203,7 @@ else if (command === "benchmark") {
           seed + "-" + kind + "-" + repetition,
         )) {
           const id = `b${repetition}-${kind}-${conditionId(condition)}`,
-            tasks = goals(
-              kind,
-              repetition * 100 + conditions.indexOf(condition),
-            );
+            tasks = goals(kind, repetition);
           const paths = tasks.map((t) =>
             join(runtime, "runs", id + "-" + t.operation, "result.json"),
           );
@@ -191,6 +226,36 @@ else if (command === "benchmark") {
                     condition,
                     codeHash,
                     status: "unsupported",
+                    success: false,
+                    costs: { openai: 0, typesafe: 0 },
+                    apiCalls: 0,
+                  },
+                  null,
+                  2,
+                ),
+              );
+            }
+            continue;
+          }
+          if (
+            draft.unavailableProviders.includes("openai") &&
+            (condition.model === "luna" || condition.assisted)
+          ) {
+            for (const task of tasks) {
+              const dir = join(runtime, "runs", id + "-" + task.operation);
+              mkdirSync(dir, { recursive: true, mode: 0o700 });
+              writeFileSync(
+                join(dir, "result.json"),
+                JSON.stringify(
+                  {
+                    id: id + "-" + task.operation,
+                    kind,
+                    operation: task.operation,
+                    condition,
+                    codeHash,
+                    status: "blocked",
+                    started: false,
+                    failureClass: "provider_credit_exhausted",
                     success: false,
                     costs: { openai: 0, typesafe: 0 },
                     apiCalls: 0,

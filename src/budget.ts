@@ -58,9 +58,20 @@ export class Budget {
       const spent = entries
         .filter((e) => e.provider === provider)
         .reduce((s, e) => s + e.charged, 0);
+      const limitsPath = this.path + ".limits.json";
+      const configured = existsSync(limitsPath)
+        ? JSON.parse(readFileSync(limitsPath, "utf8"))
+        : {};
+      const providerLimit = configured[provider] ?? this.limit;
+      if (!Number.isFinite(providerLimit) || providerLimit <= 0)
+        throw new Error("Invalid provider budget limit");
       const ceiling = Math.min(
-        this.limit,
-        stage === "pilot" ? 20 : stage === "evaluation" ? 90 : 100,
+        providerLimit,
+        stage === "pilot"
+          ? 20
+          : stage === "evaluation"
+            ? Math.max(20, providerLimit - 10)
+            : providerLimit,
       );
       if (spent + estimate > ceiling)
         throw new BudgetExceeded(`${provider} ${stage} budget exhausted`);

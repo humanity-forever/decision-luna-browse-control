@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { mkdtempSync, readFileSync } from "node:fs";
+import { mkdtempSync, readFileSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { Budget, BudgetExceeded } from "../src/budget.js";
@@ -80,4 +80,42 @@ test("all generated application scripts compile without browser execution", asyn
   } finally {
     await w.close();
   }
+});
+
+test("oracle rejects changes to a different synthetic record", async () => {
+  const w = await new FixtureWorld().start();
+  try {
+    w.newRun("protected-test", "contacts");
+    const task = goals("contacts", 1)[0],
+      state = w.states.get("protected-test")!;
+    state.records.push({
+      id: "target",
+      fields: { ...task.expected },
+      status: task.status,
+    });
+    state.events.push({
+      id: "target",
+      operation: "create",
+      fields: { ...task.expected },
+      status: task.status,
+    });
+    assert.equal(oracle(w, "protected-test", task), true);
+    state.records[0].status = "Archived";
+    assert.equal(oracle(w, "protected-test", task), false);
+  } finally {
+    await w.close();
+  }
+});
+
+test("an explicit cap increase does not raise the other provider limit", () => {
+  const path = join(mkdtempSync(join(tmpdir(), "lab-cap-")), "ledger.json");
+  writeFileSync(
+    path + ".limits.json",
+    JSON.stringify({ openai: 200, typesafe: 100 }),
+  );
+  const b = new Budget(path);
+  b.reserve("openai", "extra", 150);
+  assert.throws(() => b.reserve("typesafe", "extra", 101), BudgetExceeded);
+  b.reserve("openai", "extra", 50);
+  assert.throws(() => b.reserve("openai", "extra", 0.01), BudgetExceeded);
 });

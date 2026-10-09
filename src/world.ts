@@ -6,6 +6,7 @@ export interface RecordState {
   status: string;
 }
 export interface WorldState {
+  protectedRecords?: RecordState[];
   records: RecordState[];
   events: {
     operation: string;
@@ -138,7 +139,37 @@ export class FixtureWorld {
   }
   newRun(id: string, kind: AppKind) {
     if (this.states.has(id)) throw Error("Run state already exists");
-    this.states.set(id, { records: [], events: [] });
+    const d = definitions[kind];
+    const protectedRecords: RecordState[] = ["Alpha", "Beta"].map(
+      (label, index): RecordState => ({
+        id: "protected-" + index,
+        status: d.open,
+        fields:
+          kind === "contacts"
+            ? {
+                Name: "Existing contact " + label,
+                Email: label.toLowerCase() + "@example.com",
+                Phone: "2025550108",
+              }
+            : kind === "rooms"
+              ? {
+                  Title: "Existing reservation " + label,
+                  Room: "Studio B",
+                  Date: "2026-11-20",
+                  "Start time": "14:00",
+                }
+              : {
+                  Subject: "Existing support ticket " + label,
+                  "Requester email": label.toLowerCase() + "@example.com",
+                  Priority: "Low",
+                },
+      }),
+    );
+    this.states.set(id, {
+      protectedRecords,
+      records: structuredClone(protectedRecords),
+      events: [],
+    });
     return this.origin + "/" + kind + "/" + id;
   }
   async close() {
