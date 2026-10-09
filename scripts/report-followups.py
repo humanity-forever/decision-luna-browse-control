@@ -15,7 +15,7 @@ def condition_name(c):
     return '-'.join([c['model'], c['mode'], 'guided' if c['assisted'] else 'solo',
                      'native' if c.get('settle') else 'poll']) + ('-batch' if c.get('planCadence') else '')
 
-for directory, label in [('pilot','PILOT'), ('helper-study','HELPER_STUDY'), ('native-study','NATIVE_JEV')]:
+for directory, label in [('pilot','PILOT'), ('helper-study','HELPER_STUDY'), ('native-study','NATIVE_JEV'), ('guarded-release-check','GUARDED_RELEASE_CHECK')]:
     runtime = root / '.runtime' / directory
     rows = [{k:v for k,v in json.loads(p.read_text()).items() if k != 'recording'}
             for p in (runtime / 'runs').glob('*/result.json')]
@@ -46,6 +46,8 @@ for directory, label in [('pilot','PILOT'), ('helper-study','HELPER_STUDY'), ('n
     for f in flows:
         md += f"| {f['workflow']} | {f['success']} | {f['wallSeconds']:.1f}s | ${f['estimatedUsd']:.5f} | {f['apiCalls']} | {f['cacheHits']} | {f['statuses']} |\n"
     manifest = json.loads((runtime/'manifest.json').read_text()) if (runtime/'manifest.json').exists() else {}
+    if directory=='guarded-release-check':
+        md+='\nThis revised release check used controller `4334258`, one repetition per application, after the control/subject guards were added. Its three flows stay separate from historical source `a06ddd7`; no primary trial is reused.\n'
     if directory=='helper-study':
         scheduled = manifest.get('repeats',0)*len(manifest.get('selectedApps',[]))*len(manifest.get('selectedConditionIds',[]))
         md += f'\nRecorded disposition-complete workflows: {sum(f["completedDisposition"] for f in flows)}/{scheduled}. '

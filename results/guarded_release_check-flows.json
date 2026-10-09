@@ -1,0 +1,56 @@
+[
+  {
+    "workflow": "b0-contacts-luna-combined-solo-native",
+    "kind": "contacts",
+    "condition": "luna-combined-solo-native",
+    "completedDisposition": true,
+    "success": true,
+    "codeVersions": [
+      "4334258bac1c6d7eeb3d46f8c41c3e67dce83488"
+    ],
+    "wallSeconds": 44.212296677000005,
+    "estimatedUsd": 0.005893100000022855,
+    "apiCalls": 27,
+    "helperCalls": 0,
+    "cacheHits": 0,
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "workflow": "b0-rooms-luna-combined-solo-native",
+    "kind": "rooms",
+    "condition": "luna-combined-solo-native",
+    "completedDisposition": true,
+    "success": true,
+    "codeVersions": [
+      "4334258bac1c6d7eeb3d46f8c41c3e67dce83488"
+    ],
+    "wallSeconds": 51.09190104199999,
+    "estimatedUsd": 0.0068142999999736276,
+    "apiCalls": 30,
+    "helperCalls": 0,
+    "cacheHits": 0,
+    "statuses": {
+      "success": 3
+    }
+  },
+  {
+    "workflow": "b0-support-luna-combined-solo-native",
+    "kind": "support",
+    "condition": "luna-combined-solo-native",
+    "completedDisposition": true,
+    "success": true,
+    "codeVersions": [
+      "4334258bac1c6d7eeb3d46f8c41c3e67dce83488"
+    ],
+    "wallSeconds": 45.091693412000005,
+    "estimatedUsd": 0.005905599999962874,
+    "apiCalls": 27,
+    "helperCalls": 0,
+    "cacheHits": 0,
+    "statuses": {
+      "success": 3
+    }
+  }
+]

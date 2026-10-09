@@ -95,6 +95,25 @@
     },
     "scriptHash": "25233307351b6e5418721ddb95c553970c6379d587da3bf72c2e57b3510b1c4c"
   },
+  "guarded-release-check": {
+    "codeHash": "4334258bac1c6d7eeb3d46f8c41c3e67dce83488",
+    "seed": "guarded-release-check-2026-10-10",
+    "repeats": 1,
+    "selectedApps": [
+      "contacts",
+      "rooms",
+      "support"
+    ],
+    "selectedConditionIds": [
+      "luna-combined-solo-native"
+    ],
+    "createdAt": "2026-10-09T17:39:47.620Z",
+    "studyAllowance": {
+      "openai": 1,
+      "typesafe": 1
+    },
+    "scriptHash": "25233307351b6e5418721ddb95c553970c6379d587da3bf72c2e57b3510b1c4c"
+  },
   "environment": {
     "vm": "ARM64 Ubuntu 24.04 / KVM",
     "vcpus": 4,

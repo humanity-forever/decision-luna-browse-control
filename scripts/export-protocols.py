@@ -3,7 +3,7 @@ import json,pathlib
 root=pathlib.Path(__file__).resolve().parents[1]
 allowed={'codeHash','sourceHash','sourceCommit','experimentScriptHash','seed','repeats','selectedApps','selectedConditionIds','studyAllowance','scriptHash','createdAt','maximumActions','maximumSeconds','typing','controllerScope','scope','paid'}
 data={}
-for study in ['study','helper-study','native-study','architecture-study','timing-recheck']:
+for study in ['study','helper-study','native-study','architecture-study','timing-recheck','guarded-release-check']:
  p=root/'.runtime'/study/'manifest.json'
  if p.exists():
   manifest=json.loads(p.read_text());data[study]={k:v for k,v in manifest.items() if k in allowed}

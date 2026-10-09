@@ -8,6 +8,7 @@ Every paid call is metered, including planning, typing, retries and uncertain re
 | architecture-study | openai / gpt-6.1-sol | planning | 60 | 0 | 11736 / 3525 | 2969ms | 3528ms | $0.05872 |
 | architecture-study | openai / gpt-6.1-sol | typing | 24 | 0 | 10176 / 336 | 2293ms | 2997ms | $0.02371 |
 | architecture-study | typesafe / jev-1.13.0 | decision | 107 | 0 | 61869 / 4497 | 248ms | 811ms | $0.00260 |
+| guarded-release-check | openai / gpt-6-luna | decision | 84 | 0 | 186130 / 0 | 650ms | 1197ms | $0.01861 |
 | helper-study | openai / gpt-6-luna | decision | 389 | 0 | 458304 / 0 | 294ms | 833ms | $0.04583 |
 | helper-study | openai / gpt-6.1-sol | planning | 506 | 0 | 585919 / 22908 | 3301ms | 3856ms | $1.40092 |
 | helper-study | typesafe / jev-1.13.0 | decision | 209 | 0 | 241848 / 14771 | 279ms | 879ms | $0.01016 |

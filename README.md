@@ -23,7 +23,7 @@ The applications run in real Chromium and save state on a local server. Success 
 
 The separate helper follow-up completed **17/18 flows**; original `jev-browser` completed **3/3 support-ticket flows** and stopped on all contact/shadow-root and room/iframe flows. Its results are preserved as a system comparison. A shorter failed attempt is not a successful speedup.
 
-The current release adds live control/subject checks before saving or closing, plus hidden-ancestor-frame exclusion. Those changes follow the frozen comparison and have separate tests and release checks; the old 9/9 result is not attributed to the revised release.
+The current release adds live control/subject checks before saving or closing, plus hidden-ancestor-frame exclusion. Those changes follow the frozen comparison. All 13 offline tests passed, and the revised source `4334258` verified **3/3 additional full workflows** (one per application), reported in a [separate release check](results/GUARDED_RELEASE_CHECK.md). The old 9/9 result is not attributed to the revised release.
 
 [Measured results](results/RESULTS.md) · [Failure analysis](results/FAILURES.md) · [API roles](results/API_ROLES.md) · [Protocol](docs/PROTOCOL.md) · [Architecture](docs/ARCHITECTURE.md) · [Goals & Decisions](docs/GOALS_AND_DECISIONS.md) · [Reference systems](docs/BASELINES.md) · [Component experiments](results/COMPONENTS.md)
 

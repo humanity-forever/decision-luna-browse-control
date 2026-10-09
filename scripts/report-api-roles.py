@@ -2,7 +2,7 @@
 import collections,json,pathlib,statistics
 root=pathlib.Path(__file__).resolve().parents[1]
 groups=collections.defaultdict(list)
-for study in ['study','helper-study','native-study','timing-recheck','architecture-study']:
+for study in ['study','helper-study','native-study','timing-recheck','architecture-study','guarded-release-check']:
  paths=list((root/'.runtime'/study/'runs').glob('*/result.json'))
  rows=[json.loads(p.read_text()) for p in paths]
  component=root/'.runtime'/study/'rows.jsonl'

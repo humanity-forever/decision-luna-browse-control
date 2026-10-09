@@ -60,6 +60,21 @@
     "medianLogicalRequestMs": 810.7749579999363
   },
   {
+    "study": "guarded-release-check",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "purpose": "decision",
+    "calls": 84,
+    "retries": 0,
+    "inputTokens": 186130,
+    "outputTokens": 0,
+    "failedRequests": 0,
+    "pendingRequests": 0,
+    "estimatedOrReservedUsd": 0.018613,
+    "medianTransportMs": 650.3797040000018,
+    "medianLogicalRequestMs": 1196.9501459999956
+  },
+  {
     "study": "helper-study",
     "provider": "openai",
     "model": "gpt-6-luna",
